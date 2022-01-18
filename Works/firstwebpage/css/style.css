@@ -1,45 +1,56 @@
 .naviqation-mainbox {
     border: 1px solid black;
-    margin: 10px;
-    padding: 20px;
+    
+    padding: 10px;
     text-align: right;
-    background-color: yellowgreen;
+    background-color: rgb(227, 238, 207);
     
     
 }
 .naviqation-linkbox {
-    border: 1px solid green;
+    border-bottom: 1px solid green;
+    
     display: inline-block;
-    background-color: rgb(250, 20, 20);    
+    background-color: rgb(238, 230, 230);    
 }
-.Blog {
+.Plane {
     text-align: center;
 }
-.BlogƏsassəhfə {
-    border: 1px black;
-    display: inline-block;
+
+.underbox {
+    border: 1px solid black;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
     
 }
 .leftbox {
-    border: 2px black;
-    display: inline-block;
+    border: 4px black;
+    margin: 20px;
+    
 }
-.imgbox img {
+.leftbox img {
     border: 2px black;
-    display: inline-block;
-    width: 200px;
+    width: 690px;
+    height: 300px;
+    object-fit: cover;
 }
 
-.leftbox h1,p { 
-    border: 2px solid;
+.leftbox p { 
+    /* border: 2px solid;*/
     margin: 2px;
+    width: inherit;
     display: inline-block;
     text-align: start;
 
 }
-.searchbox {
-    border: 1px solid;
-    margin: 2px 50px 200px 100px;
-    display: inline-block;
+.aircrafttype {
+    /* border: 1px solid; */
+    height: 518px;
+    display: flex;
+    align-items: center;
+}
+
 
 }
