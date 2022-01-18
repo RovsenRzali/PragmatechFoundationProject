@@ -1,19 +1,17 @@
-#top- {
-    /* border: 1px solid blue; */
-    padding: 0px 0px;
-}
+
+
 .maincontainer {
     border: 1px solid black; 
-    width: 1290PX;
-    height: 600px;
+    width: 1316PX;
+    height: 658px;
     padding: 0px;
     margin: 0px;
+    background-image:url(../img/ev.jpg);
+   
 }
 .container-contact-social-middle {
    /* border: 1px solid black; */
-    background-color: rgba(65, 38, 38, 0.007);
-    padding-right: 191px;
-    padding-left: 15px;
+   width: inherit;
     margin-right: auto;
     margin-left: auto;
 
@@ -21,7 +19,7 @@
 .contact-social {
     /*border-bottom: 1px solid black; */
     width:INHERIT;
-    background-color: rgba(39, 3, 3, 0.336);
+    background-color: rgba(0,0,0,.2);
     padding: px px;
     margin: px;
     display: flex;
@@ -33,9 +31,12 @@
     margin: 10px 5px;
     display: flex;
 }
-img {
-    width: 20px;
+ i {
+    font-size: 14px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
+    
 
 .contact-item {
    /* border-right: 2px solid black; */
@@ -51,10 +52,8 @@ img {
     align-items: center;
 }
 
-.icon {
-   /* border-right: 1px solid black; */
-    padding: 0px 2px;
-}
+
+
 .middle {
    /* border: 2px solid rgb(47, 0, 255); */
     display: flex;
@@ -64,10 +63,12 @@ img {
 .middleazea {
     font-size: 10px;
     font-style: italic;
+    margin-left: 20px;
 }
 
 .middle-rigt-item span {
     padding-right: 5px;
+    margin-right: 20px;
 }
 
 .pagepass {
@@ -75,9 +76,16 @@ img {
     margin: 145px 744px 145px 212px  ;
 
 }
-  input {
-      margin: 5px 10px;
-      padding: 10px
+  .layi {
+      border: 1px solid yellow;
+      border-radius: 5px;
+      width: 130px;
+      height: 10px;
+      margin: 5px 20px;
+      padding: 10px 30px;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
     
      
 
