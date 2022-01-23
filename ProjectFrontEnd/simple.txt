@@ -1,2 +1,22 @@
      https://prnt.sc/26gf67c   fornt end eskiz
      <i class="fa fa-angle-left"></i> ledft icon
+https://www.w3schools.com/css/css_image_gallery.asp
+şəkilin üstünə vuranda digər səhivədə açmaq üçün css elements
+
+https://www.w3schools.com/css/css_attribute_selectors.asp
+yazıya arxa fon rəngi vermək
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss_func_calc
+clc element 
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_background_multiple2
+arxa fona position vermək
+
+https://www.w3schools.com/css/css3_animations.asp
+CSS animasiya funksiyasi
+
+https://www.w3schools.com/css/css3_images.asp
+şəkilin künclərində yazi yazmaq
+
+https://www.w3schools.com/css/css3_images.asp
+şəklin üstünə gələndə görüntünün dəyişməsi
