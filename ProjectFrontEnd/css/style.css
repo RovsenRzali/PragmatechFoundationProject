@@ -220,6 +220,7 @@ img:hover {
 
 .product-part-content-2 {
     padding: 0 15px 0 15px;
+
 }
 
 .product-part-content-3 {
@@ -234,6 +235,7 @@ img:hover {
 }
 
 .product-part-content-3 h2 {
+    margin: 0;
     line-height: 1.2;
     font-size: 48px;
     font-weight: 700;
@@ -244,6 +246,7 @@ img:hover {
 
 
 .product-part-content-3 ul {
+    font-size: 30px;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -281,3 +284,138 @@ img:hover {
     height: 2px;
     background-color: #2e4db9;
 }
+
+.product-part-goods-container {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.product-part-single-goods-1 {
+    border: solid;
+    margin: 0;
+    padding: 0 15px 0 15px;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+
+}
+
+.product-part-single-goods-2 {
+    border: solid;
+    margin: 30px 0 0 0;
+    padding: 0px;
+}
+
+.product-part-single-goods-img {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+}
+
+.product-part-single-goods-img img {
+    border: solid;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;  
+}
+
+.product-part-single-goods-img-decoration {
+    border: solid;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 18px;
+    right:10px;
+    transform: rotate(35deg);
+}
+
+.product-part-single-goods-img-decoration a {
+    font-size:12px;
+    color: #fff;
+    background-color: #2e4db9;
+    padding: 5px 10px;
+    border-radius:50%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.product-part-single-goods-content {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+}
+
+.product-part-single-goods-content-h6 {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+}
+
+.product-part-single-goods-content-pricereyting {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-part-single-goods-content-price{
+    border: solid;
+    margin: 0;
+    padding: 0px;
+}
+
+.product-part-single-goods-content-reyting {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.product-part-single-goods-content-reyting ul {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-part-single-goods-content-reyting ul>li {
+    margin: 0;
+    padding: 0px;
+
+}
+
+.product-part-single-goods-content-p {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+}
+
+.product-part-single-goods-content-addcart {
+    border: solid;
+    margin: 0;
+    padding: 0px;
+}
+
+.addcart
+
