@@ -208,9 +208,11 @@ img:hover {
     text-align: center;
     border-radius: 50%;
     background-color: #fff; }
+
+    /* PRODUCT PART BEGIN */
     
 .product-part-content-1 {
-    border: solid 1px;
+   /* border: solid 1px; */
     width: 100%;
     margin: 50px auto 0 auto;
     padding: 0 15px 0 15px;
@@ -286,7 +288,7 @@ img:hover {
 }
 
 .product-part-goods-container {
-    border: solid;
+ /*   border: solid; */
     margin: 0;
     padding: 0px;
     display: flex;
@@ -297,31 +299,31 @@ img:hover {
 }
 
 .product-part-single-goods-1 {
-    border: solid;
+  /*  border: solid; */
     margin: 0;
     padding: 0 15px 0 15px;
-    max-width: 50%;
+   max-width: 50%; 
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     min-height: 1px;
 
 }
 
 .product-part-single-goods-2 {
-    border: solid;
+    border: solid 2px #e8f4fc; 
     margin: 30px 0 0 0;
     padding: 0px;
 }
 
 .product-part-single-goods-img {
-    border: solid;
+   /* border: solid; */
     margin: 0;
     padding: 0px;
     position: relative;
 }
 
 .product-part-single-goods-img img {
-    border: solid;
+  /*  border: solid; */
     width: 100%;
     height: 250px;
     object-fit: cover;
@@ -332,15 +334,16 @@ img:hover {
 }
 
 img {
-    max-width: 100%;  
+   /* max-width: 100%;  */
+    border-style: none;
 }
 
 .product-part-single-goods-img-decoration {
-    border: solid;
+   /* border: solid; */
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 18px;
+    top: 15px;
     right:10px;
     transform: rotate(35deg);
 }
@@ -352,37 +355,71 @@ img {
     padding: 5px 10px;
     border-radius:50%;
     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
 
 }
 
 .product-part-single-goods-content {
-    border: solid;
+   /* border: solid 2px #e8f4fc; */
     margin: 0;
-    padding: 0px;
+    padding: 15px;
+    border-top: 0;
 }
 
 .product-part-single-goods-content-h6 {
-    border: solid;
+  /*  border: solid; */
     margin: 0;
     padding: 0px;
+    font-size:16px;
+    line-height: 1.2;
+    font-weight: 700;   
 }
 
+a {
+    color: #1a06cf;
+    font-size:16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
 .product-part-single-goods-content-pricereyting {
-    border: solid;
-    margin: 0;
+  /*  border: solid; */
+    margin: 10px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
 }
 
 .product-part-single-goods-content-price{
-    border: solid;
+  /*  border: solid; */
     margin: 0;
     padding: 0px;
 }
 
+.regular-price {
+    font-size:18px;
+    color: #2e4db9;
+    font-weight: 700;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.discount-price {
+    font-size:16px;
+    color: #5a6a9f;
+    position:relative;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
 .product-part-single-goods-content-reyting {
-    border: solid;
+   /* border: solid; */
     margin: 0;
     padding: 0px;
     display: flex;
@@ -391,7 +428,7 @@ img {
 }
 
 .product-part-single-goods-content-reyting ul {
-    border: solid;
+    
     margin: 0;
     padding: 0px;
     list-style-type: none;
@@ -400,22 +437,53 @@ img {
 }
 
 .product-part-single-goods-content-reyting ul>li {
+    display: inline-block;
+    font-size:15px;
     margin: 0;
     padding: 0px;
+    color: #d5a500;
 
 }
 
 .product-part-single-goods-content-p {
-    border: solid;
-    margin: 0;
+   /* border: solid; */
+    margin: 15px 0 0 0 ;
     padding: 0px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height:27px;
+    color: #2c2d3e;
+    margin: 0px;
+    display: block;
 }
 
 .product-part-single-goods-content-addcart {
-    border: solid;
-    margin: 0;
+   /* border: solid; */
+    margin: 15px 0 0 0;
     padding: 0px;
 }
 
-.addcart
+.addcart {
+    paddin: 0 20px;
+    height: 45px;
+    line-height: 42px;
+    background-color: #2e4db9;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 8px 0 0;
+    border-radius: 50px;
+}
 
+.addcart i {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
