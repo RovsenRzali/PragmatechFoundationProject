@@ -521,6 +521,10 @@ p {
    /* product-part-end */
 
       /* Water-info-begin */
+
+#water-info   { 
+    padding-top: 70px;
+}    
 .water-info-heading-justify-content {
     color: #2e4db9;
     margin-right: -15px;
@@ -543,12 +547,18 @@ p {
 .water-info-heading-title-text h2 {
     text-transform: uppercase;
     margin-bottom: -8px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 700; */
+    /* line-height: 1.2; */
     display: block;
     color: #2e4db9;
     font-family: sans-serif;
+}
+
+h2  {
+    margin: 0;
+    font-size: 48px;
+    margin: 0;
 }
 
 .water-info-heading-title-text ul {
@@ -557,6 +567,8 @@ p {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
     
 }
 
@@ -590,5 +602,20 @@ p {
     width: 10px;
     height: 2px;
     background-color: #2e4db9;
+}
+
+
+.water-info-heading-title-text p {
+    padding-top: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p {
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: #2c2d3e;
+display: block;
 }
 
