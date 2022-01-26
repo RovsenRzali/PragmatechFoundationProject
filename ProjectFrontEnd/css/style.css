@@ -246,7 +246,6 @@ img:hover {
 }
 
 .product-part-content-3 h2 {
-    margin: 0;
     line-height: 1.2;
     font-size: 48px;
     font-weight: 700;
@@ -258,11 +257,14 @@ img:hover {
 
 .product-part-content-3 ul {
     font-size: 30px;
+    transform: rotate(180deg);
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
     list-style-type: none;
+}
+
+.product-part-content-3 ul>li {
+    margin-left: 2px;
 }
 
 .product-part-content-3 ul>li:nth-child(1) {
@@ -458,8 +460,7 @@ a {
 .product-part-single-goods-content-reyting ul>li {
     display: inline-block;
     font-size:15px;
-    margin: 0;
-    padding: 0px;
+   
     color: #d5a500;
 
 }
@@ -517,3 +518,77 @@ p {
     font-size: inherit;
     text-rendering: auto;
 }
+   /* product-part-end */
+
+      /* Water-info-begin */
+.water-info-heading-justify-content {
+    color: #2e4db9;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: warp;
+}
+
+.water-info-heading-padding15 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;   
+}
+
+.water-info-heading-title-text {
+    text-align: center;
+}
+
+.water-info-heading-title-text h2 {
+    text-transform: uppercase;
+    margin-bottom: -8px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+    color: #2e4db9;
+    font-family: sans-serif;
+}
+
+.water-info-heading-title-text ul {
+    font-size: 30px;
+    transform: rotate(180deg);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.water-info-heading-title-text ul>li {
+    margin-left: 3px;
+    
+}
+
+.water-info-heading-title-text ul>li:nth-child(1) {
+    width: 10px;
+    height: 2px;
+    background-color: #2e4db9;   
+}
+
+.water-info-heading-title-text ul>li:nth-child(2) {
+    width: 20px;
+    height: 3px;
+    background-color: #2e4db9;
+}
+.water-info-heading-title-text ul>li:nth-child(3){
+    width: 30px;
+    height: 4px;
+    background-color: #2e4db9;
+}
+.water-info-heading-title-text ul>li:nth-child(4) {
+    width: 20px;
+    height: 3px;
+    background-color: #2e4db9;
+}
+.water-info-heading-title-text ul>li:nth-child(5) {
+    width: 10px;
+    height: 2px;
+    background-color: #2e4db9;
+}
+
