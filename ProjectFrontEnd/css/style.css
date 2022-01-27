@@ -63,11 +63,13 @@
     
 }
 
- .top-direction-container-contact i  {
+ .top-direction-container-contact a  {
     margin-right: 90px;
-    margin-top: 10px;
+    margin-top: 0;
     font-size:16px;
     font-family: 400;
+    color: #fff;
+    
 } 
 
 .top-direction-container-contact-basket {
@@ -98,7 +100,7 @@
 
 
 
-
+/* slide-contnt-begin */
 
 #slide-content-maincontainer {
    /* border: solid; */
@@ -157,9 +159,10 @@
     line-height: 27px;
     padding-bottom: 25px;
     margin: 0;
+    color: #fff;
 }
 
-.slide-content a {
+.slide-content a {!important
     border: solid 4px #bfc9ea;
     background-color: #fff;
     color: #2e4db9;
@@ -645,21 +648,23 @@ display: block;
 }
 .water-info-contain-icon {
     position:absolute;
-    top:0;
-    left:0;    
+    top:5px;
+    left:10px;    
 }
 
 .water-info-contain-icon img {
+    width: 40px;
     max-width: 100%;
     vertical-align: middle;
     border-style: none;
+    
 }
 .water-info-contain-pt25-pl70 {
     padding-left: 70px;
-    padding-top: 25px;
+    padding-top: 25px;    
 }
 
-.water-info-contain-pt25-pl70 h4 {
+.water-info-contain-pt25-pl70 h4, .water-info-contain-pt25-pl70-textright h4 {
     padding-bottom: 7px;
     font-size: 20px;
     font-weight: 700;
@@ -668,17 +673,16 @@ display: block;
     line-height: 1.2;
 }
 
-.water-info-contain-pt25-pl70 p{
-    padding-bottom: 45px;
+ p{
+    padding-bottom: 40px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 22px;
     color: #2c2d3e;
     margin: 0;
     display: block;
 }
-
-.water-info-contain-pt25-pl70 a{
+.water-info-contain-pt25-pl70 a, .water-info-contain-pt25-pl70-textright a{
     padding: 0 30px;
     line-height: 40px;
     border-radius: 50px;
@@ -690,12 +694,42 @@ display: block;
 }
 
 
-.water-info-contain-m0-p0 {}
+.water-info-contain-m0-p0 {
+    position: relative;
+}
 
+.water-info-contain-pt25-pl70-textright{
+    padding-right: 70px;
+    padding-top: 25px;    
+    text-align: right;
+}
 
     
 
 
 .water-info-contain-mt50-textcenter {
+    position: relative;
     margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.water-info-contain-mt50-textcenter img {
+    max-width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.icon-right {
+    position:absolute;
+    top:5px;
+    right: 10px;
+}
+
+.icon-right img{
+    width: 40px;
+}
+
+.text-right {
+    text-align: right!important;
 }
