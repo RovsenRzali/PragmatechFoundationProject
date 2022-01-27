@@ -51,11 +51,10 @@
     font-weight: 700;
 }
 
-img:hover {
+/*img:hover {
     width: 150px;
-    height: auto;
-    
-}
+    height: auto;  
+} */
 
 .top-direction-container-contact {
     display: flex;
@@ -553,17 +552,22 @@ p {
     display: block;
     color: #2e4db9;
     font-family: sans-serif;
+    
 }
 
 h2  {
     margin: 0;
-    font-size: 48px;
+    font-size: 44px;
     margin: 0;
+    text-align: center;
 }
 
 .water-info-heading-title-text ul {
     font-size: 30px;
     transform: rotate(180deg);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -619,3 +623,79 @@ color: #2c2d3e;
 display: block;
 }
 
+
+.water-info-content-container{
+    align-items: center!important;
+    display: flex;
+    
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.water-info-contain {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.water-info-contain-mt54-pb50 {
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: 45px;
+}
+.water-info-contain-icon {
+    position:absolute;
+    top:0;
+    left:0;    
+}
+
+.water-info-contain-icon img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.water-info-contain-pt25-pl70 {
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.water-info-contain-pt25-pl70 h4 {
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e4db9;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.water-info-contain-pt25-pl70 p{
+    padding-bottom: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2c2d3e;
+    margin: 0;
+    display: block;
+}
+
+.water-info-contain-pt25-pl70 a{
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #2c2d3e;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.water-info-contain-m0-p0 {}
+
+
+    
+
+
+.water-info-contain-mt50-textcenter {
+    margin-top: 50px;
+}
