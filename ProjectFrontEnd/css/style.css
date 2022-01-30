@@ -201,8 +201,7 @@ body {
     color: #fff;
 }
 
-.slide-content a {
-    
+.slide-content a {   
     background-color: #fff;
     color: #2e4db9;
     width: 103px;
@@ -215,9 +214,7 @@ body {
     font-size: 19px;
 }
 
-.left-arrow  {
-    
-      
+.left-arrow  {      
     padding: 0px;
     width: 40px;
     height: 40px;
@@ -230,15 +227,10 @@ body {
     color: #212529;
     position:absolute; 
     top: 50%; 
-    right:0px;
-    
-    
-   
+    right:0px;   
 }
 
-.right-arrow  {
-    
-     
+.right-arrow  { 
     padding: 0px;
     width: 40px;
     height: 40px;
@@ -263,91 +255,7 @@ body {
         margin-left: auto; */
     }
     
-.product-part-content-1 {
-   /* border: solid 1px; */
-    margin: 50px auto 0 auto;
-    padding: 0 15px 0 15px;
-    display: flex;
-    justify-content: center;
-}
 
-.product-part-content-2 {
-    /* border: solid 1px; */
-    padding: 0 15px 0 15px;
-
-}
-
-.product-part-content-3 {
-    /* border: solid 1px; */
-    padding-bottom: 15px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    
-    
-}
-
-.product-part-content-3 h2 {
-    /* border: solid 1px; */
-    line-height: 1.2;
-    font-size: 48px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    color: #2e4db9;
-    display: block;    
-}
-
-
-.product-part-content-3 ul {
-    padding: 0px;
-    margin: 5px 0 30px 0px;
-    font-size: 30px;
-    transform: rotate(180deg);
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.product-part-content-3 ul>li {
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 0px;
-    
-}
-
-.product-part-content-3 ul>li:nth-child(1) {
-    width: 10px;
-    height: 2px;
-    background-color: #2e4db9;
-}
-
-.product-part-content-3 ul>li:nth-child(2) {
-    width: 20px;
-    height: 3px;
-    background-color: #2e4db9;
-}
-
-.product-part-content-3 ul>li:nth-child(3) {
-    width: 30px;
-    height: 4px;
-    background-color: #2e4db9;
-}
-
-
-.product-part-content-3 ul>li:nth-child(4) {
-    width: 20px;
-    height: 3px;
-    background-color: #2e4db9;
-}
-
-.product-part-content-3 ul>li:nth-child(5) {
-    width: 10px;
-    height: 2px;
-    background-color: #2e4db9;
-}
 
 .product-part-goods-container {
     /* border: solid 1px; */
@@ -579,109 +487,7 @@ p {
     /* border: solid 1px; */
     padding-top: 70px;
 }    
-.water-info-heading-justify-content {
-    /* border: solid 1px; */
-    width: 100%;
-    color: #2e4db9;
-    /* margin-right: -15px;
-    margin-left: -15px; */
-    display: flex;
-    justify-content: center;
-    
-}
-
-.water-info-heading-padding15 {
-    /* border: solid 1px; */
-    padding-left: 15px;
-    padding-right: 15px;
-    /* width: 100%;    */
-}
-
-.water-info-heading-title-text {
-    /* border: solid 1px; */
-    text-align: center;
-}
-
-.water-info-heading-title-text h2 {
-    /* border: solid 1px; */
-    text-transform: uppercase;
-    margin-bottom: -8px;
-    font-family: 'Poppins', sans-serif;
-    /* font-weight: 700; */
-    /* line-height: 1.2; */
-    display: block;
-    color: #2e4db9;
-    font-family: sans-serif;
-    
-}
-
-h2  {
-    margin: 0;
-    font-size: 44px;
-    margin: 0;
-    text-align: center;
-}
-
-.water-info-heading-title-text ul {
-    font-size: 30px;
-    transform: rotate(180deg);
-    margin-top: 20px;
-    margin-bottom: 5px;
-    text-align: center;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    
-}
-
-.water-info-heading-title-text ul>li {
-    margin-left: 3px;
-    
-}
-
-.water-info-heading-title-text ul>li:nth-child(1) {
-    width: 10px;
-    height: 2px;
-    background-color: #2e4db9;   
-}
-
-.water-info-heading-title-text ul>li:nth-child(2) {
-    width: 20px;
-    height: 3px;
-    background-color: #2e4db9;
-}
-.water-info-heading-title-text ul>li:nth-child(3){
-    width: 30px;
-    height: 4px;
-    background-color: #2e4db9;
-}
-.water-info-heading-title-text ul>li:nth-child(4) {
-    width: 20px;
-    height: 3px;
-    background-color: #2e4db9;
-}
-.water-info-heading-title-text ul>li:nth-child(5) {
-    width: 10px;
-    height: 2px;
-    background-color: #2e4db9;
-}
-
-
-.water-info-heading-title-text p {
-    padding-top: 17px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-p {
-font-size: 16px;
-font-weight: 400;
-line-height: 27px;
-color: #2c2d3e;
-display: block;
-}
+ 
 
 
 .water-info-content-container{
@@ -763,8 +569,6 @@ display: block;
 }
 
     
-
-
 .water-info-contain-mt50-textcenter {
     position: relative;
     margin-top: 50px;
