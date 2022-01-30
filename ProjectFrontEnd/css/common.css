@@ -87,3 +87,18 @@
     color: #2e4db9;
     display: block;
     }
+
+.space-between {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}

@@ -70,10 +70,7 @@ body {
 
 .top-direction-container-contact {
     /* border: solid 2px; */
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    
+    position: relative;    
 }
 
  .top-direction-container-contact a  {
@@ -89,8 +86,6 @@ body {
 
 .top-direction-container-contact-basket {
     /* border: solid 2px; */
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
@@ -128,8 +123,7 @@ body {
     padding: 0 15px 0 15px;
     color: white;
     box-sizing: border-box;
-    display: flex;   
-    justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -163,8 +157,7 @@ body {
 
 }
 
-.slide-content h1 {
-   
+.slide-content h1 {  
     display: block;
     font-size: 42px;
     font-weight: 700;
@@ -264,8 +257,6 @@ body {
     /* margin-right: -20px;
     margin-left: -20px; */
     font-family: "Open Sans", sans-serif;
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -359,15 +350,13 @@ a {
 }
 
 
-.product-part-single-goods-content-pricereyting {
+.pricereyting {
   /*  border: solid; */
     margin: 10px;
     padding: 0px;
-    display: flex;
-    justify-content: space-between;
 }
 
-.product-part-single-goods-content-price{
+.single-goods-price{
   /*  border: solid; */
     margin: 0;
     padding: 0px;
@@ -400,25 +389,19 @@ a {
 
 }
 
-.product-part-single-goods-content-reyting {
+.single-goods-reyting {
    /* border: solid; */
     margin: 0;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    
+    padding: 0px;   
 }
 
-.product-part-single-goods-content-reyting ul {
-    
+.single-goods-reyting ul {   
     margin: 0;
     padding: 0px;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
 }
 
-.product-part-single-goods-content-reyting ul>li {
+.single-goods-reyting ul>li {
     display: inline-block;
     font-size:15px;
    
@@ -426,13 +409,10 @@ a {
 
 }
 
-.product-part-single-goods-content-p {
+.single-goods-p {
    /* border: solid; */
     margin: 15px 0 0 0 ;
     padding: 0px;
-}
-
-p {
     font-size: 16px;
     font-weight: 400;
     line-height:27px;
@@ -441,7 +421,9 @@ p {
     display: block;
 }
 
-.product-part-single-goods-content-addcart {
+
+
+.single-goods-addcart {
    /* border: solid; */
     margin: 15px 0 0 0;
     padding: 0px;
@@ -461,7 +443,7 @@ p {
     
 }
 
-.product-part-single-goods-content-addcart a {
+.single-goods-addcart a {
     display: inline-block;
     margin: 0;     
     padding-right: 10px;
@@ -481,14 +463,13 @@ p {
 }
    /* product-part-end */
 
-      /* Water-info-begin */
 
+      /* Water-info-begin */
 #water-info   { 
     /* border: solid 1px; */
     padding-top: 70px;
 }    
  
-
 
 .water-info-content-container{
     /* border: solid 1px; */
