@@ -477,11 +477,11 @@ a {
     }
 
     .product-part-single-goods-1 {
-        width: calc(100%/1);
+        width: calc(90%/1);
     }
     
     .water-info-content-container {
-        display: block;
+        flex-direction: column;
     }
 }
    /* product-part-end */
@@ -506,8 +506,8 @@ a {
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
 }
 .water-info-contain-mt54-pb50 {
     position: relative;
