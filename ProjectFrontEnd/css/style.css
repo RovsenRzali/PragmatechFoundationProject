@@ -1,5 +1,5 @@
 body {
-    /* border: solid 2px  red; */
+    border: solid 2px  red;
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -266,7 +266,7 @@ body {
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -477,7 +477,9 @@ a {
     }
 
     .product-part-single-goods-1 {
-        width: calc(90%/1);
+        width: calc(100%/1);
+        padding: 0;
+        margin: 0;
     }
     
     .water-info-content-container {
@@ -600,18 +602,24 @@ a {
     text-align: right!important;
 }
 
+
+
 .partner-content-container {
+    border: solid;
+    margin: auto;
+    max-width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
-    align-items: center;
+    
 }
 
-.partner-content-img {
+.partner-content-img img {
+    border: solid;
     width: 250px;
-    height: 200px;
-    display: flex;
-    align-items: center;
+    height: 200px;  
+       
 }
+
 
 
