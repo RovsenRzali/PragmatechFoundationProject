@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 
-.top-direction-container {
+.direction-container {
     
     border: solid 2px black; 
      color: rgb(10, 1, 1);
@@ -29,12 +29,12 @@ body {
      
  }
  
- .top-direction-container-pages {
+ .direction-container-pages {
      /* border: solid 2px; */
      padding: 19px 0 19px 0;
  }
  
- .top-direction-container img {
+ .direction-container img {
      height: 60px;
      border-radius: 15% ;
      object-fit: fill;
