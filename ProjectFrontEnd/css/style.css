@@ -1,8 +1,7 @@
 body {
     border: solid 2px  red;
-    margin: 0px;
-    padding: 0px;
     position: relative;
+    margin: auto;
     font-family: 'Roboto', sans-serif;;  
 }
 
@@ -620,14 +619,14 @@ a {
 }
 
 .sertifikat {
-    background-image: url(../img/bg-2.jpg);
+    background-image: url(../img/bg-5.jpg);
     background-position: center center;
     background-size: cover;
-    height: 600px;
+    height: 720px;
     width: 100%;
     position: relative;
     z-index: 50%;
-    margin: 50px auto 0 auto;
+    margin: 10px auto 0 auto;
 }
 
     .deliveryvan img {
@@ -636,25 +635,6 @@ a {
       bottom: 0;      
     }
 
-    .sertifikat-content {
-        position: absolute;
-        top: 25%;
-        margin-left: 15%;
-        padding-right: 30%;
-        
-    }
-
-    .sertifikat-content h1 {
-    font-size: 42px;
-    font-weight: 700;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-align: left;
-    margin: 0;
-    padding: 0 0 9px 0;
-    color: #fff;
-    line-height: 1.2;  
-} 
-
+    
 
 
