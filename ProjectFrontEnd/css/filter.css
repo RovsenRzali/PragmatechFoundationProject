@@ -99,17 +99,24 @@ body {
      border: solid #e8f4fc;
      max-width: 250px;    
      margin: 20px 10px;
+     display: flex;
+     flex-direction: column;
+     
+     justify-content: center;
  }
 
  .single-item-img {
+     display: flex;
+     f
     
  }
 
 .single-item img {   
-    width: 270px;
-    height: 240px;
+    max-width: 250px;
+    height: 240px; 
     object-fit: cover;
     object-position: center;
+    box-sizing: border-box;
     margin: 0;
     padding: 0px;
 }
