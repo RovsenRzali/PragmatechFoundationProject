@@ -32,7 +32,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
-    /* width: 1303px; */
+    max-width: 1303px;
     padding: 20px 15px 20px 15px;
     margin: 2px 0 20px 0;
     display: flex;
@@ -73,7 +73,7 @@ body {
 
  .top-direction-container-contact a  {
     
-    margin-right: 90px;
+    margin-right: 0px;
     margin-top: 0;
     font-size:16px;
     font-family: 400;
@@ -83,12 +83,12 @@ body {
 } 
 
 .top-direction-container-contact-basket {
-    /* border: solid 2px; */
+    border: solid 2px;
     position: relative;
 }
 
 .top-direction-container-contact-basket i {
-    margin-right: 30px;
+    margin-right: 0px;
     position: relative;    
 }
 
@@ -593,7 +593,7 @@ a {
 }
 
 .icon-right img{
-    width: 40px;
+    max-width: 40px;
 }
 
 .text-right {
@@ -614,7 +614,7 @@ a {
 
 .partner-content-img img {
     border: solid;
-    width: 250px;
+    max-width: 100%;
     height: 200px;         
 }
 
