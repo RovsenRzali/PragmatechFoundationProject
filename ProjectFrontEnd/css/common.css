@@ -1,7 +1,7 @@
 .title-text-1 {
   /* border: solid 1px; */
-  margin: 50px auto 0 auto;
-  padding: 0 15px 0 15px;
+  margin: 20px auto 0 auto;
+  padding: 0 15px 0 15px;  
   display: flex;
   justify-content: center;  
   box-sizing: border-box;
@@ -26,11 +26,12 @@
   /* border: solid 1px; */
   text-transform: uppercase;
   line-height: 1.2;
-  font-size: 150%;
-  font-weight: 700;
+  font-size: 250%;
+  font-weight: bold;
   font-family: 'Poppins', sans-serif;
   color: #2e4db9;
-  display: block; 
+  display: block;
+  margin-top: 0; 
   margin-bottom: 15px;     
 }
 
@@ -87,6 +88,7 @@
     line-height: 27px;
     color: #2e4db9;
     display: block;
+    padding-bottom: 5px;
     }
 
 .space-between {
