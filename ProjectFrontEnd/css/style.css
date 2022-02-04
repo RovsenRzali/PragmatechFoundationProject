@@ -66,11 +66,18 @@ body {
     box-sizing: border-box;   
 } 
 
+.navmobile {
+    display: none;
+}
 
 
 @media (max-width:576px) {
     .top-direction-container-pages {
         display: none;
+    }
+
+    .navmobile {
+        display: block;
     }
 }
 
@@ -182,6 +189,34 @@ body {
     text-align: center;
     border-radius: 50%;
     background-color: #fff;    
+}
+
+.call-whatsapp {
+    /* border: solid; */
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom:6px;
+    display: flex;
+    justify-content: space-between;}
+
+.call, .whatsapp  {      
+    width: 40px;
+    margin: 0 3%;
+    height: 40px;
+    font-size: 1.7rem;   
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(1 141 67);    
+}
+
+.whatsapp  {
+    background-color: rgb(90 241 118);;
+    color:#fff
+}
+
+.call i {
+    color: #fff;
 }
 
 .arrow-decor i {
