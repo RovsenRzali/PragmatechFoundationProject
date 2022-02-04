@@ -599,58 +599,57 @@ body {
 .endpart-container {
     border: solid 1px red ;
     background-color: #2e4db9;
-    padding: 0 5%;
+    padding: 0.1% 5% 0 5%;
     font-family: 'Open Sans', sans-serif;
 }
 
-.endpart-container h1, h5, p, a, i {
-    color: #fff;
-}
+
 .news-subscribe{
-    border-bottom: dashed #fff 1px;
+    border: dashed #fff 1px;
     margin-top: 2rem;
+    padding-bottom: 3rem;
 } 
 .news {
-    /* border: solid; */
-    max-width: 500px;
+    border: solid; 
+    max-width: 34%;
+    font-family: sans-serif;
 }
-.subscribe  {
-    /* border: solid; */
-    width: 100%; 
-    position: relative;
-}  
 
-.absolute {
-    /* border: solid green; */
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    bottom:1rem;
-    right: 0;
+.news h1 {
+     font-size: 3rem;
+    color: #fff;
+    margin: 12% 0 2% 0;
 }
+
+.news p {  
+    color: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
 
 .email  {
-    width: 70%;
-    height: 100%;
+    max-width: 100%;
+    height: 80%;
+    margin: 13% 0% 0 24%; 
     border-radius: 50px;
     box-sizing: border;
     
 }
 
 .email input {
-    width: 100%;
-    height: 100%;
+    width: 200%; 
     border-radius: 50PX;
     box-sizing: border-box;
+    padding: 12% 10%;
+    
 }
 
-.submit {
-    /* border: solid; */
+.submit {    
+    max-width: 100%;
+    height: 79%;
+    margin: 13% 0 0 14%;
     border-radius: 50px;
-    width: 20%;
-    height: 100%;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -660,15 +659,28 @@ body {
 .submit h3{
     color: #1a06cf;
     box-sizing: border-box; 
+    padding: 0  30px;
 }
 
 
 .end-all-info {
-    /* border: solid; */
+    border: solid;
 }
 
 .all-info-left {
     max-width:300px;
+    color: #fff;
+}
+
+.all-info-left h5 {
+    margin:30px 0 0 0;
+    font-size: 18px;
+}
+
+.all-info-left p {
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    font-size: 14px;
 }
 
 .all-info {
@@ -676,6 +688,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 1rem;
+    color: #fff;
 
 }
 
@@ -683,11 +696,18 @@ body {
     padding-top:0.9rem;
     text-decoration: none;
     font-size: 14px;
+    color: #fff;
 }
 
 .all-info h5 {
     font-size: 18px;
     margin-bottom: 0;
+}
+
+.recent-News a {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.9rem;
 }
 
 
