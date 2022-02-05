@@ -17,62 +17,73 @@ body {
 }
 
 
-.top-direction-container {
-    
-   /* border: solid 2px black; */
-    color: rgb(250, 244, 244);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.5;
-    max-width: 1303px;
-    padding: 20px 15px 20px 15px;
-    margin: 2px 0 20px 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
 
-
-
-.top-direction-container img {
-    border-radius: 15% ;
-    object-fit: fill;
-}
-
-.top-direction-container-pages span {
-   /* border: solid; */
-    margin: 0 20px 0 20px;
-    padding: 19px 0 19px 0;
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 20px;
-    font-weight: 700;
-}
-
-
-
-.container-contact-socialmedia {
-    /* border: solid 2px;  */
-    padding: 0 0.8%;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-}
-.container-contact-socialmedia a  {
-    padding-right: 5%;
-    margin-top: 0;
-    font-size:18px;
-    color: #fff; 
-    box-sizing: border-box;   
-} 
-
+/* novmobile-begin*/
 .navmobile {
-    display: none;
+    
+    display: none;   
 }
 
+.navmobile-container {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navmobile-container img {
+    border-radius: 20px;
+}
+
+.navmobile-soicaldropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown {
+    display: block;
+}
+
+.dropdown>li {
+    position: relative;
+    border: solid;
+}
+.dropdown>li>ul {
+    display: none;
+    position: absolute;
+    border: solid;
+    top: 45px;
+    right: -0px;
+}
+
+.dropdown>li:hover ul {
+    display: block;
+    background-color: #2746b3;
+    width: 20vh;
+}
+.dropdown a {
+    padding: 10px 0px;
+    list-style-type: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+    
+
+.navmobile i {
+    margin-left: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* novmobile-end */
 
 @media (max-width:576px) {
-    .top-direction-container-pages {
+    .navbar-desktop {
         display: none;
     }
 
