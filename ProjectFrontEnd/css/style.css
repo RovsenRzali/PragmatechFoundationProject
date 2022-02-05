@@ -11,84 +11,68 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;  
-    /* width: 1303px; */
+    width: 100%;
     height: 652px;
     position: relative;
 }
 
+.top-direction-container {
+    /* border: solid 2px black; */
+     color: rgb(250, 244, 244);
+     font-size: 1rem;
+     font-weight: 700;
+     line-height: 1.5;
+     max-width: 1200px;
+     padding: 1.25rem 0.938rem;
+     margin: 0.125rem 0 1.25rem 0;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;     
+ }
+ 
+ 
+ 
+ .top-direction-container img {
+     border-radius: 15% ;
+     object-fit: fill;
+ }
+ 
+ .top-direction-container-pages a {
+    /* border: solid; */
+     margin: 0 1.25rem;
+     padding: 1.188rem 0;
+     font-family: 'Open Sans', sans-serif; 
+     font-size: 1.25rem;
+     font-weight: 700;
+     color: #fff;
+     text-decoration: none;
+ }
+ 
+ 
+ 
+ .container-contact-socialmedia {
+     /* border: solid 2px;  */
+     box-sizing: border-box;
+     padding: 0 0.8%;
+     display: flex;
+     justify-content: center;
+ }
 
 
-/* novmobile-begin*/
-.navmobile {
-    
-    display: none;   
-}
+ .container-contact-socialmedia a  {
+     padding-right: 5%;
+     margin-top: 0;
+     font-size:1.125rem;
+     color: #fff; 
+     box-sizing: border-box;   
+ } 
 
-.navmobile-container {
-    padding: 10px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;   
-}
 
-.navmobile-container img {
-    border-radius: 20px;
-}
 
-.navmobile-soicaldropdown {
-    display: flex;
-    align-items: center;
-}
-
-.dropdown ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.dropdown {
-    display: block;
-}
-
-.dropdown>li {
-    position: relative;
-    border: solid;
-}
-.dropdown>li>ul {
-    display: none;
-    position: absolute;
-    border: solid;
-    top: 45px;
-    right: -0px;
-}
-
-.dropdown>li:hover ul {
-    display: block;
-    background-color: #2746b3;
-    width: 20vh;
-}
-.dropdown a {
-    padding: 10px 0px;
-    list-style-type: none;
-    color: #fff;
-    font-size: 1.5rem;
-}
-    
-
-.navmobile i {
-    margin-left: 1rem;
-    color: #fff;
-    font-size: 1.5rem;
-}
-/* novmobile-end */
 
 @media (max-width:576px) {
-    .navbar-desktop {
+    .top-direction-container-pages {
         display: none;
-    }
-
-    .navmobile {
-        display: block;
     }
 }
 
@@ -137,7 +121,7 @@ body {
 
 .slide-content p {
     box-sizing: border-box;
-    line-height: 27px;   
+    line-height: 1.688rem;   
     margin: 4% 0;
     color: #fff;
 }
@@ -483,11 +467,11 @@ body {
     /* border: solid 1px; */
     align-items: center;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 .water-info-contain {
     position: relative;
-    width: 100%;
+    width: 91%;
     min-height: 1px;
     padding: 1%;
 }
