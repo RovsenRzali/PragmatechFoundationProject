@@ -13,6 +13,9 @@ body {
     background-repeat: no-repeat;  
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-direction-container {
@@ -21,8 +24,8 @@ body {
      font-size: 1rem;
      font-weight: 700;
      line-height: 1.5;
-     /* width: 1200px; */
-     padding: 1.25rem ;
+     width: 1200px;
+     padding: 1.25rem  0 ;
      display: flex;
      justify-content: space-around;
      align-items: center;     
@@ -151,9 +154,12 @@ body {
     #navbar-mobile {
         display: block;
     }
+    .bigmaincontainer {
+        display: block;
+    }
 }
 
-@media (min-width:1200px) {
+@media (min-width:576px) {
     .navbar-desktop {
         display: block;
     }
@@ -171,27 +177,25 @@ body {
     box-sizing: border-box;   
     position: absolute;
     top:32%;
-    left:14%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     
 }
 
 .slide-content {
    /* border: solid; */
-    margin: auto;
-    padding-right: 50%;
-    
+    /* margin: 50px; */
+    padding-right: 50%;   
     text-align: left;
 }
 
 .slide-content h1 {  
     /* display: block; */
-    font-size: 290%;
+    font-size: 2.62rem;
     font-weight: bold;
     box-sizing: border-box;
     text-align: left;
-    margin: 0;
-    padding: 0 0 0px 0;
+    margin: 2% 0;
+    padding: 0;
     color: #fff;
     line-height: 1.2;    
 } 
@@ -210,25 +214,31 @@ body {
 .slide-content p {
     box-sizing: border-box;
     line-height: 1.688rem;   
-    margin: 4% 0;
+    /* margin: 4% 0; */
     color: #fff;
 }
 
 .about {
     border: solid ;
     border-radius: 50px;
-    box-sizing: border;
-}
-
-.slide-content a {   
     background-color: #fff;
-    border-color: #bfc9ea;
-    color: #2e4db9;
-    max-width: 103px;
-    max-height: 66px;
-    padding: 3% 3%;
+    box-sizing: border;
+    max-width: 190px;
+    /* max-height: 70px; */
+    padding: 3% 1%;
+    margin:  1.25rem 0;
     box-sizing: border-box;
     border-radius: 50px;
+    text-align: center;
+}
+
+.about a {   
+    border-color: #bfc9ea;
+    color: #2e4db9;   
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
     font-weight: 800;
     font-size: 120%;
     text-decoration: none;
