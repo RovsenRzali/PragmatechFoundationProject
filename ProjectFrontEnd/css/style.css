@@ -295,35 +295,7 @@ body {
     background-color: #fff;    
 }
 
-.call-whatsapp {
-    /* border: solid; */
-    width: 100%;
-    box-sizing: border-box;
-    position: fixed;
-    bottom:6px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 9999;
-}
 
-.call, .whatsapp  {      
-    width: 40px;
-    margin: 0 3%;
-    height: 40px;
-    font-size: 1.7rem;   
-    text-align: center;
-    border-radius: 50%;
-    background-color: rgb(1 141 67);    
-}
-
-.whatsapp  {
-    background-color: rgb(90 241 118);;
-    color:#fff
-}
-
-.call i {
-    color: #fff;
-}
 
 .arrow-decor i {
     color: #212529;
@@ -564,8 +536,7 @@ body {
 
 
       /* Water-info-begin */
-#water-info   { 
-    /* border: solid 1px; */
+#water-info{ 
     padding-top: 5.8%;
 }    
  
@@ -673,32 +644,7 @@ body {
     text-align: right!important;
 }
 
-.partner {
-    margin: auto;
-}
 
-.partner-content-container {
-    /* border: solid; */
-    margin: auto;
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.313;
-    text-align: center;
-    box-sizing: border-box;
-    object-position: center;
-    padding: 0 1%;
-
-}
-
-.partner-content-img img {
-    /* border: solid; */
-    margin: auto;
-    width: 78%;
-    height: 200px; 
-    box-sizing: border-box;
-            
-}
 
 .delivery {
     background-image: url(../img/bg-5.jpg);
@@ -714,16 +660,7 @@ body {
 
 
 
-@media (max-width: 576px) {
-    .partner-content-container {
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .partner-content-container img {
-        width: 90%;
-    }
-}    
 
 
 .endpart-container {
