@@ -529,8 +529,6 @@ body {
     .water-info-content-container {
         flex-direction: column;
     }
-
-
 }
    /* product-part-end */
 
@@ -653,9 +651,22 @@ body {
     height: 45rem;
     width: 100%;
     position: relative;
-    z-index: 50%;
+    /* z-index: 50%; */
     margin: 0.625rem auto 0 auto;
     position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: inherit;
+    transition: all 0.2s linear;
+    background: linear-gradient( 180deg, rgba(0, 224, 255, .6) 0%, rgba(0, 23, 36, 1) 117%);
+    /* opacity: 1; */
+    border-radius: inherit;
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    /* z-index: 4; */
 }
 
 
