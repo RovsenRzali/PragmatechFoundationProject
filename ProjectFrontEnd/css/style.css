@@ -131,7 +131,6 @@ body {
      width: 130px;
      box-sizing: border-box;
      background-color: #fff;
-
  }
 
  .dropdown>li:hover ul {     
@@ -141,7 +140,6 @@ body {
      position: absolute;
      top: 20px;
      right: -5px;
-
  }
 
 
@@ -298,13 +296,15 @@ body {
 }
 
 .call-whatsapp {
-    border: solid;
+    /* border: solid; */
     width: 100%;
     box-sizing: border-box;
     position: fixed;
     bottom:6px;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    z-index: 9999;
+}
 
 .call, .whatsapp  {      
     width: 40px;
