@@ -660,14 +660,41 @@ body {
     width: 100%;
     height: inherit;
     transition: all 0.2s linear;
-    background: linear-gradient( 180deg, rgba(0, 224, 255, .6) 0%, rgba(0, 23, 36, 1) 117%);
-    /* opacity: 1; */
+    background: linear-gradient( 180deg, rgba(46, 77, 185,0.9) 0%, rgba(0, 23, 36, 0.5) 100%);
+    opacity: 0.8;
     border-radius: inherit;
     position: absolute;
-    /* top: 0px; */
+    top: 0px;
     left: 0px;
-    /* z-index: 4; */
+    z-index: 1;
 }
+
+.delivery-content {
+    color: #fff;
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.delivery-content span, h1 {
+    margin: 0;
+   padding: 0rem  0;
+}
+
+.delivery-content li>i {
+    background-color: rgb(90 241 118);;
+    color:#fff
+}
+
+.delivery-content i {
+    border: solid 1px black;
+    border-radius: 50px;
+    background-color: #fff;
+    color: red;
+    padding: 0.2rem 0.3rem;
+}
+
+
 
 
 
