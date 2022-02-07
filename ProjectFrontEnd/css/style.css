@@ -667,11 +667,13 @@ body {
     top: 0px;
     left: 0px;
     z-index: 1;
+    /* margin: auto; */
+    display: flex;
 }
 
 .delivery-content {
     border: solid;
-    height: inherit;
+    /* height: inherit; */
     padding-left: 5%;
     color: #fff;
     font-size: 1.5rem;
@@ -689,6 +691,7 @@ justify-content: center;
 
 .delivery-content ul>li {
     margin: 1rem 0;
+    color: #fff;
 }
 
 .delivery-content ul>li:nth-child(3) i {
@@ -696,7 +699,20 @@ justify-content: center;
     color:#fff
 }
 
+.delivery-content ul>li:nth-child(4) i {
+    background-color: #168de2;
+    color: #ffa930;
+}
+
+
 .delivery-content ul>li:nth-child(5) i {
+    background-color: #42a9fe;
+    color: #fff;
+}
+
+.delivery-content ul>li:nth-child(6) i {
+    background-color: #FD1D1D ;
+    color:  #fff;
 
 }
 
