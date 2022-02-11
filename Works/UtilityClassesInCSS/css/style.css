@@ -18,7 +18,16 @@
    --light-fade: #f8f9fa;
    --dark-fade: #4f4a60;
    --link-fade: #58d8a3; 
-   
+
+   --primary-hover: #461c55;
+   --secondary-hover: #d9dbdc ;
+   --success-hover: #00a06f;
+   --danger-hover: #fb561c ;
+   --warning-hover:#ffc100 ;
+   --info-hover: #4d13d1;
+   --light-hover: #f8f9fa;
+   --dark-hover: #4f4a60;
+   --link-hover: #58d8a3;
 }
 
 
@@ -121,21 +130,56 @@ i {
     /* border: solid ; */
     /* text-align: center; */
     font-size: 1rem;
-    color: #fff;
+    /* color: #fff; */
     padding: 0;
     margin: 0;   
 }
 
-.circlebtn {
-    border: solid;
+.circlebtn i {
+    /* border: solid; */
+    color: #fff;
 }
 .squarebtn {
-    border: solid;
-}
+/}
 
 .squarebtn a{
     width: 40px;
     height: 40px;
+}
+
+.stickers a {
+    border-color: var(--dark-color);
+}
+.stickers>a:hover {
+    background-color: #dcdbdf;
+}
+
+.stickers-colorless a  {
+    border-color: var(--dark-color);
+    color: #d9dbdc;
+}
+
+.stickers-colorless a:hover {
+    color: var(--dark-color);
+    background-color: #dcdbdf;
+}
+
+.withoutbackground div {
+    border: 1px solid;
+    border-color: #dcdbdf;
+    display: flex;
+    color: #dcdbdf;
+    justify-content: center;
+    align-items: center;
+}
+
+.withoutbackground div:hover {
+    background-color: #dcdbdf;
+    color: var(--primary-color);
+}
+
+.withbackground {
+    color: #fff;
 }
 
 
