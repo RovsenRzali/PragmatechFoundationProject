@@ -1,0 +1,40 @@
+:root {
+   --primary-color: #5e2572;
+   --secondary-color: #d9dbdc;
+   --success-color: #00c689;
+   --danger-color:#fc7242 ;
+   --warning-color:#ffc100 ;
+   --info-color: #4d13d1;
+   --light-color: #f8f9fa;
+   --dark-color: #4f4a60;
+   --link-color: #58d8a3;
+   --primary-color:#000000 ;
+   
+}
+
+
+body {
+
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+}
+
+li {
+    margin: 5px;
+}
+ul li {
+   border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+ul>li:nth-child(1) {
+    background: var(--primary-color);
+}
