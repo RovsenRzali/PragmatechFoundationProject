@@ -15,15 +15,9 @@
 
 body {
     margin: auto;
-
 }
 
 
-
-.buttonrounded  {
-    max-width: 990px;
-    margin: 0 auto;
-}
 
 
 .container {
@@ -50,59 +44,50 @@ ul {
     cursor: pointer;
 }
 
-
-ul>li:nth-child(1) {
+/* ul>li:nth-child(1) {
     background: var(--primary-color) !important;
     border-color: var(--primary-color);
 }
-
 ul>li:nth-child(2) {
     background: var(--secondary-color) !important;
     border-color: var(--secondary-color);
 
 }
-
 ul>li:nth-child(3) {
     background: var(--success-color) !important;
     border-color: var(--success-color);
 
 }
-
 ul>li:nth-child(4) {
     background: var(--danger-color) !important;
     border-color: var(--danger-color);
 
 }
-
 ul>li:nth-child(5) {
     background: var(--warning-color) !important;
     border-color: var(--warning-color);
 
 }
-
 ul>li:nth-child(6) {
     background: var(--info-color) !important;
     border-color: var(--info-color);
 
 }
-
 ul>li:nth-child(7) {
     background: var(--light-color) !important;
     border-color: var(--light-color);
 
 }
-
 ul>li:nth-child(8) {
     background: var(--dark-color) !important;
     border-color: var(--dark-color);
 
 }
-
 ul>li:nth-child(9) {
     background: var(--link-color) !important;
     border-color: var(--link-color);
     color: blue
-}
+} */
 
 
 .btn-rounded li {

@@ -1,3 +1,138 @@
 .flex {
     display: flex;
 }
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.max-width {
+    max-width:990px;
+}
+ 
+.marginauto {
+    margin:auto;
+}
+
+.container {
+    background-color: var(--background-color);
+    /* display: flex; */
+    padding: 1.88rem  1.81rem;
+    text-align: left;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.primary-background{
+    background-color: var(--primary-color);
+}
+.primary-bordercolor {
+    border-color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.secondary-background{
+    background-color: var(--secondary-color);
+}
+.secondary-bordercolor {
+    border-color: var(--secondary-color);
+}
+
+.success-color {
+    color: var(--success-color);
+}
+
+.success-background{
+    background-color: var(--success-color);
+}
+.success-bordercolor {
+    border-color: var(--success-color);
+}
+
+.danger-color {
+    color: var(--danger-color);
+}
+
+.danger-background{
+    background-color: var(--danger-color);
+}
+.danger-bordercolor {
+    border-color: var(--danger-color);
+}
+
+.warning-color {
+    color: var(--warning-color);
+}
+
+.warning-background{
+    background-color: var(--warning-color);
+}
+.warning-bordercolor {
+    border-color: var(--warning-color);
+}
+
+.info-color {
+    color: var(--info-color);
+}
+
+.info-background{
+    background-color: var(--info-color);
+}
+.info-bordercolor {
+    border-color: var(--info-color);
+}
+
+.dark-color {
+    color: var(--dark-color);
+}
+
+.dark-background{
+    background-color: var(--dark-color);
+}
+.dark-bordercolor {
+    border-color: var(--dark-color);
+}
+
+.link-color {
+    color: var(--link-color);
+}
+
+.link-background{
+    background-color: var(--link-color);
+}
+.link-bordercolor {
+    border-color: var(--link-color);
+}
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;  
+}
+
+ li {
+    margin: 16px 8px 0 0;
+    padding: 14px 24px;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
