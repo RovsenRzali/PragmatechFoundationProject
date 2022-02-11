@@ -46,6 +46,10 @@ justify-content: center;
     border-radius: 50px;
 }
 
+.br-5 {
+    border-radius: 5px;
+}
+
 .font-size {
     font-size: 30px;
 }
