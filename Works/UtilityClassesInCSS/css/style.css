@@ -102,3 +102,29 @@ ul>li:nth-child(9) {
 .btn-rounded li {
     border-radius: 50px;
 }
+
+a {
+    /* border: 5px solid; */
+    margin: 1rem;
+    width: 42px;
+    height: 42px;
+    padding: 5px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0 2px 2px 0 rgb(94 37 114 / 14%);
+    
+
+}
+
+i {
+    /* border: solid ; */
+    /* text-align: center; */
+    font-size: 1rem;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
