@@ -89,7 +89,7 @@
 }
 
 .info-color {
-    color: var(--info-color);
+    color: var(--info-color)!important;
 }
 
 .info-background{
@@ -159,6 +159,7 @@ ul {
     background-color: rgba(0, 198, 137, 0.2);
     background-image: none;
     border-color: rgba(0, 198, 137, 0);
+    color: #00c689 !important;
 }
 
 .inversebtn-danger {
@@ -212,7 +213,7 @@ ul {
 
 .btn-success:hover {
     background-color: var(--success-color); 
-    color: #fff;  
+    color: #fff ;  
 }
 
 .btn-danger:hover {
@@ -252,6 +253,9 @@ ul {
     color: black!important;
 }
 
+.btn-star {
+    background-color: ;
+}
 
 
 
