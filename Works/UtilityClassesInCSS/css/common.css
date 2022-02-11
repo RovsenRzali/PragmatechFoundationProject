@@ -3,6 +3,7 @@
 }
 
 .space-between {
+    display:flex;
     justify-content: space-between;
 }
 
@@ -247,10 +248,8 @@ ul {
     color: #fff;  
 }
 
-.btn-info {
-    color: #fff;
-    background-color: #4d13d1;
-    border-color: #4d13d1;
+.black-color {
+    color: black!important;
 }
 
 

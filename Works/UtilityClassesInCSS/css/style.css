@@ -112,7 +112,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; 
-    box-shadow: 0 2px 2px 0 rgb(94 37 114 / 14%);
+    box-shadow: 0 2px 2px 0 rgba(45, 2, 61, 0.856);
     
 
 }
@@ -123,8 +123,23 @@ i {
     font-size: 1rem;
     color: #fff;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
+}
+
+.circlebtn {
+    border: solid;
+}
+.squarebtn {
+    border: solid;
+}
+
+.squarebtn a{
+    width: 40px;
+    height: 40px;
+}
+
+.squarebtn i {
+    color: black;
 }
 
 
