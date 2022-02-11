@@ -8,7 +8,16 @@
    --light-color: #f8f9fa;
    --dark-color: #4f4a60;
    --link-color: #58d8a3;
-   --background-color:#000000 ;
+   /* --background-color:#000000 ; */
+   --primary-fade: #5e2572;
+   --secondary-fade: #d9dbdc ;
+   --success-fade: #00c689;
+   --danger-fade:#fc7242 ;
+   --warning-fade:#ffc100 ;
+   --info-fade: #4d13d1;
+   --light-fade: #f8f9fa;
+   --dark-fade: #4f4a60;
+   --link-fade: #58d8a3; 
    
 }
 
@@ -21,7 +30,7 @@ body {
 
 
 .container {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     /* display: flex; */
     padding: 1.88rem  1.81rem;
     text-align: left;

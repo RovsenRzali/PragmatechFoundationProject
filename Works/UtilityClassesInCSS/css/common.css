@@ -135,4 +135,109 @@ ul {
     cursor: pointer;
 }
 
+.inversebtn-primary {
+    background-color: rgba(94, 37, 114, 0.2);
+    background-image: none;
+    border-color: rgba(94, 37, 114, 0);
+}
+
+.inversebtn-secondary {
+    background-color: rgba(217, 219, 220, 0.2);
+    background-image: none;
+    border-color: rgba(217, 219, 220, 0);
+}
+
+.inversebtn-success {
+    background-color: rgba(0, 198, 137, 0.2);
+    background-image: none;
+    border-color: rgba(0, 198, 137, 0);
+}
+
+.inversebtn-danger {
+    background-color: rgba(252, 114, 66, 0.2);
+    background-image: none;
+    border-color: rgba(252, 114, 66, 0);
+}
+
+.inversebtn-warning {
+    background-color: rgba(255, 193, 0, 0.2);
+    background-image: none;
+    border-color: rgba(255, 193, 0, 0);
+}
+
+.inversebtn-info {
+    background-color: rgba(77, 19, 209, 0.2);
+    background-image: none;
+    border-color: rgba(77, 19, 209, 0);
+}
+
+.inversebtn-light {
+    background-color: rgba(248, 249, 250, 0.2);
+    background-image: none;
+    border-color: rgba(248, 249, 250, 0);
+}
+
+.inversebtn-dark {
+    background-color: rgba(79, 74, 96, 0.2);
+    background-image: none;
+    border-color: rgba(79, 74, 96, 0);
+}
+
+.inversebtn-link {
+    background-color: rgba(94, 37, 114, 0.2);
+    background-image: none;
+    border-color: rgba(94, 37, 114, 0);
+}
+
+   /* btn-hover */
+
+.inversebtn-primary:hover {
+    background-color: var(--primary-color);
+    
+}
+
+.inversebtn-secondary:hover {
+    background-color: var(--secondary-color);
+    
+}
+
+.inversebtn-success:hover {
+    background-color: var(--success-color);   
+}
+
+.inversebtn-danger:hover {
+    background-color: var(--danger-color);
+    
+}
+
+.inversebtn-warning:hover {
+    background-color: var(--warning-color);
+      
+}
+
+.inversebtn-info:hover {
+    background-color: var(--info-color);
+ 
+}
+
+.inversebtn-light:hover {
+    background-color: var(--light-color);
+    
+}
+
+.inversebtn-dark:hover {
+    background-color: var(--dark-color);
+    
+    }
+
+.inversebtn-link:hover {
+    background-color: var(--link-color);
+    
+    
+}
+
+
+
+
+
 
