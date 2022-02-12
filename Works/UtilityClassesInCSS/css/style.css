@@ -127,28 +127,28 @@ a {
 }
 
 i {
-    /* border: solid ; */
-    /* text-align: center; */
+    
     font-size: 1rem;
-    /* color: #fff; */
     padding: 0;
     margin: 0;   
 }
 
-.circlebtn i {
-    /* border: solid; */
+
+
+.circlebtn a {
+    margin: 16px 8px 0 0;
     color: #fff;
+    font-size: 14px;
 }
-.squarebtn {
-/}
+
 
 .squarebtn a{
-    width: 40px;
-    height: 40px;
+    margin: 16px 8px 0 0;
 }
 
 .stickers a {
     border-color: var(--dark-color);
+    margin: 16px 8px 0 0;
 }
 .stickers>a:hover {
     background-color: #dcdbdf;
@@ -157,6 +157,7 @@ i {
 .stickers-colorless a  {
     border-color: var(--dark-color);
     color: #d9dbdc;
+    margin: 16px 8px 0 0;
 }
 
 .stickers-colorless a:hover {
@@ -164,13 +165,20 @@ i {
     background-color: #dcdbdf;
 }
 
+.btnsize {
+    max-width: 33%;
+}
+
+.btnsize div {
+    margin-top: 1rem;
+}
+
 .withoutbackground div {
     border: 1px solid;
     border-color: #dcdbdf;
-    display: flex;
     color: #dcdbdf;
-    justify-content: center;
-    align-items: center;
+    font-size: 14px;
+    
 }
 
 .withoutbackground div:hover {
@@ -180,17 +188,20 @@ i {
 
 .withbackground {
     color: #fff;
+    font-size: 14px;
 }
 
 .blockbtn i {
     font-size: 0.875rem;
-    margin-left: 10px;
+    /* margin-left: 30px; */
 }
 
 .blockbtn button {
     /* font-size: 0.875rem; */
     display: block;
     color: #fff;
+    font-size: 14px;
+    width: 100%;
 
 }
 

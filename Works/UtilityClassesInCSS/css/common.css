@@ -19,6 +19,21 @@ justify-content: center;
     align-items: center;
 }
 
+.display-block {
+    display: block !important;
+}
+
+.display-inline-block {
+    display: inline-block !important;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.text-align-left {
+    text-align: left;
+}
 
 .max-width {
     max-width:990px;
@@ -32,8 +47,24 @@ justify-content: center;
     margin: 16px 8px 0 0;
 }
 
+.margin-left-right-15px{
+    margin: 0 15px;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
 .padding-16-48 {
     padding: 16px 48px;
+}
+
+.padding-left-right-15 {
+    padding: 0 15px;
+}
+
+.padding-30-28 {
+    padding: 30px 28px;
 }
 
 .btn-lg {
@@ -165,7 +196,7 @@ justify-content: center;
 
 
 .dark-color {
-    color: var(--dark-color);
+    color: var(--dark-color)!important;
 }
 
 .dark-background{
