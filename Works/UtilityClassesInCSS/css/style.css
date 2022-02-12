@@ -182,6 +182,18 @@ i {
     color: #fff;
 }
 
+.blockbtn i {
+    font-size: 0.875rem;
+    margin-left: 10px;
+}
+
+.blockbtn button {
+    /* font-size: 0.875rem; */
+    display: block;
+    color: #fff;
+
+}
+
 
 
 
