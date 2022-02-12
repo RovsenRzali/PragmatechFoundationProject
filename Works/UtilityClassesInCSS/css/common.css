@@ -43,6 +43,14 @@ justify-content: center;
     margin:auto;
 }
 
+.mg-top-28 {
+    margin-top: 28px;
+}
+
+.mg-btm-3o {
+    margin-bottom: 30px;
+}
+
 .margin-16-8{
     margin: 16px 8px 0 0;
 }

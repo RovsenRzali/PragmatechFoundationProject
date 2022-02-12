@@ -117,7 +117,6 @@ a {
     margin: 1rem;
     width: 42px;
     height: 42px;
-    padding: 5px 5px ;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -134,11 +133,15 @@ i {
 }
 
 
+.icnbtn {
+    min-width:51%
+}
+
 
 .circlebtn a {
     margin: 16px 8px 0 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 
@@ -190,6 +193,9 @@ i {
     color: #fff;
     font-size: 14px;
 }
+
+
+
 
 .blockbtn i {
     font-size: 0.875rem;
