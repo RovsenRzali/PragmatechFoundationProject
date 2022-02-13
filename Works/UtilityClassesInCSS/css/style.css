@@ -136,6 +136,7 @@ i {
 
 
 .icnbtn {
+    border: solid;
     min-width:51%;
 }
 
@@ -171,8 +172,14 @@ i {
     background-color: #dcdbdf;
 }
 
+.iconbtn-btnsize {
+    border: solid;
+    margin-right: 30px;
+}
+
 .btnsize {
     max-width: 33%;
+    border: solid;
 }
 
 .btnsize div {
@@ -198,10 +205,15 @@ i {
 }
 
 
-
+.blockbtn-container {
+    border: solid;
+    box-sizing: border-box;
+}
 
 .blockbtn i {
     font-size: 0.875rem;
+    box-sizing: border-box;
+
     /* margin-left: 30px; */
 }
 
