@@ -63,6 +63,10 @@ justify-content: center;
     margin-left: 30px;
 }
 
+.margin-top-right-05{
+    margin: 0.5rem;
+}
+
 .padding-16-48 {
     padding: 16px 48px;
 }
@@ -73,6 +77,10 @@ justify-content: center;
 
 .padding-30-28 {
     padding: 30px 10px;
+}
+
+.padding-14-24 {
+    padding: 14px 24px;
 }
 
 .btn-lg {
