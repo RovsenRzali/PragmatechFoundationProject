@@ -33,6 +33,7 @@
 
 body {
     margin: auto;
+    background-color: #f1f2f7;
 }
 
 
@@ -43,6 +44,7 @@ body {
     /* display: flex; */
     padding: 1.88rem  1.81rem;
     text-align: left;
+    background-color: #fff;
 }
 
 
@@ -134,8 +136,9 @@ i {
 
 
 .icnbtn {
-    min-width:51%
+    min-width:51%;
 }
+
 
 
 .circlebtn a {

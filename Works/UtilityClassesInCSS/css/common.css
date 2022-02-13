@@ -47,7 +47,7 @@ justify-content: center;
     margin-top: 28px;
 }
 
-.mg-btm-3o {
+.mg-btm-30 {
     margin-bottom: 30px;
 }
 
@@ -72,7 +72,7 @@ justify-content: center;
 }
 
 .padding-30-28 {
-    padding: 30px 28px;
+    padding: 30px 26px;
 }
 
 .btn-lg {
@@ -99,6 +99,10 @@ justify-content: center;
 
 .font-size {
     font-size: 30px;
+}
+
+.bg-color-white {
+    background-color: #fff;
 }
 .container {
     background-color: var(--background-color);
