@@ -195,3 +195,17 @@ i {
     border: 2px solid #5e2572;
     color: #ffff;
 }
+
+.verticalbtn button{
+    color: var(--secondary-fade);
+    border-color: var(--secondary-color);
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.verticalbtn button:hover {
+    color: #212529;
+    background-color: #d9dbdc;
+    border-color: #d9dbdc;
+}
+

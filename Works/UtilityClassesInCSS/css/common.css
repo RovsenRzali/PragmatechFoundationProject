@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+.flex-dct-column {
+    flex-direction: column;
+}
+
 .display-block {
     display: block !important;
 }
