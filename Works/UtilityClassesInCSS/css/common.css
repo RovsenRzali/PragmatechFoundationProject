@@ -71,6 +71,14 @@
     margin: 0.5rem;
 }
 
+.margin-right-05 {
+    margin-right: 0.5rem;
+}
+
+.margin-left-05 {
+    margin-left: 0.5rem;
+}
+
 .padding-16-48 {
     padding: 16px 48px;
 }
@@ -131,11 +139,14 @@
 
 .primary-background {
     background-color: var(--primary-color);
+    border-color: #3e194b;
+    color: #fff;
 }
 
 .primary-background:hover {
     background-color: var(--primary-hover);
     border-color: #3e194b;
+    color: #fff;
 }
 
 .primary-bordercolor {
@@ -167,6 +178,7 @@
 
 .success-background {
     background-color: var(--success-color);
+    color: #fff;
 }
 
 .success-background:hover {
@@ -184,6 +196,7 @@
 
 .danger-background {
     background-color: var(--danger-color);
+    color: #fff;
 }
 
 .danger-background:hover {
@@ -203,6 +216,10 @@
     background-color: var(--warning-color);
 }
 
+.warning-background:hover {
+    background-color: var(--warning-hover);
+}
+
 .warning-bordercolor {
     border-color: var(--warning-color);
 }
@@ -213,6 +230,7 @@
 
 .info-background {
     background-color: var(--info-color);
+    color: #fff;
 }
 
 .info-background:hover {
@@ -232,6 +250,7 @@
 
 .dark-background {
     background-color: var(--dark-color);
+    color: #fff;
 }
 
 .dark-background:hover {
@@ -362,13 +381,15 @@
     color: #fff;
 }
 
+
 .black-color {
     color: black !important;
 }
 
-.btn-star {
-    background-color: ;
+.white-color {
+    color: #fff !important;
 }
+
 
 
 
