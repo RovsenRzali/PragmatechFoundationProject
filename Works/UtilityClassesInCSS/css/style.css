@@ -1,33 +1,32 @@
 :root {
-   --primary-color: #5e2572;
-   --secondary-color: #d9dbdc56;
-   --success-color: #00c689;
-   --danger-color:#fc7242 ;
-   --warning-color:#ffc100 ;
-   --info-color: #4d13d1;
-   --light-color: #f8f9fa;
-   --dark-color: #4f4a60;
-   --link-color: #58d8a3;
-   /* --background-color:#000000 ; */
-   --primary-fade: #5e2572;
-   --secondary-fade: #d9dbdc ;
-   --success-fade: #00c689;
-   --danger-fade:#fc7242 ;
-   --warning-fade:#ffc100 ;
-   --info-fade: #4d13d1;
-   --light-fade: #f8f9fa;
-   --dark-fade: #4f4a60;
-   --link-fade: #58d8a3; 
+    --primary-color: #5e2572;
+    --secondary-color: #d9dbdc56;
+    --success-color: #00c689;
+    --danger-color: #fc7242;
+    --warning-color: #ffc100;
+    --info-color: #4d13d1;
+    --light-color: #f8f9fa;
+    --dark-color: #4f4a60;
+    --link-color: #58d8a3;
+    --primary-fade: #5e2572;
+    --secondary-fade: #d9dbdc;
+    --success-fade: #00c689;
+    --danger-fade: #fc7242;
+    --warning-fade: #ffc100;
+    --info-fade: #4d13d1;
+    --light-fade: #f8f9fa;
+    --dark-fade: #4f4a60;
+    --link-fade: #58d8a3;
 
-   --primary-hover: #461c55;
-   --secondary-hover: #d9dbdc ;
-   --success-hover: #00a06f;
-   --danger-hover: #fb561c ;
-   --warning-hover:#ffc100 ;
-   --info-hover: #4d13d1;
-   --light-hover: #f8f9fa;
-   --dark-hover: #4f4a60;
-   --link-hover: #58d8a3;
+    --primary-hover: #461c55;
+    --secondary-hover: #d9dbdc;
+    --success-hover: #00a06f;
+    --danger-hover: #fb561c;
+    --warning-hover: #ffc100;
+    --info-hover: #4d13d1;
+    --light-hover: #f8f9fa;
+    --dark-hover: #4f4a60;
+    --link-hover: #58d8a3;
 }
 
 
@@ -37,12 +36,10 @@ body {
 }
 
 
-
-
 .container {
     /* background-color: var(--background-color); */
     /* display: flex; */
-    padding: 1.88rem  1.81rem;
+    padding: 1.88rem 1.81rem;
     text-align: left;
     background-color: #fff;
 }
@@ -52,10 +49,10 @@ ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;  
+    padding: 0;
 }
 
- li {
+li {
     margin: 16px 8px 0 0;
     padding: 14px 24px;
     border: 1px solid;
@@ -63,51 +60,6 @@ ul {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* ul>li:nth-child(1) {
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color);
-}
-ul>li:nth-child(2) {
-    background: var(--secondary-color) !important;
-    border-color: var(--secondary-color);
-
-}
-ul>li:nth-child(3) {
-    background: var(--success-color) !important;
-    border-color: var(--success-color);
-
-}
-ul>li:nth-child(4) {
-    background: var(--danger-color) !important;
-    border-color: var(--danger-color);
-
-}
-ul>li:nth-child(5) {
-    background: var(--warning-color) !important;
-    border-color: var(--warning-color);
-
-}
-ul>li:nth-child(6) {
-    background: var(--info-color) !important;
-    border-color: var(--info-color);
-
-}
-ul>li:nth-child(7) {
-    background: var(--light-color) !important;
-    border-color: var(--light-color);
-
-}
-ul>li:nth-child(8) {
-    background: var(--dark-color) !important;
-    border-color: var(--dark-color);
-
-}
-ul>li:nth-child(9) {
-    background: var(--link-color) !important;
-    border-color: var(--link-color);
-    color: blue
-} */
 
 
 .btn-rounded li {
@@ -121,27 +73,21 @@ a {
     height: 42px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     box-shadow: 0 2px 2px 0 rgba(45, 2, 61, 0.856);
-    
-
 }
 
 i {
-    
     font-size: 1rem;
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 
 .icnbtn {
     border: solid;
-    min-width:51%;
+    min-width: 51%;
 }
-
-
-
 
 
 .circlebtn a {
@@ -151,7 +97,7 @@ i {
 }
 
 
-.squarebtn a{
+.squarebtn a {
     margin: 16px 8px 0 0;
 }
 
@@ -159,11 +105,12 @@ i {
     border-color: var(--dark-color);
     margin: 16px 8px 0 0;
 }
+
 .stickers>a:hover {
     background-color: #dcdbdf;
 }
 
-.stickers-colorless a  {
+.stickers-colorless a {
     border-color: var(--dark-color);
     color: #d9dbdc;
     margin: 16px 8px 0 0;
@@ -193,7 +140,7 @@ i {
     border-color: #dcdbdf;
     color: #dcdbdf;
     font-size: 14px;
-    
+
 }
 
 .withoutbackground div:hover {
@@ -215,7 +162,6 @@ i {
 .blockbtn i {
     font-size: 0.875rem;
     box-sizing: border-box;
-
     /* margin-left: 30px; */
 }
 
@@ -225,7 +171,6 @@ i {
     color: #fff;
     font-size: 14px;
     width: 100%;
-
 }
 
 
@@ -250,5 +195,3 @@ i {
     border: 2px solid #5e2572;
     color: #ffff;
 }
-
-
