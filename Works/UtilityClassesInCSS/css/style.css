@@ -8,6 +8,13 @@
     --light-color: #f8f9fa;
     --dark-color: #4f4a60;
     --link-color: #58d8a3;
+    --fb-color: #3b579d;
+    --ytube-color:#e52d27;
+    --twitter-color: #2caae1;
+    --world-color: #ea4c89;
+    --linkedin-color: #0177b5;
+    --googleplus-color: #dc4a38;
+
 
     --primary-hover: #461c55;
     --secondary-hover: #d9dbdc;
@@ -18,6 +25,12 @@
     --light-hover: #f8f9fa;
     --dark-hover: #4f4a60;
     --link-hover: #58d8a3;
+    --fb-hover: #2d4278;
+    --ytube-hover: #c21d17;
+    --twitter-hover: #1b8dbf;
+    --world-hover: #e51e6b;
+    --linkedin-hover: #015682;
+    --googleplus-hover: #bf3322;
 }
 
 
@@ -65,7 +78,7 @@ li {
 }
 
 a {
-    /* border: 5px solid; */
+    border:01px solid;
     margin: 1rem;
     width: 42px;
     height: 42px;
@@ -83,7 +96,7 @@ i {
 
 
 .icnbtn {
-    border: solid;
+    /* border: solid; */
     min-width: 51%;
 }
 
@@ -119,14 +132,18 @@ i {
     background-color: #dcdbdf;
 }
 
+.groupbtn-TextIconbtn {
+    box-sizing: border-box;
+}
+
 .iconbtn-btnsize {
-    border: solid;
+    /* border: solid; */
     margin-right: 30px;
 }
 
 .btnsize {
     max-width: 33%;
-    border: solid;
+    /* border: solid; */
 }
 
 .btnsize div {
@@ -153,7 +170,7 @@ i {
 
 
 .blockbtn-container {
-    border: solid;
+    /* border: solid; */
     box-sizing: border-box;
 }
 
@@ -206,4 +223,34 @@ i {
     background-color: #d9dbdc;
     border-color: #d9dbdc;
 }
+
+.social-media {
+}
+
+.social-iconbtn a{
+    box-shadow: none !important;
+    width: 50px;
+    height: 50px;
+    margin: 16px 8px 0 0;
+}
+
+.socialbtn-withtext {
+    
+    max-width:447px;
+}
+.socialbtn-withtext a {
+    width: auto;
+    margin: 16px 8px 0 0;
+    box-shadow: none !important; 
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.socialbtn-withtext i {
+    padding: 0.75rem;
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
 

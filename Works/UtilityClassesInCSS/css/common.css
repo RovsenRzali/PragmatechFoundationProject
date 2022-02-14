@@ -43,6 +43,10 @@
     max-width: 990px;
 }
 
+.max-width-418 {
+    max-width: 418px;
+}
+
 .marginauto {
     margin: auto;
 }
@@ -97,6 +101,14 @@
 
 .padding-14-24 {
     padding: 14px 24px;
+}
+
+.padding-right-05 {
+    padding-right: 0.5rem;
+}
+
+.padding-right-1-5 {
+    padding-right: 1.5rem;
 }
 
 .btn-lg {
@@ -166,7 +178,7 @@
     color: var(--secondary-color);
 }
 
-.secondary-hover  {
+.secondary-hover {
     color: var(--secondary-hover);
 }
 
@@ -293,6 +305,134 @@
     border-color: var(--link-color);
 }
 
+.fb-color {
+    color: var(--fb-color);
+}
+
+.fb-hover-color {
+    background-color: var(--fb-hover);
+}
+
+.fb-background {
+    background-color: var(--fb-color);
+}
+
+.fb-main-color:hover {
+    background-color: var(--fb-color);
+    color: #ffff;
+}
+
+.fb-bordercolor {
+    border-color: var(--fb-color);
+}
+
+.ytube-color {
+    color: #e52d27;
+}
+
+.ytube-hover-color {
+    background-color: var(--ytube-hover);
+}
+
+.ytube-background {
+    background-color: var(--ytube-color);
+}
+
+.ytube-main-color:hover {
+    background-color: var(--ytube-color);
+    color: #ffff;
+}
+
+.ytube-bordercolor {
+    border-color: var(--ytube-color);
+}
+
+.twitter-color {
+    color: var(--twitter-color);
+}
+
+.twitter-hover-color {
+    background-color: var(--twitter-hover);
+}
+
+.twitter-background {
+    background-color: var(--twitter-color);
+}
+
+.twitter-main-color:hover {
+    background-color: var(--twitter-color);
+    color: #ffff;
+}
+
+.twitter-bordercolor {
+    border-color: var(--twitter-color);
+}
+
+.world-color {
+    color: var(--world-color);
+}
+
+.world-hover-color {
+    background-color: var(--world-hover);
+}
+
+.world-background {
+    background-color: var(--world-color);
+}
+
+.world-main-color:hover {
+    background-color: var(--world-color);
+    color: #ffff;
+}
+
+.world-bordercolor {
+    border-color: var(--world-color);
+}
+
+.linkedin-color {
+    color: var(--linkedin-color);
+}
+
+.linkedin-hover-color {
+    background-color: var(--linkedin-hover);
+}
+
+.linkedin-background {
+    background-color: var(--linkedin-color);
+}
+
+.linkedin-main-color:hover {
+    background-color: var(--linkedin-color);
+    color: #ffff;
+}
+
+.linkedin-bordercolor {
+    border-color: var(--linkedin-color);
+}
+
+.googleplus-color {
+    color: var(--googleplus-color);
+}
+
+.googleplus-hover-color {
+    background-color: var(--googleplus-hover);
+}
+
+.googleplus-background {
+    background-color: var(--googleplus-color);
+}
+
+.googleplus-main-color:hover {
+    background-color: var(--googleplus-color);
+    color: #ffff;
+}
+
+.googleplus-bordercolor {
+    border-color: var(--googleplus-color);
+}
+
+
+
 
 .inversebtn-primary {
     background-color: rgba(94, 37, 114, 0.2);
@@ -400,6 +540,31 @@
 
 .btn-link:hover {
     background-color: var(--link-color);
+    color: #fff;
+}
+
+.btn-fb:hover {
+    background-color: var(--fb-hover);
+    color: #fff;
+}
+.btn-ytube:hover {
+    background-color: var(--ytube-hover);
+    color: #fff;
+}
+.btn-twitter:hover {
+    background-color: var(--twitter-hover);
+    color: #fff;
+}
+.btn-world:hover {
+    background-color: var(--world-hover);
+    color: #fff;
+}
+.btn-linkedin:hover {
+    background-color: var(--linkedin-hover);
+    color: #fff;
+}
+.btn-googleplus:hover {
+    background-color: var(--googleplus-hover);
     color: #fff;
 }
 
