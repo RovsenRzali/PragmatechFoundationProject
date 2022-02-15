@@ -1,38 +1,51 @@
+:root {
+    --dark-color: #4f4a60;
+    --secondary-color: #d9dbdc56;
+    --pink-color: #ebb5ac;
+    --white-color: #fff;
+}
+
 .flex {
     display: flex;
 }
+
+
 .flex-start {
     justify-content: flex-start;
 }
 
-.flex-dct-column {
+.f-dct-col-a-center {
     flex-direction: column;
+    align-items: center;
 }
+
+
+.mg-auto {
+    margin: auto;
+}
+
 
 .d-block {
     display: block;
 }
-.position-relative {
+
+.p-relative {
     position: relative;
 }
 
-.position-absolute {
+.p-absolute {
     position: absolute;
 }
 
-.top-right-0 {
-    top: 0;
-    right: 0;
-}
-
 .btm-right-0 {
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 10px;
 }
 
-.yellow-color {
-    color: yellow;
+.pink-color {
+    color: #ebb5ac;
 }
-.bg-color {
-    background-color:yellow;
+
+.secondary-color {
+    color: #d9d9d9;
 }
