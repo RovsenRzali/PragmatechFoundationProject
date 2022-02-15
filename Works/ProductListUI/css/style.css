@@ -3,9 +3,46 @@ body {
 
 .container {
     max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
+    position: relative;
 
+}
+
+.single-goods-container {
+    border: solid red;
+    max-width: 278px;
+    position: relative;
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border-hover {
+    border: 2px solid  #888888;
+    /* box-sizing: border-box; */
+    /* margin:40px; */
+    position: absolute;
+    padding: 10px 0;
+    width: 110%;
+    height: 100%;
+    display: none;  
+}
+
+.single-goods-container:hover .onlyhover  {
+    display: flex;
+    flex-direction: column;
+}
+
+.addtocart {
+    /* border: solid; */
+    font-size: 14px;
+    padding: 10px 29px;
+    background: #ebb5ac;
+    color: #000000;
+    font-weight: 500;
+    display: none;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .img-container {
@@ -23,15 +60,30 @@ body {
   height: 350px;
 }
 
-.img-container i {
-    border: solid;
-    font-size: 25px;
-    background-color: #fff;
-    color: #fff;
+.top-decoration {
+    /* border: solid black; */
+    padding: 5px;
     position: absolute;
     top: 10px;
     right: 10px;
+    background-color: #fff;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;   
+}
+
+
+
+.dropdown-hover {
+    display: none;
+}
+
+
+.img-container i {
+    /* border: solid; */
+    font-size: 23px;
+    box-sizing: border-box;
 
 }
 

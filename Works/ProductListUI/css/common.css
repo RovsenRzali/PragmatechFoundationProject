@@ -4,6 +4,14 @@
 .flex-start {
     justify-content: flex-start;
 }
+
+.flex-dct-column {
+    flex-direction: column;
+}
+
+.d-block {
+    display: block;
+}
 .position-relative {
     position: relative;
 }
