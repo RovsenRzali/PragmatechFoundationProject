@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.top-right-0 {
+    top: 0;
+    right: 0;
+}
+
+.btm-right-0 {
+    bottom: 0;
+    right: 0;
+}
+
+.yellow-color {
+    color: yellow;
+}
+.bg-color {
+    background-color:yellow;
+}
