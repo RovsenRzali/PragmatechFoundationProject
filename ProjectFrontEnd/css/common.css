@@ -3,6 +3,10 @@
     --blue-color: #2e4db9;
 }
 
+.max-width-1200 {
+    max-width: 1200px;
+}
+
 .mg-top-20 {
     /* border: solid 1px; */
     margin: 20px auto 0 auto;
