@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 31px;
 }
 
 .single-goods-container {
@@ -23,7 +24,7 @@ body {
     position: absolute;
     top: -10px;
     padding: 10px 0;
-    width: 110%;
+    width: 107%;
     height: 109%;
     display: none;
 }
@@ -55,7 +56,7 @@ body {
 }
 
 .img-container {
-    border: solid;
+    /* border: solid; */
     max-width: 272px;
     height: 350px;
     margin-bottom: 15px;
@@ -68,7 +69,7 @@ body {
 }
 
 .img-container-hover {
-    border: 2px solid;
+    /* border: 2px solid; */
     display: none;
     top: 1.5px;
     max-width: 272px;
@@ -131,20 +132,22 @@ body {
 }
 
 
-.single-goods-content>a h3 {
+.product-name {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 14px;
     color: #262626;
     font-weight: 400;
     letter-spacing: 0.6px;
-    font-family: 'Poppins', sans-serif;
+    display: block;
+    cursor: pointer;  
 }
 
 
-.single-goods-content span {
-    font-size: 16px;
+.product-name:hover {
+    font-size: 14px;
     font-weight: 500;
-    color: #000000;
+    color: var(--pink-color);
     letter-spacing: 0.6px;
 }
+
