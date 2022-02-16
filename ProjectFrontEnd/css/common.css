@@ -30,6 +30,10 @@
     padding-bottom: 15px;
 }
 
+.p-relative {
+    position: relative;
+}
+
 
 
 .text-center {
