@@ -1,0 +1,3 @@
+Compiler and Interpreter
+We use high-level language as we write a computer program. High-level language  is understandable by humans. This is called Source code.  Computer doesnt understand Source Code.  Compiler and Interpreter convert Source Code to Machine Code. JavaScript, Python Ruby use interpreters.  C, C++, Java use compiplers. 
+[Source:https://www.programiz.com/articledifference-compiler-interpreter]
