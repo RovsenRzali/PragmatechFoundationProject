@@ -29,10 +29,6 @@ body {
     display: none;
 }
 
-
-
-
-
 .single-goods-container:hover .onlyhover {
     display: flex;
     flex-direction: column;
@@ -84,9 +80,7 @@ body {
     box-sizing: border-box;
     max-width: 272px;
     height: 350px;
-
 }
-
 
 .top-decoration {
     /* border: solid black; */
@@ -134,7 +128,6 @@ body {
     margin: 0 auto 7px 0
 }
 
-
 .product-name {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -143,10 +136,9 @@ body {
     font-weight: 400;
     letter-spacing: 0.6px;
     display: block;
-    cursor: pointer;
-    z-index: 9999;
+    cursor: pointer; 
+    z-index: 9999; 
 }
-
 
 .product-name:hover {
     font-size: 14px;
@@ -158,5 +150,6 @@ body {
 
 .smile {
     color: #fbf706;
-    background: var(--dark-color) !important;
+    background: var(--dark-color)!important;
 }
+
