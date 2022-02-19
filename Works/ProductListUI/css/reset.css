@@ -1,8 +1,11 @@
-ul, p, span, i, a {
+ul,
+p,
+span,
+i,
+a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    list-style-type:none;
+    list-style-type: none;
     cursor: pointer;
 }
-

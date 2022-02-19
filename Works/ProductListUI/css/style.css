@@ -143,8 +143,8 @@ body {
     font-weight: 400;
     letter-spacing: 0.6px;
     display: block;
-    cursor: pointer; 
-    z-index: 9999; 
+    cursor: pointer;
+    z-index: 9999;
 }
 
 
@@ -158,6 +158,5 @@ body {
 
 .smile {
     color: #fbf706;
-    background: var(--dark-color)!important;
+    background: var(--dark-color) !important;
 }
-
