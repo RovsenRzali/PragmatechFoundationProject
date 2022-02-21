@@ -1,0 +1,33 @@
+@import 'common';
+.top-lent {
+    background-color: $demo01-color;
+    color: #fff;
+    padding: $sapce-1x*1  $sapce-1x*15;
+    text-align:center;
+    h2 {
+    font-size: $space-2x*9;
+    }
+}
+
+.content-container  {
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.title-text {
+    border: 2px solid red;
+    text-align: center;  
+     h2 {
+        color: black;
+        margin-top: $space-2x*10;
+        margin-bottom: $space-2x*5;
+        font-size: $space-2x*15;
+        display: block;
+    }
+    p{
+        color: #333333;
+        margin-top: 0;
+        margin-bottom: $space-2x*30;
+    }
+}

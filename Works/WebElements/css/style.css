@@ -1,0 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.bring-to-center {
+  margin: 0 auto;
+}
+
+.top-lent {
+  background-color: orange;
+  color: #fff;
+  padding: 1px 15px;
+  text-align: center;
+}
+
+.top-lent h2 {
+  font-size: 18px;
+}
+
+.content-container {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.title-text {
+  border: 2px solid red;
+  text-align: center;
+}
+
+.title-text h2 {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: block;
+}
+
+.title-text p {
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
