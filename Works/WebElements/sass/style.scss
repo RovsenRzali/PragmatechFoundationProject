@@ -242,7 +242,84 @@
 
 }
 
-.item-container-02:hover .onlyhover{
-    transform: scale(.9,.9);
-    background: #5656a6;    
+.item-container-02:hover .onlyhover {
+    transform: scale(.9, .9);
+    background: #5656a6;
 }
+
+.top-lent-03 {
+    background: $demo03-main-color;
+}
+
+
+.item-container-03 {
+    position: relative;
+    overflow: hidden;
+    max-width: 360px;
+    height: 410px;
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    i {
+        color: $demo03-main-color;
+        margin: 0;
+    }
+
+    p {
+        color: #919191;
+    }
+
+    a {
+        color: #fff;
+        background: $demo03-main-color;
+        border-radius: 50px;
+        padding: 12px 35px;
+    }
+
+}
+
+.item-container-03::before {
+    border: 2px solid $demo03-main-color;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid #24cf5f;
+    position: absolute;
+    box-sizing: border-box;
+    width: 99.1%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    content: '';
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.item-container-03::after {
+    top: 0;
+    transform: translateX(-100%);
+    border-top: 2 px solid transparent;
+    border-right: 2 px solid transparent;
+    position: absolute;
+    box-sizing: border-box;
+    width: 99.5%;
+    height: 2px;
+    z-index: -1;
+    left: 0;
+    content: '';
+}
+
+.item-container-03:hover::before {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+
+// .item-container-03:hover:after {
+//     transform: translateY(0);
+// }
