@@ -29,6 +29,10 @@ a {
   display: inline-block;
 }
 
+.padding-80-0 {
+  padding: 80px 0;
+}
+
 .top-lent {
   background-color: orange;
   color: #fff;
@@ -41,12 +45,14 @@ a {
 }
 
 .content-container {
-  border: 2px solid black;
   text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 .title-text {
   text-align: center;
+  display: block;
 }
 
 .title-text h2 {
@@ -63,14 +69,31 @@ a {
   margin-bottom: 60px;
 }
 
+.row {
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .item-container {
   position: relative;
   overflow: hidden;
   max-width: 360px;
   height: 410px;
+  margin: 40px auto;
   padding: 10px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+  -webkit-box-shadow: 1px 2px 10px #33333349;
+          box-shadow: 1px 2px 10px #33333349;
 }
 
 .item-container i {
@@ -108,8 +131,6 @@ a {
   background: orange;
   font-weight: 400;
   border-radius: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .item-container::after {
@@ -135,9 +156,24 @@ a {
           transform: translateY(100%);
 }
 
-.item-container::after h2 {
-  color: #fff !important;
+.item-container:hover i {
+  color: white;
   border-color: #fff;
+}
+
+.item-container:hover h2 {
+  color: white;
+  border-color: #fff;
+}
+
+.item-container:hover p {
+  color: white;
+  border-color: #fff;
+}
+
+.item-container:hover a {
+  color: orange;
+  background-color: #fff;
 }
 
 .item-container:hover::after {
@@ -146,11 +182,6 @@ a {
   height: 410px;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
-}
-
-.item-container:hover::after h2 {
-  color: #fff !important;
-  border-color: #fff;
 }
 
 .item-container:hover:after {
