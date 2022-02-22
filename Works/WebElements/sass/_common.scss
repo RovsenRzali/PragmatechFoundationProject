@@ -6,12 +6,30 @@ $space-2x: 2px;
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    line-height: 1.4;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1, h2 {
     font-weight: 700;
 }
 
+a { 
+    text-decoration: none;
+}
+
 .bring-to-center {
     margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.item-container i, h2, p, a  {
+    display: inline-block;
 }
