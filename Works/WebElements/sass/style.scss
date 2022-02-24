@@ -121,6 +121,7 @@
 
 .item-container-01:hover {
     @extend .border-color-white;
+
     a {
         color: $demo01-color;
         background-color: #fff;
@@ -146,12 +147,14 @@
     p {
         color: #fff;
     }
+
     @extend .border-color-white;
 }
 
 .item-container-02 {
     max-width: 292px;
     height: 511px;
+
     h2 {
         margin-bottom: 15px;
     }
@@ -275,7 +278,62 @@
 
 .item-container-04:hover {
     @extend .border-color-white;
+
     a {
         background-color: lighten($color: #e12573, $amount: 7);
     }
+}
+
+
+
+.top-lent-05 {
+    background: $demo05-main-color;
+}
+
+.item-container-05 {
+    width: 368px;
+    outline: #71d1ff 2px solid;
+    outline-offset: -10px;
+    background: #20b7ff;
+    box-shadow: 0px 0px 0px 18px rgba(32, 83, 255, 0.164) inset;
+
+    i {
+        color: $demo05-secondary-color;
+        margin: 0 auto;
+        height: 110px;
+        display: block;
+
+    }
+
+    h2 {
+        margin: 0;
+        margin-bottom: 15px;
+        padding: 13px 0;
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+        padding: 0 17px 17px;
+        margin: 0 0 10px;
+    }
+
+    a {
+        color: #fff;
+        background: $demo05-main-color;
+        padding: 14px 35px;
+        margin: 10px 0 20px;
+    }
+
+}
+
+
+.item-container-05:hover {
+    a {
+        color: $demo05-main-color;
+        background-color: #b7e8ff;
+    }
+
+    outline: 6px solid #71d1ff;
+    box-shadow: 0 0 0 120px rgba(32, 183, 255, 0.164) inset;
 }
