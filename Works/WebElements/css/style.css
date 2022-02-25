@@ -498,3 +498,68 @@ a {
 .item-container-06:hover .item-container-06-counter span {
   top: 0;
 }
+
+.top-lent-07 {
+  background: #2e4b9b;
+}
+
+.item-container-07 {
+  width: 360px;
+}
+
+.item-container-07 .fa {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  content: "\f083";
+  z-index: 0;
+  top: 0;
+  left: 10px;
+  margin: 20px !important;
+  color: #8aa9ff;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: 140px/1 FontAwesome;
+  text-rendering: auto;
+}
+
+.item-container-07 .fa-rocket {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.item-container-07 h2 {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 62px 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 0.9;
+}
+
+.item-container-07 p {
+  padding: 0 17px 17px;
+  color: #919191;
+  margin: 0 0 10px;
+}
+
+.item-container-07 a {
+  color: #fff;
+  background: #2e4b9b;
+}
+
+.fa::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: "\f083";
+}
+
+.item-container-07:hover .fa-plane, .item-container-07:hover .fa-fighter-jet, .item-container-07:hover .fa-rocket {
+  -webkit-transform: translate(100%, -10%) rotate(-15deg);
+          transform: translate(100%, -10%) rotate(-15deg);
+}
