@@ -1,0 +1,44 @@
+.top-lent-02 {
+    background: $demo02-top-lent-color;
+}
+
+.demo02-bg {
+    background-color: $demo02-bg;
+
+    h2,
+    p {
+        color: #fff;
+    }
+
+    @extend .border-color-white;
+}
+
+.item-container-02 {
+    max-width: 292px;
+    height: 511px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    i {
+        border: solid;
+    }
+
+    a {
+        color: #333;
+        background: #fff;
+    }
+}
+
+.onlyhover {
+    // border: 3px solid;
+    @extend .mg-40-pd-10;
+    width: 262px;
+    height: 431px;
+}
+
+.item-container-02:hover .onlyhover {
+    transform: scale(.9, .9);
+    background: #5656a6;
+}

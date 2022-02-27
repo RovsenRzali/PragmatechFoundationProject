@@ -1,0 +1,95 @@
+.top-lent-14 {
+    background: $demo14-main-color;
+}
+
+.item-container-14 {
+    width: 390px;
+    height: 488px;
+    padding: 0;
+    margin-right: 40px;
+    @extend  .justify-center;
+    flex-direction: column;
+    align-items: center;
+    background: $demo14-main-color;
+    // box-shadow: 0px 0px 0px 18px rgba(32, 83, 255, 0.164) inset;
+
+    i {
+        border: 1px solid;
+        color: #fff;
+        width: 110px;
+        font-size: 52px;
+        line-height: 107px;
+        height: 90px;
+        margin: 20px 0;
+        border-radius: 100%;
+        background: #fd6faa;
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.164);
+        transition: all .8s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        position: relative;
+        top: 0;
+        // border: solid black;
+        box-sizing: border-box;
+        height: 80px;
+        width: 100%;
+        z-index: 1;
+        margin-top: -100px;
+        margin-bottom: 18px;
+        padding: 50px;
+        color: $demo14-main-color;
+        background-color: #fff;
+      
+    }
+
+
+    p {
+        color: #fff;
+        padding: 0 17px 17px;
+        margin: 0 0 10px;
+    }
+
+    a {
+        color: #fff;
+        background: #fd6faa;
+        padding: 14px 35px;
+        margin: 10px 20px 20px;
+    }
+}
+
+.fa-video-camera::before {
+    content: "\f03d";
+}
+
+.item-container-14 h2::before {
+    position: absolute;
+    width: 100%;
+    // border: 5px solid green;
+    height: 90px;
+    transform: skewY(5deg);
+    background: #fff;
+    z-index: -1;
+    top: 30px;
+    right: 3px;
+    left: 0px;
+    content: '';
+
+}
+
+.item-container-14::after {
+    position: absolute;
+    width: 100%;
+    // border: 5px solid green;
+    height: 90px;
+    transform: skewY(5deg);
+    background: #fff;
+    z-index: 1;
+    bottom: -15px;
+    right: 0px;
+    left: 0px;
+    content: '';
+}

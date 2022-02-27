@@ -1,0 +1,66 @@
+.top-lent-07 {
+    background: $demo07-main-color;
+}
+
+
+.item-container-07 {
+    width: 360px;
+
+    .fa {
+        width: 142px;
+        height: 142px;
+        position: absolute;
+        content: "\f083";
+        z-index: 0;
+        top: 0;
+        left: 10px;
+        margin: 20px !important;
+        color: $demo07-secondary-color;
+        transition: all .4s ease;
+        display: inline-block;
+        box-sizing: border-box;
+        font: 140px/1 FontAwesome;
+        text-rendering: auto;
+    }
+
+    .fa-rocket {
+        transform: rotate(45deg);
+    }
+
+    h2 {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        padding: 62px 0;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 0.9;
+    }
+
+    p {
+        padding: 0 17px 17px;
+        color: #919191;
+        margin: 0 0 10px;
+    }
+
+    a {
+        color: #fff;
+        background: $demo07-main-color;
+    }
+
+}
+
+.fa::before {
+    box-sizing: border-box;
+    content: "\f083";
+}
+
+.item-container-07:hover {
+
+    .fa-plane,
+    .fa-fighter-jet,
+    .fa-rocket {
+        transform: translate(100%, -10%) rotate(-15deg);
+    }
+}
