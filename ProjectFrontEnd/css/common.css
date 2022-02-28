@@ -125,6 +125,15 @@
     display: flex;
 }
 
+.flex-dct-column {
+    flex-direction: column;
+}
+.center  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-whatsapp {
     /* border: solid; */
     width: 100%;

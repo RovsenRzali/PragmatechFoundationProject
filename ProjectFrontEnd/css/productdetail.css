@@ -1,0 +1,31 @@
+.productdetail-container {
+    border: 1px solid;
+}
+
+.productdetail-img {
+max-width: 670px;
+padding: 0 10px;
+}
+
+.productdetail-content {
+    max-width: 500px;
+    padding: 0 15px;
+}
+
+.productdetail-content h1 {
+    font-size: 30px;
+    color: #2c2d3e;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.productdetail-content ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.single-goods-reyting {
+    padding: 25px 0 0 0;
+    color: #d5a500;
+    text-align: left;
+}
