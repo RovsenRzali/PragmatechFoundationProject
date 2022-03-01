@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border-radius: 10px;
+  width: 158px;
+  height: 44px;
+}
