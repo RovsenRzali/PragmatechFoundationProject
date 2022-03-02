@@ -80,16 +80,27 @@
   content: "Sort by: Most Upvotes";
 }
 
-.mostupdates {
+.dropdown {
   width: 255px;
   height: 192px;
   background-color: #ffffff;
   color: #647196;
   position: relative;
   border-radius: 10px;
+  span {
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    display: block;
+    padding: 14px 10px;
+    box-sizing: border-box;
+  }
+
+  span:last-child {
+    border-bottom: none;
+  }
 }
 
-.mostupdates::before {
+.dropdown::before {
   position: absolute;
   top: 0px;
   content: "";
@@ -98,16 +109,4 @@
   height: 100%;
   background: #f2f2f2;
   box-sizing: border-box;
-}
-
-.mostupdates span {
-  border-bottom: 1px solid #f2f2f2;
-  width: 100%;
-  display: block;
-  padding: 14px 10px;
-  box-sizing: border-box;
-}
-
-span:last-child {
-  border-bottom: none;
 }

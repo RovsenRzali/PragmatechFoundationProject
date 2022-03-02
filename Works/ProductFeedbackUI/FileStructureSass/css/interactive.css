@@ -78,7 +78,7 @@
   content: "Sort by: Most Upvotes";
 }
 
-.mostupdates {
+.dropdown {
   width: 255px;
   height: 192px;
   background-color: #ffffff;
@@ -87,7 +87,20 @@
   border-radius: 10px;
 }
 
-.mostupdates::before {
+.dropdown span {
+  border-bottom: 1px solid #f2f2f2;
+  width: 100%;
+  display: block;
+  padding: 14px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dropdown span:last-child {
+  border-bottom: none;
+}
+
+.dropdown::before {
   position: absolute;
   top: 0px;
   content: "";
@@ -97,17 +110,4 @@
   background: #f2f2f2;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.mostupdates span {
-  border-bottom: 1px solid #f2f2f2;
-  width: 100%;
-  display: block;
-  padding: 14px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-span:last-child {
-  border-bottom: none;
 }
