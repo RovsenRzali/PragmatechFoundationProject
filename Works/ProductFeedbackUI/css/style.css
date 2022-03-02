@@ -108,6 +108,10 @@ h2, p {
   vertical-align: center;
 }
 
+.int-default {
+  background-color: #F2F4FF;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
