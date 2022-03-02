@@ -1,10 +1,10 @@
 .interactive {
   border-radius: 10px;
-  background: rgba(242, 244, 254, 1);
+  background: #f2f4fe;
   width: 40px;
   height: 53px;
   padding: 0 11px;
-  color: rgba(58, 67, 116, 1);
+  color: #3a4374;
   font-family: 700;
   font-size: 13px;
   line-height: 18.79px;

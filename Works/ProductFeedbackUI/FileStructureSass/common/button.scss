@@ -1,19 +1,84 @@
+.btn {
+  border-radius: 10px;
+  width: 158px;
+  height: 44px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.btn-before::before {
+  position: absolute;
+  top: 50%;
+  content: '';
+  margin-right: 1rem;
+ }
+
+
 .btn-1 {
   @extend .btn;
-  background-color: blue;
+  background: rgba(173, 31, 234, 1);
+}
+
+.btn-1-hover {
+  @extend .btn;
+  background: rgba(199, 90, 246, 1);
 }
 
 .btn-2 {
   @extend .btn;
-  background-color: blue;
+  background: rgba(70, 97, 230, 1);
+}
+
+.btn-2-hover {
+  @extend .btn;
+  background: rgba(124, 145, 249, 1);
 }
 
 .btn-3 {
   @extend .btn;
-  background-color: blue;
+  background: rgba(58, 67, 116, 1);
+}
+
+.btn-3-hover {
+  @extend .btn;
+  background: rgba(101, 110, 163, 1);
 }
 
 .btn-4 {
   @extend .btn;
-  background-color: blue;
+  background: rgba(215, 55, 55, 1);
 }
+
+.btn-4-hover {
+  @extend .btn;
+  background: rgba(233, 136, 136, 1);
+}
+
+.goback {
+  @extend .btn;
+  @extend .btn-before::before;
+  background: rgba(215, 55, 55, 1);
+  color:rgba(100, 113, 150, 1);
+}
+
+.goback-hover {
+  @extend .btn;
+  @extend .btn-before::before;
+  color: rgba(100, 113, 150, 1);
+}
+
+.goback-dark {
+  @extend .btn;
+  @extend .btn-before::before;
+  background: rgba(55, 63, 104, 1);
+  color: white;
+}
+
+.goback-dark-hover {
+  @extend .btn;
+  @extend .btn-before::before;
+  background: rgba(55, 63, 104, 1);
+  color: white;
+}
+
