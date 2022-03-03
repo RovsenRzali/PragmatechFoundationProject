@@ -1,0 +1,54 @@
+.mentor-profile-container {
+  width: 255px;
+  height: 137px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 24px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #e84d70 0%, #a337f6 53.09%, #28a7ed 100%);
+}
+
+.all-ui-container {
+  width: 255px;
+  height: 137px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 0 24px;
+  background: white;
+}
+
+.roadmap-container {
+  width: 255px;
+  height: 178px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  background: white;
+}
+
+.suggestion-container {
+  width: 825px;
+  height: 72px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 14px 16px 14px 29.9px;
+  background: #373f68;
+}
+
+.content-container {
+  width: 825px;
+  height: 151px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+  padding: 32px 28px;
+  background: white;
+}

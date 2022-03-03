@@ -10,10 +10,9 @@
 .btn-before::before {
   position: absolute;
   top: 50%;
-  content: '';
+  content: "";
   margin-right: 1rem;
- }
-
+}
 
 .btn-1 {
   @extend .btn;
@@ -59,7 +58,7 @@
   @extend .btn;
   @extend .btn-before::before;
   background: rgba(215, 55, 55, 1);
-  color:rgba(100, 113, 150, 1);
+  color: rgba(100, 113, 150, 1);
 }
 
 .goback-hover {
@@ -81,4 +80,3 @@
   background: rgba(55, 63, 104, 1);
   color: white;
 }
-

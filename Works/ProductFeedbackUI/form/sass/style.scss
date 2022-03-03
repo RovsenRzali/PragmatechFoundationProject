@@ -1,0 +1,40 @@
+.text-field {
+  border: 1px solid #f7f8fd;
+  width: 255px;
+  height: 48px;
+  margin: 8px;
+  padding: 13px 24px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: black;
+  background: #f7f8fd;
+  display: inline-block;
+}
+
+.text-field-default {
+  @extend .text-field;
+}
+
+.text-field-filled {
+  @extend .text-field;
+}
+
+.text-field-active {
+  @extend .text-field;
+  border: 1px solid #4661e6;
+}
+
+.error-container {
+  border: 1px solid;
+  display: inline-block;
+  color: red;
+  position: relative;
+}
+
+.text-field-error {
+  @extend .text-field;
+  border: 1px solid #d73737;
+  position: relative;
+  overflow: visible;
+  margin: 0 0 2px 0;
+}

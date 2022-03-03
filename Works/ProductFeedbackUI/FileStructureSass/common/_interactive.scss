@@ -1,9 +1,9 @@
-.interactive-nmb, .int-nmb-default, .int-nmb-hover, .int-nmb-active {
+.interactive-nmb {
   border-radius: 10px;
   width: 40px;
   height: 53px;
   padding: 0 11px;
-  color: #3a4374;
+  color: rgba(58, 67, 116, 1);
   font-family: 700;
   font-size: 13px;
   line-height: 18.79px;
@@ -13,24 +13,27 @@
 }
 
 .int-nmb-default {
+  @extend .interactive-nmb;
   background-color: #f2f4fe;
 }
 
 .int-nmb-hover {
-  background: #cfd7ff;
+  @extend .interactive-nmb;
+  background: rgba(207, 215, 255, 1);
 }
 
 .int-nmb-active {
+  @extend .interactive-nmb;
   color: #ffffff;
-  background: #4661e6;
+  background: rgba(70, 97, 230, 1);
 }
 
-.int-letter, .int-letter-default, .int-letter-hover, .int-letter-active {
+.int-letter {
   border-radius: 10px;
-  width: 48px;
-  height: 30px;
+  // width: 48px;
+  // height: 30px;
   padding: 5px 16px;
-  color: #3a4374;
+  color: rgba(58, 67, 116, 1);
   font-family: 700;
   font-size: 13px;
   line-height: 18.79px;
@@ -40,16 +43,19 @@
 }
 
 .int-letter-default {
+  @extend .int-letter;
   background-color: #f2f4fe;
 }
 
 .int-letter-hover {
-  background: #cfd7ff;
+  @extend .int-letter;
+  background: rgba(207, 215, 255, 1);
 }
 
 .int-letter-active {
+  @extend .int-letter;
   color: #ffffff;
-  background: #4661e6;
+  background: rgba(70, 97, 230, 1);
 }
 
 .int-upvote {
@@ -62,12 +68,8 @@
   font-size: 14px;
   line-height: 20.23px;
   letter-spacing: -0.18px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
   background: #373f68;
 }
@@ -85,19 +87,17 @@
   color: #647196;
   position: relative;
   border-radius: 10px;
-}
+  span {
+    border-bottom: 1px solid #f2f2f2;
+    width: 100%;
+    display: block;
+    padding: 14px 10px;
+    box-sizing: border-box;
+  }
 
-.dropdown span {
-  border-bottom: 1px solid #f2f2f2;
-  width: 100%;
-  display: block;
-  padding: 14px 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.dropdown span:last-child {
-  border-bottom: none;
+  span:last-child {
+    border-bottom: none;
+  }
 }
 
 .dropdown::before {
@@ -108,6 +108,5 @@
   width: 100%;
   height: 100%;
   background: #f2f2f2;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }

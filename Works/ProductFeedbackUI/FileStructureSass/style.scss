@@ -1,2 +1,77 @@
-@import "general/general";
 @import "common/components";
+@import "general/general";
+@import "component/component";
+
+#desktop-suggestion {
+  background-color: $magnolia;
+  padding: 94px 165px;
+}
+
+.shortcut {
+  .profile {
+    @extend.mentor-profile-container;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .choosen {
+    @extend.all-ui-container;
+    li {
+      margin-right: 8px;
+      margin-bottom: 14px;
+    }
+    .active {
+      @extend .int-letter-active;
+    }
+
+    .hover {
+      @extend .int-letter-hover;
+    }
+
+    .default {
+      @extend .int-letter-default;
+    }
+  }
+
+  .roadmap-container {
+    .justify-between {
+      margin-bottom: 31px;
+      color: $rhino-fade;
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      a {
+        font-size: 13px;
+      }
+    }
+    ul {
+      @extend .justify-between;
+      margin-bottom: 8px;
+      color: $gray-fade;
+      font-size: 16px;
+
+      i {
+        font-size: 8px;
+        margin-right: 16px;
+        color: $orange;
+      }
+
+      li {
+        @extend .align-center;
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      .in-progress {
+        color: $purple;
+      }
+      .live {
+        color: $sky;
+      }
+    }
+  }
+}
