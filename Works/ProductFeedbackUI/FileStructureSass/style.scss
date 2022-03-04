@@ -1,26 +1,37 @@
 @import "common/components";
 @import "general/general";
-@import "component/component";
+@import "component/component.scss";
 
 #desktop-suggestion {
   background-color: $magnolia;
   padding: 94px 165px;
+  box-sizing: border-box;
+}
+
+.desktop-suggestion-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .shortcut {
+  margin-right: 15px;
+
   .profile {
     @extend.mentor-profile-container;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    @extend .f-column-flexend;
   }
 
   .choosen {
     @extend.all-ui-container;
+    padding-top: 10px;
+
     li {
       margin-right: 8px;
       margin-bottom: 14px;
     }
+
     .active {
       @extend .int-letter-active;
     }
@@ -38,14 +49,17 @@
     .justify-between {
       margin-bottom: 31px;
       color: $rhino-fade;
+
       h2 {
         font-size: 18px;
         font-weight: bold;
       }
+
       a {
         font-size: 13px;
       }
     }
+
     ul {
       @extend .justify-between;
       margin-bottom: 8px;
@@ -69,8 +83,104 @@
       .in-progress {
         color: $purple;
       }
+
       .live {
         color: $sky;
+      }
+    }
+  }
+}
+
+.feedback-content-container {
+  margin-left: 15px;
+
+  .suggestion-header {
+    @extend .w825-h72;
+    background-color: $rhino;
+
+    .suggestion-count {
+      margin-right: 38px;
+      display: flex;
+      align-items: center;
+
+      i {
+        font-size: 16px;
+        margin: 10.1px;
+      }
+
+      span,
+      p {
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 7px;
+      }
+    }
+
+    .most-upvotes {
+      @extend .font-s14-w4;
+
+      p {
+        margin-right: 9px;
+        font-weight: 700;
+      }
+
+      i {
+        font-size: 10px;
+      }
+    }
+
+    .add-feedback {
+      @extend .btn-1;
+      @extend .font-s14-w7;
+      height: 48px;
+    }
+  }
+
+  .feedback-content {
+    width: 825px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 28px 32px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    .count {
+      @extend .int-nmb-default;
+      @extend .f-dct-column-center;
+      @extend .font-s13-w7;
+      margin-right: 40px;
+    }
+
+    .content-text {
+      h2 {
+        @extend .font-s18-w7;
+        color: $rhino-fade;
+        margin-bottom: 4px;
+      }
+
+      p {
+        @extend .font-s16-w4;
+        color: rgba(100, 113, 150, 1);
+      }
+    }
+
+    li {
+      @extend .int-letter-default;
+      @extend .font-s13-w6;
+      width: 111px;
+      color: $ultramarine-blue;
+      margin-top: 12px;
+      margin-left: 80px;
+    }
+
+    .comment-count {
+      i {
+        color: #cdd2ee;
+      }
+
+      span {
+        @extend .font-s16-w7;
+        color: $rhino-fade;
       }
     }
   }

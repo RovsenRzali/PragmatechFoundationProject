@@ -1,3 +1,9 @@
+body {
+  font-family: "Jost", sans-serif;
+  border: solid red;
+  // box-sizing: border-box;
+}
+
 .flex {
   display: flex;
 }
@@ -28,8 +34,23 @@
   justify-content: space-between;
 }
 
-.btn {
-  border-radius: 10px;
-  width: 158px;
-  height: 4px;
+.f-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-dct-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.f-column-flexend {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.max-width-1310 {
+  width: 1310px;
 }

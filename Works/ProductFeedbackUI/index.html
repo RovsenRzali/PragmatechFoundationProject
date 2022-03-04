@@ -6,59 +6,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div class="top-decoration">
-      <span></span>
-      <h2>DESIGN SYSTEM</h2>
-    </div>
-
     <section id="desktop-suggestion">
-        <div class="desktop-suggestion-container">
-          <div class="row">
-            <div class="shortcut">
-              <div class="profile">
-                <div class="flex-end">
-                  <h3>Frontend Mentor</h3> <br>
+      <div class="desktop-suggestion-container">
+        <div class="row flex">
+          <div class="shortcut">
+            <div class="profile">
+              <div class="flex-end">
+                <h3>Frontend Mentor</h3>
+                <br />
                 <small>Feedback Board</small>
-                </div>
-              </div>
-              <div class="choosen">
-                     <li class="active">All</li>
-                     <li class="hover">UI</li>
-                     <li class="default">UX</li>
-                     <li class="default">Enhancement</li>
-                     <li class="default">Bug</li>
-                     <li class="default">Feature</li>
-              </div>
-
-              <div class="roadmap-container">
-                <div class="justify-between">
-                  <h2>Roadmap</h2>
-                  <a href="#">View</a>
-                </div>
-
-                <li class="f-dct-column">
-                  <ul class="">
-                    <li><i class="fa-solid fa-circle"></i>Planned</li>
-                    <span>2</span>
-                  </ul>
-                  <ul>
-                    <li><i class="fa-solid fa-circle in-progress"></i>In-Progress</li>
-                    <span>2</span>
-                  </ul>
-                  <ul>
-                    <li><i class="fa-solid fa-circle live"></i>Live</li>
-                    <span>2</span>
-                  </ul>
-                </li>
-
               </div>
             </div>
+            <div class="choosen">
+              <li class="active">All</li>
+              <li class="hover">UI</li>
+              <li class="default">UX</li>
+              <li class="default">Enhancement</li>
+              <li class="default">Bug</li>
+              <li class="default">Feature</li>
+            </div>
 
+            <div class="roadmap-container">
+              <div class="justify-between">
+                <h2>Roadmap</h2>
+                <a href="#">View</a>
+              </div>
+
+              <li class="f-dct-column">
+                <ul class="">
+                  <li><i class="fa-solid fa-circle"></i>Planned</li>
+                  <span>2</span>
+                </ul>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-circle in-progress"></i>In-Progress
+                  </li>
+                  <span>2</span>
+                </ul>
+                <ul>
+                  <li><i class="fa-solid fa-circle live"></i>Live</li>
+                  <span>2</span>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <div class="feedback-content-container">
+            <div class="row">
+              <div class="suggestion-header justify-between">
+                <div class="justify-between">
+                  <div class="suggestion-count">
+                    <i class="fa fa-gear"></i>
+                    <span>6</span>
+                    <p>Suggestion</p>
+                  </div>
+                  <div class="most-upvotes align-center">
+                    <small>Sort by :</small>
+                    <p>Most upvotes</p>
+                    <i class="fa fa-angle-down"></i>
+                  </div>
+                </div>
+                <button class="add-feedback">+ Add Feedback</button>
+              </div>
+              <div class="feedback-content align-center flex justify-between">
+                <div class="f-dct-column-center">
+                  <div class="align-center">
+                    <div class="count"><i class="fa fa-angle-up"></i>3</div>
+                    <div class="content-text">
+                      <h2>Add tags for solutions</h2>
+                      <br />
+                      <p>
+                        Easier to search for solution based on a specific stack.
+                      </p>
+                    </div>
+                  </div>
+                  <li class="enhancement">Enhancement</li>
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comment"></i>
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="feedback-content align-center flex justify-between">
+                <div class="f-dct-column-center">
+                  <div class="align-center">
+                    <div class="count"><i class="fa fa-angle-up"></i>65</div>
+                    <div class="content-text">
+                      <h2>Add tags for solutions</h2>
+                      <br />
+                      <p>
+                        Easier to search for solution based on a specific stack.
+                      </p>
+                    </div>
+                  </div>
+                  <li class="enhancement">Enhancement</li>
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comment"></i>
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="feedback-content align-center flex justify-between">
+                <div class="f-dct-column-center">
+                  <div class="align-center">
+                    <div class="count"><i class="fa fa-angle-up"></i>99</div>
+                    <div class="content-text">
+                      <h2>Add tags for solutions</h2>
+                      <br />
+                      <p>
+                        Easier to search for solution based on a specific stack.
+                      </p>
+                    </div>
+                  </div>
+                  <li class="enhancement">Enhancement</li>
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comment"></i>
+                  <span>1</span>
+                </div>
+              </div>
+              <div class="feedback-content align-center flex justify-between">
+                <div class="f-dct-column-center">
+                  <div class="align-center">
+                    <div class="count"><i class="fa fa-angle-up"></i>51</div>
+                    <div class="content-text">
+                      <h2>Add tags for solutions</h2>
+                      <br />
+                      <p>
+                        Easier to search for solution based on a specific stack.
+                      </p>
+                    </div>
+                  </div>
+                  <li class="enhancement">Enhancement</li>
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comment"></i>
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="feedback-content align-center flex justify-between">
+                <div class="f-dct-column-center">
+                  <div class="align-center">
+                    <div class="count"><i class="fa fa-angle-up"></i>42</div>
+                    <div class="content-text">
+                      <h2>Add tags for solutions</h2>
+                      <br />
+                      <p>
+                        Easier to search for solution based on a specific stack.
+                      </p>
+                    </div>
+                  </div>
+                  <li class="enhancement">Enhancement</li>
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comment"></i>
+                  <span>3</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </section>
   </body>
 </html>
