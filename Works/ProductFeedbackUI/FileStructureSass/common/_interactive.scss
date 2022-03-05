@@ -1,12 +1,12 @@
 .interactive-nmb {
   border-radius: $space-x;
   width: $space-x * 4;
-  height: 53px;
-  padding: 0 11px;
+  height: $space-53x;
+  padding: 0 $space-11x;
   color: $rhino-fade-1;
   font-family: 700;
   font-size: $space-13x;
-  line-height: 18.79px;
+  line-height: $space-18-79x;
   letter-spacing: -0.18px;
   text-align: center;
   vertical-align: center;
@@ -37,7 +37,7 @@
   color: $rhino-fade-1;
   font-family: 700;
   font-size: $space-13x;
-  line-height: 18.79px;
+  line-height: $space-18-79x;
   letter-spacing: -0.18px;
   text-align: center;
   vertical-align: center;
@@ -61,14 +61,14 @@
 }
 
 .int-upvote {
-  border-radius: 10px;
+  border-radius: $space-x;
   width: 194px;
   height: 72px;
   padding: $space-5x $space-16x;
   color: $magnolia-1;
   font-family: 400;
   font-size: $space-14x;
-  line-height: 20.23px;
+  line-height: $space-20-23xx;
   letter-spacing: -0.18px;
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@
   background-color: #ffffff;
   color: #647196;
   position: relative;
-  border-radius: 10px;
+  border-radius: $space-x;
   span {
     border-bottom: 1px solid $rhino-fade-1;
     width: 100%;

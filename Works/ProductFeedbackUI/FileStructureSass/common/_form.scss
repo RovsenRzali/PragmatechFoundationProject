@@ -2,7 +2,7 @@
   border: 1px solid $ghost-white-1;
   width: 255px;
   height: $space-24x * 2;
-  margin: 8px;
+  margin: $space-8x;
   padding: $space-13x $space-24x;
   box-sizing: border-box;
   border-radius: $space-5x;
@@ -36,7 +36,7 @@
   border: 1px solid $red;
   position: relative;
   overflow: visible;
-  margin: 0 0 2px 0;
+  margin: 0 0 $space-2x 0;
 }
 
 .dropdown-default {
@@ -54,7 +54,7 @@
   background-color: #ffffff;
   color: #647196;
   position: relative;
-  border-radius: 10px;
+  border-radius: $space-x;
   span {
     border-bottom: 1px solid $rhino-fade-1;
     width: 100%;

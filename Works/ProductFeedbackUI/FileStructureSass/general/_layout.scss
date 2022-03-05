@@ -5,9 +5,9 @@
 .w825-h72 {
   width: 825px;
   height: 72px;
-  border-radius: 10px;
-  margin-bottom: 24px;
-  padding: 29.9px 23px;
+  border-radius: $space-x;
+  margin-bottom: $space-24x;
+  padding: $space-29-9x $space-23x;
   color: white;
   align-items: center;
   box-sizing: border-box;
