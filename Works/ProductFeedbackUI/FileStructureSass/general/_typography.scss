@@ -5,7 +5,7 @@
   letter-spacing: 9.55px;
   font-style: normal;
   font-weight: bold;
-  color: rgba(58, 67, 116, 1);
+  color: $rhino-fade-1;
   background: black;
 }
 
@@ -14,7 +14,7 @@
   line-height: 40px;
   letter-spacing: 9.55px;
   font-style: normal;
-  color: rgba(58, 67, 116, 1);
+  color: $rhino-fade-1;
 }
 
 .font-s13-w6 {
@@ -30,12 +30,12 @@
 .font-s14-w4 {
   font-size: 14px;
   font-weight: 400;
-  color: #f2f4fe;
+  color: $magnolia-1;
 }
 
 .font-s14-w7 {
   font-size: 14px;
-  color: #f2f4fe;
+  color: $magnolia-1;
   font-weight: 700;
 }
 

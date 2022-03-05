@@ -1,3 +1,86 @@
+.w825-h72, .feedback-content-container .suggestion-header {
+  width: 825px;
+  height: 72px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 29.9px 23px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2,
+p, h5, h3 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ul,
+li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.Font-bold-latter {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 9.55px;
+  font-style: normal;
+  font-weight: bold;
+  color: #3a4374;
+  background: black;
+}
+
+.font-thin-letter {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 9.55px;
+  font-style: normal;
+  color: #3a4374;
+}
+
+.font-s13-w6, .feedback-content-container .feedback-content li {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.font-s13-w7, .feedback-content-container .feedback-content .count {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.font-s14-w4, .feedback-content-container .suggestion-header .most-upvotes {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f2f4fe;
+}
+
+.font-s14-w7, .feedback-content-container .suggestion-header .add-feedback {
+  font-size: 14px;
+  color: #f2f4fe;
+  font-weight: 700;
+}
+
+.font-s16-w4, .feedback-content-container .feedback-content .content-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.font-s16-w7, .feedback-content-container .feedback-content .comment-count span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.font-s18-w7, .feedback-content-container .feedback-content .content-text h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .btn, .btn-1, .feedback-content-container .suggestion-header .add-feedback, .btn-1-hover, .btn-2, .btn-2-hover, .btn-3, .btn-3-hover, .btn-4, .btn-4-hover, .goback, .goback-hover, .goback-dark, .goback-dark-hover {
   border-radius: 10px;
   width: 158px;
@@ -68,7 +151,6 @@
 
 body {
   font-family: "Jost", sans-serif;
-  border: solid red;
 }
 
 .flex {
@@ -184,9 +266,8 @@ body {
 }
 
 .error-container {
-  border: 1px solid;
   display: inline-block;
-  color: red;
+  color: #d73737;
   position: relative;
 }
 
@@ -211,7 +292,7 @@ body {
 }
 
 .dropdown-menu span {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #3a4374;
   width: 100%;
   display: block;
   padding: 14px 10px;
@@ -230,7 +311,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #f2f2f2;
+  background: #3a4374;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -327,7 +408,7 @@ body {
 }
 
 .dropdown span {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #3a4374;
   width: 100%;
   display: block;
   padding: 14px 10px;
@@ -346,102 +427,9 @@ body {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #f2f2f2;
+  background: #3a4374;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.item-container .purple-color {
-  width: 7788px;
-  height: 109px;
-}
-
-.item-container .purple-color {
-  width: 9px;
-  height: 109px;
-}
-
-.w825-h72, .feedback-content-container .suggestion-header {
-  width: 825px;
-  height: 72px;
-  border-radius: 10px;
-  margin-bottom: 24px;
-  padding: 29.9px 23px;
-  color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-h2,
-p, h5, h3 {
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-
-ul,
-li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.Font-bold-latter {
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 9.55px;
-  font-style: normal;
-  font-weight: bold;
-  color: #3a4374;
-  background: black;
-}
-
-.font-thin-letter {
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 9.55px;
-  font-style: normal;
-  color: #3a4374;
-}
-
-.font-s13-w6, .feedback-content-container .feedback-content li {
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.font-s13-w7, .feedback-content-container .feedback-content .count {
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.font-s14-w4, .feedback-content-container .suggestion-header .most-upvotes {
-  font-size: 14px;
-  font-weight: 400;
-  color: #f2f4fe;
-}
-
-.font-s14-w7, .feedback-content-container .suggestion-header .add-feedback {
-  font-size: 14px;
-  color: #f2f4fe;
-  font-weight: 700;
-}
-
-.font-s16-w4, .feedback-content-container .feedback-content .content-text p {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.font-s16-w7, .feedback-content-container .feedback-content .comment-count span {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.font-s18-w7, .feedback-content-container .feedback-content .content-text h2 {
-  font-size: 18px;
-  font-weight: 700;
 }
 
 .mentor-profile-container, .shortcut .profile {
@@ -497,6 +485,11 @@ li {
   margin-bottom: 24px;
   padding: 32px 28px;
   background: white;
+}
+
+.item .purple-color {
+  width: 9px;
+  height: 109px;
 }
 
 #desktop-suggestion {

@@ -1,11 +1,11 @@
 .interactive-nmb {
-  border-radius: 10px;
-  width: 40px;
+  border-radius: $space-x;
+  width: $space-x * 4;
   height: 53px;
   padding: 0 11px;
-  color: rgba(58, 67, 116, 1);
+  color: $rhino-fade-1;
   font-family: 700;
-  font-size: 13px;
+  font-size: $space-13x;
   line-height: 18.79px;
   letter-spacing: -0.18px;
   text-align: center;
@@ -15,28 +15,28 @@
 
 .int-nmb-default {
   @extend .interactive-nmb;
-  background-color: #f2f4fe;
+  background-color: $magnolia-1;
 }
 
 .int-nmb-hover {
   @extend .interactive-nmb;
-  background: rgba(207, 215, 255, 1);
+  background: $Tealish-Blue;
 }
 
 .int-nmb-active {
   @extend .interactive-nmb;
   color: #ffffff;
-  background: rgba(70, 97, 230, 1);
+  background: $ultramarine-blue;
 }
 
 .int-letter {
-  border-radius: 10px;
+  border-radius: $space-x;
   // width: 48px;
   // height: 30px;
-  padding: 5px 16px;
-  color: rgba(58, 67, 116, 1);
+  padding: $space-5x $space-16x;
+  color: $rhino-fade-1;
   font-family: 700;
-  font-size: 13px;
+  font-size: $space-13x;
   line-height: 18.79px;
   letter-spacing: -0.18px;
   text-align: center;
@@ -46,28 +46,28 @@
 
 .int-letter-default {
   @extend .int-letter;
-  background-color: #f2f4fe;
+  background-color: $magnolia-1;
 }
 
 .int-letter-hover {
   @extend .int-letter;
-  background: rgba(207, 215, 255, 1);
+  background: $Tealish-Blue;
 }
 
 .int-letter-active {
   @extend .int-letter;
   color: #ffffff;
-  background: rgba(70, 97, 230, 1);
+  background: $ultramarine-blue;
 }
 
 .int-upvote {
   border-radius: 10px;
   width: 194px;
   height: 72px;
-  padding: 5px 16px;
-  color: #f2f4fe;
+  padding: $space-5x $space-16x;
+  color: $magnolia-1;
   font-family: 400;
-  font-size: 14px;
+  font-size: $space-14x;
   line-height: 20.23px;
   letter-spacing: -0.18px;
   display: flex;
@@ -90,10 +90,10 @@
   position: relative;
   border-radius: 10px;
   span {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid $rhino-fade-1;
     width: 100%;
     display: block;
-    padding: 14px 10px;
+    padding: $space-14x $space-x;
     box-sizing: border-box;
   }
 
@@ -109,6 +109,6 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #f2f2f2;
+  background: $rhino-fade-1;
   box-sizing: border-box;
 }

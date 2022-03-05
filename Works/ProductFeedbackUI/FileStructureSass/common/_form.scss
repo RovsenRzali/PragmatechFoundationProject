@@ -1,13 +1,13 @@
 .text-field {
-  border: 1px solid #f7f8fd;
+  border: 1px solid $ghost-white-1;
   width: 255px;
-  height: 48px;
+  height: $space-24x * 2;
   margin: 8px;
-  padding: 13px 24px;
+  padding: $space-13x $space-24x;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: $space-5x;
   color: black;
-  background: #f7f8fd;
+  background: $ghost-white-1;
   display: inline-block;
 }
 
@@ -21,19 +21,19 @@
 
 .text-field-active {
   @extend .text-field;
-  border: 1px solid #4661e6;
+  border: 1px solid $ultramarine-blue;
 }
 
 .error-container {
-  border: 1px solid;
+  // border: 1px solid;
   display: inline-block;
-  color: red;
+  color: $red;
   position: relative;
 }
 
 .text-field-error {
   @extend .text-field;
-  border: 1px solid #d73737;
+  border: 1px solid $red;
   position: relative;
   overflow: visible;
   margin: 0 0 2px 0;
@@ -45,7 +45,7 @@
 
 .dropdown-active {
   @extend .text-field;
-  border: 1px solid #4661e6;
+  border: 1px solid $ultramarine-blue;
 }
 
 .dropdown-menu {
@@ -56,10 +56,10 @@
   position: relative;
   border-radius: 10px;
   span {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid $rhino-fade-1;
     width: 100%;
     display: block;
-    padding: 14px 10px;
+    padding: $space-14x $space-x;
     box-sizing: border-box;
   }
 
@@ -75,6 +75,6 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #f2f2f2;
+  background: $rhino-fade-1;
   box-sizing: border-box;
 }
