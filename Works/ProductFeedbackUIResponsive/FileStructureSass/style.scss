@@ -1,0 +1,63 @@
+@import "general/general";
+@import "common/components";
+@import "component/component";
+
+// #desktop-roadmap {
+//   background-color: $magnolia;
+//   padding: 94px 165px;
+//   box-sizing: border-box;
+// }
+
+// .desktop-roadmap-container {
+//   margin: auto;
+//   display: flex;
+//   justify-content: center;
+//   box-sizing: border-box;
+// }
+
+
+
+  .raodmap-header {
+    width: 77.08%;
+    height: 7.84%;
+    padding: 27px 40px 27px 32px;
+    box-sizing: border-box;
+    border-radius: $space-x;
+    background-color: $rhino;
+    margin: 0 auto;
+
+    .roadmap-goback {
+      @extend .f-col;
+      color: white;
+      a {
+        @extend .font-s14-w7;
+        cursor: pointer;
+        i {
+          margin-right: $space-15x;
+          font-size: 12px;
+        }
+      }
+      span {
+        @extend .font-s24-w7;
+      }
+    }
+
+    button {
+      @extend .btn-1;
+      @extend .justify-center;
+      border-color: transparent;
+      width: 9rem;
+      height: 44px;
+      padding: 0;
+      @extend .font-s14-w7;
+    }
+  }
+
+
+
+@media  (max-width:576px) {
+  .raodmap-header {
+    width:100%;
+  }
+
+}

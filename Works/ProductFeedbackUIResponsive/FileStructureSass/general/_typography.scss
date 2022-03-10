@@ -1,0 +1,60 @@
+//Layihədə istifadə olunacaq bütün font və şriftlərlə bağlı classlar burda qeyd olunacaq. Dizayn sisteminde o hissə üçün nələr yazacağınız verilib
+.Font-bold-latter {
+  font-size: $space-20x;
+  line-height: $space-40x;
+  letter-spacing: $space-9-55x;
+  font-style: normal;
+  font-weight: bold;
+  color: $rhino-fade-1;
+  background: black;
+}
+
+.font-thin-letter {
+  font-size: $space-20x;
+  line-height: $space-40x;
+  letter-spacing: $space-9-55x;
+  font-style: normal;
+  color: $rhino-fade-1;
+}
+
+.font-s13-w6 {
+  font-size: $space-13x;
+  font-weight: 600;
+}
+
+.font-s13-w7 {
+  font-size: $space-13x;
+  font-weight: 700;
+}
+
+.font-s14-w4 {
+  font-size: $space-14x;
+  font-weight: 400;
+  color: $magnolia-1;
+}
+
+.font-s14-w7 {
+  font-size: 14px;
+  color: $magnolia-1;
+  font-weight: 700;
+}
+
+.font-s16-w4 {
+  font-size: $space-16x;
+  font-weight: 400;
+}
+
+.font-s16-w7 {
+  font-size: $space-16x;
+  font-weight: 700;
+}
+
+.font-s18-w7 {
+  font-size: $space-18x;
+  font-weight: 700;
+}
+
+.font-s24-w7 {
+  font-size: 24px;
+  font-weight: 700;
+}

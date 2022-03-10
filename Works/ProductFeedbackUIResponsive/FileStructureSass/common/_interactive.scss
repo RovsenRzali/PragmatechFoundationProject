@@ -1,0 +1,114 @@
+.interactive-nmb {
+  border-radius: $space-x;
+  width: $space-x * 4;
+  height: $space-53x;
+  padding: 0 $space-11x;
+  color: $rhino-fade-1;
+  font-family: 700;
+  font-size: $space-13x;
+  line-height: $space-18-79x;
+  letter-spacing: -0.18px;
+  text-align: center;
+  vertical-align: center;
+  box-sizing: border-box;
+}
+
+.int-nmb-default {
+  @extend .interactive-nmb;
+  background-color: $magnolia-1;
+}
+
+.int-nmb-hover {
+  @extend .interactive-nmb;
+  background: $Tealish-Blue;
+}
+
+.int-nmb-active {
+  @extend .interactive-nmb;
+  color: #ffffff;
+  background: $ultramarine-blue;
+}
+
+.int-letter {
+  border-radius: $space-x;
+  // width: 48px;
+  // height: 30px;
+  padding: $space-5x $space-16x;
+  color: $rhino-fade-1;
+  font-family: 700;
+  font-size: $space-13x;
+  line-height: $space-18-79x;
+  letter-spacing: -0.18px;
+  text-align: center;
+  vertical-align: center;
+  box-sizing: border-box;
+}
+
+.int-letter-default {
+  @extend .int-letter;
+  background-color: $magnolia-1;
+}
+
+.int-letter-hover {
+  @extend .int-letter;
+  background: $Tealish-Blue;
+}
+
+.int-letter-active {
+  @extend .int-letter;
+  color: #ffffff;
+  background: $ultramarine-blue;
+}
+
+.int-upvote {
+  border-radius: $space-x;
+  width: 194px;
+  height: 72px;
+  padding: $space-5x $space-16x;
+  color: $magnolia-1;
+  font-family: 400;
+  font-size: $space-14x;
+  line-height: $space-20-23x;
+  letter-spacing: -0.18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #373f68;
+}
+
+.int-upvote::before {
+  position: absolute;
+  top: 50%;
+  content: "Sort by: Most Upvotes";
+}
+
+.dropdown {
+  width: 255px;
+  height: 192px;
+  background-color: #ffffff;
+  color: #647196;
+  position: relative;
+  border-radius: $space-x;
+  span {
+    border-bottom: 1px solid $rhino-fade-1;
+    width: 100%;
+    display: block;
+    padding: $space-14x $space-x;
+    box-sizing: border-box;
+  }
+
+  span:last-child {
+    border-bottom: none;
+  }
+}
+
+.dropdown::before {
+  position: absolute;
+  top: 0px;
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: $rhino-fade-1;
+  box-sizing: border-box;
+}

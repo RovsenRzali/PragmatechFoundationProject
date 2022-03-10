@@ -1,0 +1,56 @@
+.mentor-profile-container {
+  width: 255px;
+  height: 137px;
+  border-radius: $space-x;
+  box-sizing: border-box;
+  margin-bottom: $space-24x;
+  padding: $space-24x;
+  background: radial-gradient(
+    128.88% 128.88% at 103.9% -10.39%,
+    #e84d70 0%,
+    #a337f6 53.09%,
+    #28a7ed 100%
+  );
+}
+
+.all-ui-container {
+  width: 255px;
+  height: 137px;
+  border-radius: $space-x;
+  box-sizing: border-box;
+  margin-bottom: $space-24x;
+  padding: 0 $space-24x;
+  background: $white;
+}
+
+.roadmap-container {
+  width: 255px;
+  height: 178px;
+  border-radius: $space-x;
+  box-sizing: border-box;
+  margin-bottom: $space-24x;
+  padding: $space-16x $space-24x;
+  background: $white;
+}
+
+.suggestion-container {
+  width: 825px;
+  height: 72px;
+  border-radius: $space-x;
+  box-sizing: border-box;
+  margin-bottom: $space-24x;
+  padding: $space-14x $space-16x $space-14x 29.9px;
+  background: $rhino-1;
+}
+
+.content-container {
+  width: 825px;
+  height: 151px;
+  border-radius: $space-x;
+  box-sizing: border-box;
+  margin-bottom: $space-24x;
+  padding: $space-32x $space-28x;
+  background: $white;
+}
+
+

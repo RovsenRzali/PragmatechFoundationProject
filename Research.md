@@ -22,4 +22,6 @@ This contains: Compiler, Interpreter and Assemblers.
 
 11. Low-level language- is a computer's native language. it deal with computer hardware compoonents. [https://www.javatpoint.com/what-is-a-low-level-language]
 
-12.
+12.  High-level langauge is a programming language which is undersandable by Human.  This syntax is more cloce human language than low-level language. For example: C++, C#, Python etc.
+
+13.Markup language-is a computer langauge that is human-readable. This language uses tags to define elements.Markup language contaien  standard words. Html and CML are popular markup language.

@@ -1,0 +1,55 @@
+body {
+  font-family: "Jost", sans-serif;
+  // box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.f-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-col-j-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-col-j-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.f-col-j-flexend {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.max-width-1310 {
+  width: 1310px;
+}

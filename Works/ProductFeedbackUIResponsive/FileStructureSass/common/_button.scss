@@ -1,0 +1,82 @@
+.btn {
+  border-radius: $space-x;
+  width: 14.234875%;
+  height: 3.96%;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+
+.btn-before::before {
+  position: absolute;
+  top: 50%;
+  content: "";
+  margin-right: 1rem;
+}
+
+.btn-1 {
+  @extend .btn;
+  background: $purple;
+}
+
+.btn-1-hover {
+  @extend .btn;
+  background: $purple-fade;
+}
+
+.btn-2 {
+  @extend .btn;
+  background: $ultramarine-blue;
+}
+
+.btn-2-hover {
+  @extend .btn;
+  background: $crystal-blue;
+}
+
+.btn-3 {
+  @extend .btn;
+  background: rgba(58, 67, 116, 1);
+}
+
+.btn-3-hover {
+  @extend .btn;
+  background: $Waikawa-drey;
+}
+
+.btn-4 {
+  @extend .btn;
+  background: $red;
+}
+
+.btn-4-hover {
+  @extend .btn;
+  background: $red-fade;
+}
+
+.goback {
+  @extend .btn;
+  @extend .btn-before::before;
+}
+
+.goback-hover {
+  @extend .btn;
+  @extend .btn-before::before;
+  color: $dark-mint;
+}
+
+.goback-dark {
+  @extend .btn;
+  @extend .btn-before::before;
+  background: $rhino-1;
+  color: white;
+}
+
+.goback-dark-hover {
+  @extend .btn;
+  @extend .btn-before::before;
+  background: $rhino-1;
+  color: white;
+}

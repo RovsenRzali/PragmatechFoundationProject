@@ -242,6 +242,4 @@ a {
 
 .item-container-01:hover::after {
   opacity: 1;
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
 }

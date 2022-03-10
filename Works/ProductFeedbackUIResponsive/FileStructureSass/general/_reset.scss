@@ -1,0 +1,18 @@
+//  html taglarının default xüsusiyyətlərinin təmizlənməsi və standartlaşdırılması üçün lazımlı kodlar burda yazılacaq
+h2,
+p, h5, h3 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ul,
+li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
