@@ -2,18 +2,6 @@
 @import "common/components";
 @import "component/component";
 
-// #desktop-roadmap {
-//   background-color: $magnolia;
-//   padding: 94px 165px;
-//   box-sizing: border-box;
-// }
-
-// .desktop-roadmap-container {
-//   margin: auto;
-//   display: flex;
-//   justify-content: center;
-//   box-sizing: border-box;
-// }
 
 .raodmap-header {
   width: 77.08%;
@@ -84,7 +72,7 @@
   justify-content: space-between;
   .content-header {
     // border: solid;
-    margin-bottom: $space-5x + 1;
+    margin-bottom: $space-5x;
     h5 {
       margin-bottom: 4px;
       color: $rhino-fade-1;
