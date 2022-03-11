@@ -70,7 +70,7 @@ a {
   font-weight: 700;
 }
 
-.font-s16-w4 {
+.font-s16-w4, .roadmap-content-container .content-header span {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -80,7 +80,7 @@ a {
   font-weight: 700;
 }
 
-.font-s18-w7 {
+.font-s18-w7, .roadmap-content-container .content-header h5 {
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -521,6 +521,42 @@ body {
   width: 9rem;
   height: 44px;
   padding: 0;
+}
+
+.roadmap-content-container {
+  border: solid;
+  width: 77.08%;
+  height: 7.84%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.roadmap-content-container .content-header {
+  margin-bottom: 6px;
+}
+
+.roadmap-content-container .content-header h5 {
+  color: #f2f4ff;
+}
+
+.roadmap-content-container .content-header span {
+  color: #647196;
+}
+
+.roadmap-content-container .roadmap-content {
+  border: solid;
+  margin: 0 auto;
+  width: 31.08%;
+}
+
+.roadmap-content-container .roadmap-content .content-item {
+  border: solid;
+  margin-top: 24px;
 }
 
 @media (max-width: 576px) {

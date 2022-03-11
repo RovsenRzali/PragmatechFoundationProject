@@ -53,6 +53,42 @@
     }
   }
 
+  .roadmap-content-container {
+    border: solid ;
+    width: 77.08%;
+      height: 7.84%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-top: 48px;
+      display: flex;
+      // grid-template-columns: auto auto auto;
+      // grid-gap: 20px;
+      .content-header {
+        margin-bottom: 6px;
+        h5 {
+          color: $magnolia;
+          @extend .font-s18-w7;
+        }
+        span {
+          color: $dark-mint;
+          @extend .font-s16-w4;
+        }
+      }
+    .roadmap-content {
+      border: solid;
+      margin: 0 auto;
+      width: 31.08%;
+
+      .content-item{
+        border: solid;
+        margin-top: 24px;
+      }
+
+    }
+
+  }
+
+
 
 
 @media  (max-width:576px) {
