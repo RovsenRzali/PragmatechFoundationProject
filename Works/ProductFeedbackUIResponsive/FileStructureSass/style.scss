@@ -2,11 +2,10 @@
 @import "common/components";
 @import "component/component";
 
-
 .raodmap-header {
   width: 77.08%;
   height: 7.84%;
-  padding: 27px 40px 27px 32px;
+  padding: $space-27x $space-40x $space-27x $space-32x;
   box-sizing: border-box;
   border-radius: $space-x;
   background-color: $rhino;
@@ -20,7 +19,7 @@
       cursor: pointer;
       i {
         margin-right: $space-15x;
-        font-size: 12px;
+        font-size: $space-12x;
       }
     }
     span {
@@ -31,11 +30,11 @@
   button {
     @extend .btn-1;
     @extend .justify-center;
+    @extend .font-s14-w7;
     border-color: transparent;
     width: 9rem;
     height: 44px;
     padding: 0;
-    @extend .font-s14-w7;
   }
 }
 
@@ -68,25 +67,23 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding-top: $space-48x;
-  display: flex;
-  justify-content: space-between;
+  @extend .justify-between;
+  h5 {
+    @extend .font-s18-w7;
+    margin-bottom: $space-4x;
+    color: $rhino-fade-1;
+  }
   .content-header {
     // border: solid;
     margin-bottom: $space-5x;
-    h5 {
-      margin-bottom: 4px;
-      color: $rhino-fade-1;
-      @extend .font-s18-w7;
-    }
+
     span {
-      color: $dark-mint;
       @extend .font-s16-w4;
+      color: $dark-mint;
     }
   }
 
   .roadmap-content {
-    // border: solid;
-    // margin: 0 auto;
     width: 31.08%;
 
     .content-item {
@@ -102,25 +99,20 @@
         margin-bottom: $space-16x;
         color: $dark-mint;
         i {
-          font-size: 8px;
+          font-size: $space-8x;
           margin-right: $space-16x;
         }
       }
 
-      h5 {
-        margin-bottom: $space-4x;
-        color: $rhino-fade-1;
-        @extend .font-s18-w7;
-      }
       p {
-        color: $dark-mint;
         @extend .font-s16-w4;
+        color: $dark-mint;
         margin-bottom: $space-16x;
       }
 
       ol {
-        max-width: $space-77x;
         @extend .int-letter-hover;
+        max-width: $space-77x;
         margin-bottom: $space-16x;
         margin-top: 0;
       }
@@ -216,7 +208,7 @@
     display: block;
     width: 100%;
     margin: 0;
-    padding: 0 24px;
+    padding: 0 $space-24x;
 
     .roadmap-content {
       width: 99%;
@@ -224,12 +216,12 @@
 
       .content-header {
         margin-bottom: 0;
-        padding: 24px 0;
+        padding: $space-24x 0;
       }
 
       .content-item {
         margin-top: 0px;
-        margin-bottom: 16px;
+        margin-bottom: $space-16x;
       }
     }
   }

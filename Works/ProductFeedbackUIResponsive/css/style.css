@@ -30,6 +30,14 @@ a {
           box-sizing: border-box;
 }
 
+.w77-h7 {
+  width: 77.08%;
+  height: 7.84%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
 .Font-bold-latter {
   font-size: 1.25rem;
   line-height: 2.5rem;
@@ -85,13 +93,13 @@ a {
   font-weight: 700;
 }
 
-.font-s18-w7, .roadmap-content-container .content-header h5, .roadmap-content-container .roadmap-content .content-item h5 {
+.font-s18-w7, .roadmap-content-container h5 {
   font-size: 1.125rem;
   font-weight: 700;
 }
 
 .font-s24-w7, .raodmap-header .roadmap-goback span {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -186,7 +194,7 @@ body {
           justify-content: center;
 }
 
-.justify-between, .roadmap-content-container .roadmap-content .content-item .item-count {
+.justify-between, .roadmap-content-container, .roadmap-content-container .roadmap-content .content-item .item-count {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,7 +525,7 @@ body {
 .raodmap-header {
   width: 77.08%;
   height: 7.84%;
-  padding: 27px 40px 27px 32px;
+  padding: 1.688rem 2.5rem 1.688rem 2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 0.625rem;
@@ -535,7 +543,7 @@ body {
 
 .raodmap-header .roadmap-goback a i {
   margin-right: 0.938rem;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .raodmap-header button {
@@ -574,21 +582,15 @@ body {
           box-sizing: border-box;
   margin: 0 auto;
   padding-top: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.roadmap-content-container h5 {
+  margin-bottom: 0.25rem;
+  color: #3a4374;
 }
 
 .roadmap-content-container .content-header {
   margin-bottom: 0.313rem;
-}
-
-.roadmap-content-container .content-header h5 {
-  margin-bottom: 4px;
-  color: #3a4374;
 }
 
 .roadmap-content-container .content-header span {
@@ -613,13 +615,8 @@ body {
 }
 
 .roadmap-content-container .roadmap-content .content-item span i {
-  font-size: 8px;
+  font-size: 0.5rem;
   margin-right: 1rem;
-}
-
-.roadmap-content-container .roadmap-content .content-item h5 {
-  margin-bottom: 0.25rem;
-  color: #3a4374;
 }
 
 .roadmap-content-container .roadmap-content .content-item p {
@@ -697,7 +694,7 @@ body {
     display: block;
     width: 100%;
     margin: 0;
-    padding: 0 24px;
+    padding: 0 1.5rem;
   }
   .roadmap-content-container .roadmap-content {
     width: 99%;
@@ -705,10 +702,10 @@ body {
   }
   .roadmap-content-container .roadmap-content .content-header {
     margin-bottom: 0;
-    padding: 24px 0;
+    padding: 1.5rem 0;
   }
   .roadmap-content-container .roadmap-content .content-item {
     margin-top: 0px;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 }

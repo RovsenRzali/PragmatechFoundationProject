@@ -31,7 +31,7 @@ Day15-16 [ 5-6 March 2022]
 
 JavaScript
 
-*Hello Worl
+*Hello World
  -- 2 formada yazıla bilər. Ayrıca bir faylin içində bə ya Html in
  -- Əgər yazacağımız js kodlari çoxdursa bunu ayrica bir faylda yazib import edirik, əgər azdirsa script taginda istifade ederek html daxilində yaziriqş
  --script tagi nin icində yazilmayan kodlari brauzer js kodu kimi tanimirş
