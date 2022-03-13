@@ -49,3 +49,7 @@ JavaScript
    --5.34 də 2li say sisteminə çevrilir və ona uyğun olaraq yaddada tutduğu yer hesablanır.
    --undefined,Nan, null un binary dəki qarşılıqlarına baxırıq. binary dəki qarşılıqları qədər yaddaşda yer tutur.
    --let a  stack yaddaşda yer tutur amma burda ona heç bir dəyişən vermədiyimiz üçün yaddaşda yer tutmayacaq.
+
+  *Type Conversion
+   --Rəqəmlə yazilan məlumat növunu text kimi oxumaq lazimdirsə o zaman lazim olur.  Yəni hesablamanın yalnız nəticəsin deildə özünü görmək istədikdə cpnvert lazım olur.
+   --3 formada həyata keçirilir. String Conversion, Numeric Conversion, Boolean Conversionş
