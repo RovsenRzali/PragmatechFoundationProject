@@ -39,3 +39,13 @@ JavaScript
  *Code Structure
   --hansı statement əvvəl js ; olduğunu qəbul etmirsə o zaman ;(semiclon) istifadə edilir.
   --// əgər commenti  bir sətirdə yazacayıqsa forvard slash dan istifadə olunur. /* */ Əgər yazacağımız comment 2 və yadaha artıq əstri əhatə edəcəksə forvar slash və asterisk dən istifadə edirik.
+
+  *Variables
+   --let və var  demək olarki eyni ifadələrdi, sadəcə olaraq varold schooda istifadə olunur.  Const sabit və dəyişməyən dəyərlər üçün istifadə olunur.
+   --dəyişən təyin edrkən js də istifadə olunan ifadələrdən istifadə etmək olmaz, dəyişənin adı yığcam və readable  olmalıdı.
+   --x dəyişəninə 2ci dəfə dəyər verdiyimiz zaman 1ci dəyər remove olur.
+
+  *Data types
+   --5.34 də 2li say sisteminə çevrilir və ona uyğun olaraq yaddada tutduğu yer hesablanır.
+   --undefined,Nan, null un binary dəki qarşılıqlarına baxırıq. binary dəki qarşılıqları qədər yaddaşda yer tutur.
+   --let a  stack yaddaşda yer tutur amma burda ona heç bir dəyişən vermədiyimiz üçün yaddaşda yer tutmayacaq.
