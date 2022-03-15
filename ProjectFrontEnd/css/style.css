@@ -686,7 +686,7 @@ body {
 }
 
 .delivery-content {
-  border: solid;
+  /* border: solid; */
   /* height: inherit; */
   padding-left: 5%;
   color: #fff;
