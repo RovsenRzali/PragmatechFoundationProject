@@ -134,7 +134,6 @@ body {
 .dropdown > li {
   position: relative;
   border: 1px;
-  list-style-type: none;
 }
 
 .dropdown > li i {
@@ -277,6 +276,7 @@ body {
 @media (max-width: 576px) {
   #slide-content-maincontainer {
     max-height: 69%;
+    margin-top: 32%;
     padding: 0 2%;
     box-sizing: border-box;
   }
