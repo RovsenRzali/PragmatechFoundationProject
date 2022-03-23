@@ -52,4 +52,21 @@ JavaScript
 
   *Type Conversion
    --Rəqəmlə yazilan məlumat növunu text kimi oxumaq lazimdirsə o zaman lazim olur.  Yəni hesablamanın yalnız nəticəsin deildə özünü görmək istədikdə cpnvert lazım olur.
-   --3 formada həyata keçirilir. String Conversion, Numeric Conversion, Boolean Conversionş
+   --3 formada həyata keçirilir. String Conversion, Numeric Conversion, Boolean Conversion.
+
+DAy19 { 19 March 2022}
+
+*Imperative and Declarative Approaching in programmin.
+ --Proqramlaşdırma dilinin dizayn olunması dedikdə proqramlaşdırma dilinin yaradılmasını başa düşürəm. Proqramlaşdırma dilinin özüdə bir proqram olub hər hasısa bir proqramlaşdırma dilində yaradılır. Proqrmalaşdırma dili yaratmaq üçün biz əvvəlcədən bir plan qurmalıyıq. Biz birinci dəyişənləri, funksiyaları, keyword  təyin etməliyik.Proqramlaşdırma dilinin sintaksis ardıcılığını müəyyənləşdirməliyik. Lexing qurmalayıqki yazdığımız  sintaksisi  tokenlere çevirə bilsin yəni proqramlaşdırma dili strings, number, operators, variables arasindaki fərqi ayırd eəd bilməlidir. Sonraki mərhələdə biz parsing yaratmalıyıq. Parser tokenleri  bir-birine bağlı struktur halına gətirir.  Yazılmış kod bir birine bağlı struktura halına gəldikdən sonra yazılmış kodu run etmək asan olur.
+ Biz yazdığımız proqramlaşdırma dilinə əvvəlcədən grammatik qaydalar təyin etməliyik ki, prqram istifadə olunan zaman error ortaya çıxarsa bunun səbəbin tapmaq asan olsun.
+ SOURCE:https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/
+
+ --İmperative approach:Mən online bir məhsul sifariş         edirəm və məhsulun hansı ünvana, nə vaxt çatdırılacağını və ünvanı və unvana hansı yola gəlməli olduqlarını yazıram.
+   Declarative approach--Mən məhsul sifariş edirəm və məshulu unvana çatdırmalı olduqlarını qeyd edirəm.
+
+ --Funksiyalar da deklarativ yanasmadan istifadə edir. Funksilarda işin necə yerinə yetiriləcəyi deil nə yerinə yetiriləcəyi yazılır.
+
+https://medium.com/frontend-development-with-js/imperative-declarative-programlama-242e3dce26e
+
+
+
