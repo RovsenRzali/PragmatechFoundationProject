@@ -66,7 +66,33 @@ DAy19 { 19 March 2022}
 
  --Funksiyalar da deklarativ yanasmadan istifadə edir. Funksilarda işin necə yerinə yetiriləcəyi deil nə yerinə yetiriləcəyi yazılır.
 
-https://medium.com/frontend-development-with-js/imperative-declarative-programlama-242e3dce26e
+  https://medium.com/frontend-development-with-js/imperative-declarative-programlama-242e3dce26e
+
+
+  *Function in Javascript
+   -- Function declaration 3 formada yazılır:
+      1.1 Regular function--Bir dəfə function yazirsan və onu lazım olduqca müxtəlif yerlərdə çağıra bilirsən
+        function sum(a,b) {
+          return a + b;
+        }
+      1.2 Function expression--Js bəyanatı "function" açar sözü ilə başlamır. "const" sözü ilə başlayır və ya () ("Hello") bu formatda yazılır.
+       const isTruthy = function(value) {
+         return !!value;
+       }
+       (function messageFunction(message) {
+         return message + "World"
+       })
+      1.3 Functional declaration in conditional-- burda Function mötərizə içərisində yazılır.  Mötərizə içərisində yazılan Function kənarda çağıranda Erorr yaranır.
+      https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/#2functionexpression
+
+    --Fərqli formada təyin olunan functionlar layihənin yazılışında function ların  bir və ya çox yerdə yazılacağında asılı olaraq fərqli formada yazılırş Əgər bir funksiyanı bir çox yerdə istifadə edəcəyiksə "function sum()" formada yazılır. Yazacağımız funksiya bir yerdə istifadə olunacaq "const" sözü ilə yazırıq.
+
+    --Global scope yazdığıımız variable ları functionın daxilindədə istifadə edə bilərik. Local scope da yazdığımız variable ları {} mötərizədən kənarda istifadə edə bilmirik. Local scope da  əvvəlcədən yazılmış variable ı yenidən təyin edə bilirik.
+
+
+
+
+
 
 
 
