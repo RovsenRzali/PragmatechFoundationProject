@@ -89,6 +89,23 @@ DAy19 { 19 March 2022}
 
     --Global scope yazdığıımız variable ları functionın daxilindədə istifadə edə bilərik. Local scope da yazdığımız variable ları {} mötərizədən kənarda istifadə edə bilmirik. Local scope da  əvvəlcədən yazılmış variable ı yenidən təyin edə bilirik.
 
+    --Function's name  take a memory in stack "getowner" but "function features" take a memory in heap "function getowner() { let userName = Rovshan; console.log(userName)}
+    https://felixgerschau.com/javascript-memory-management/#memory-life-cycle
+
+
+  *Növbəti dərsin mövzuları
+   --Allocate memory-İt allocte the memory for object we creat.
+   --Use memory-reading and writining objects in memory.
+   --Release memory-this step is controled by Javascript. When allocated memory is released, I will able to use other functions.
+
+   --Static allocation vs dynamic allocation: In advance  Javascript allocate fixed memory for primitive values(strings,number, undefiend and null) and references. Engine know size at compile time. Allocate memory before exucition will named "static memory allocation. Dynamic allocation is that engine doesn't allocate fixed memory for objects.  Space will allocated to appropriate size of objects or function.
+   https://felixgerschau.com/javascript-memory-management/#memory-life-cycle
+
+   --Garbage collector-when JavaScript engine reveal that variable or function is not used, it will released the ocuppied memory.
+
+   --Function and variables are stored memory for exucition context before we run the code. This is called "hosting".
+
+
 
 
 
