@@ -105,6 +105,14 @@ DAy19 { 19 March 2022}
 
    --Function and variables are stored memory for exucition context before we run the code. This is called "hosting".
 
+   --Scopa chain-we declare functions, variables inside the scope.  there are 3 tree types of scobe: global scope, block scope, function scope.
+
+   Day20-21 [ 26-27 March 2022]
+
+   *Javascript Function
+    --what is "void" and return function?
+       If we write “return” keyword in  function we call this “return function”, or not we call this “Voidfunction”
+
 
 
 
