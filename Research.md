@@ -110,8 +110,12 @@ DAy19 { 19 March 2022}
    Day20-21 [ 26-27 March 2022]
 
    *Javascript Function
+
     --what is "void" and return function?
        If we write “return” keyword in  function we call this “return function”, or not we call this “Voidfunction”
+
+    --return keyword-unun var olma məqsədi nədir?
+      Return keywordu  funksiyanin return (çevirdiyi, qaytardıği) dəyəri müəyyən edir.Əgər return olunan funksiyada return ifadəsini  yazmasaq cavab undifined olacaq, çunki function scope da hesablanan deyer çölə çixa bilmiyəcək.
 
 
 
