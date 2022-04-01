@@ -117,8 +117,11 @@ DAy19 { 19 March 2022}
     --return keyword-unun var olma məqsədi nədir?
       Return keywordu  funksiyanin return (çevirdiyi, qaytardıği) dəyəri müəyyən edir.Əgər return olunan funksiyada return ifadəsini  yazmasaq cavab undifined olacaq, çunki function scope da hesablanan deyer çölə çixa bilmiyəcək.
 
+  *Scope
 
-
+  ==block scope--təyin edilmis dəyisənin qarsindaki acar söz curly brace nin içərisindən kənarda oxuna bilirsə bu block scope adlanir.
+  ==function scope--açar söz curly brace dən kənarda oxuna bilmirsə bu function scope adlanır.
+  ==globe scope--təyin edilmiş dəyişənin qarşısında açar söz yoxdursa bu global scope adlanır.
 
 
 
