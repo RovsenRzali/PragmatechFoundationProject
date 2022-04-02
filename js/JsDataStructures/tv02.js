@@ -9,26 +9,27 @@ let students = {
     yaslar: ages
 }
 
+
 //expected output
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
 
 function singlePersonDetail(x) {
-  console.log("Ad:" + names[x], "Soyad:" + surnames[x], "Yas:" + ages[x])
+  x--
+  console.log("Ad:" + students["adlar"][x], "Soyad:" + students["soyadlar"][x], "Yas:" + students["yaslar"][x])
 }
 
-singlePersonDetail(0)
-singlePersonDetail(1)
+// singlePersonDetail(1)  //write here number of student from 1 to 5
 
 
-let i = 0;
+ let i = 0;
 
 function showAllStudent() {
-  if (i < 9) {
-  console.log("Ad:" + names[i], "Soyad:" + surnames[i], "Yas:" + ages[i])
+  if (i < 5) {
+  console.log("Ad:" + students["adlar"][i], "Soyad:" + students["soyadlar"][i], "Yas:" + students["yaslar"][i])
   i++;
   showAllStudent();
-}
+ }
 }
 
-showAllStudent();
+// showAllStudent(); // if you want to see all students use this part
