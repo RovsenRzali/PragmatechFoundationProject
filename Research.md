@@ -1,4 +1,4 @@
-1. Compiler and
+1. Compiler and Interpreter
 2. Interpreter
 We use high-level language as we write a computer program. High-level language  is understandable by humans. This is called Source code.  Computer doesnt understand Source Code.  Compiler and Interpreter convert Source Code to Machine Code. JavaScript, Python Ruby use interpreters.  C, C++, Java use compiplers.
 [Source:https://www.programiz.com/articledifference-compiler-interpreter]
@@ -27,36 +27,36 @@ This contains: Compiler, Interpreter and Assemblers.
 13.Markup language-is a computer langauge that is human-readable. This language uses tags to define elements.Markup language contaien  standard words. Html and CML are popular markup language.
 
 
-### Day15-16 [ 5-6 March 2022]
+# Day15-16 [ 5-6 March 2022]
 
 ## JavaScript
 
-# Hello World
+### Hello World
  - 2 formada yazıla bilər. Ayrıca bir faylin içində bə ya Html in
  - Əgər yazacağımız js kodlari çoxdursa bunu ayrica bir faylda yazib import edirik, əgər azdirsa script taginda istifade ederek html daxilində yaziriqş
  - script tagi nin icində yazilmayan kodlari brauzer js kodu kimi tanimirş
 
- ## Code Structure
+ ### Code Structure
   - hansı statement əvvəl js ; olduğunu qəbul etmirsə o zaman ;(semiclon) istifadə edilir.
   - // əgər commenti  bir sətirdə yazacayıqsa forvard slash dan istifadə olunur. /* */ Əgər yazacağımız comment 2 və yadaha artıq əstri əhatə edəcəksə forvar slash və asterisk dən istifadə edirik.
 
-  # Variables
+  ### Variables
    - let və var  demək olarki eyni ifadələrdi, sadəcə olaraq varold schooda istifadə olunur.  Const sabit və dəyişməyən dəyərlər üçün istifadə olunur.
    - dəyişən təyin edrkən js də istifadə olunan ifadələrdən istifadə etmək olmaz, dəyişənin adı yığcam və readable  olmalıdı.
    - x dəyişəninə 2ci dəfə dəyər verdiyimiz zaman 1ci dəyər remove olur.
 
-  # Data types
+  ### Data types
    - 5.34 də 2li say sisteminə çevrilir və ona uyğun olaraq yaddada tutduğu yer hesablanır.
    - undefined,Nan, null un binary dəki qarşılıqlarına baxırıq. binary dəki qarşılıqları qədər yaddaşda yer tutur.
    - let a  stack yaddaşda yer tutur amma burda ona heç bir dəyişən vermədiyimiz üçün yaddaşda yer tutmayacaq.
 
-  # Type Conversion
+  ### Type Conversion
    - Rəqəmlə yazilan məlumat növunu text kimi oxumaq lazimdirsə o zaman lazim olur.  Yəni hesablamanın yalnız nəticəsin deildə özünü görmək istədikdə cpnvert lazım olur.
    - 3 formada həyata keçirilir. String Conversion, Numeric Conversion, Boolean Conversion.
 
-### DAy19 { 19 March 2022}
+# DAy19 { 19 March 2022}
 
-# Imperative and Declarative Approaching in programmin.
+### Imperative and Declarative Approaching in programmin.
  - Proqramlaşdırma dilinin dizayn olunması dedikdə proqramlaşdırma dilinin yaradılmasını başa düşürəm. Proqramlaşdırma dilinin özüdə bir proqram olub hər hasısa bir proqramlaşdırma dilində yaradılır. Proqrmalaşdırma dili yaratmaq üçün biz əvvəlcədən bir plan qurmalıyıq. Biz birinci dəyişənləri, funksiyaları, keyword  təyin etməliyik.Proqramlaşdırma dilinin sintaksis ardıcılığını müəyyənləşdirməliyik. Lexing qurmalayıqki yazdığımız  sintaksisi  tokenlere çevirə bilsin yəni proqramlaşdırma dili strings, number, operators, variables arasindaki fərqi ayırd eəd bilməlidir. Sonraki mərhələdə biz parsing yaratmalıyıq. Parser tokenleri  bir-birine bağlı struktur halına gətirir.  Yazılmış kod bir birine bağlı struktura halına gəldikdən sonra yazılmış kodu run etmək asan olur.
  Biz yazdığımız proqramlaşdırma dilinə əvvəlcədən grammatik qaydalar təyin etməliyik ki, prqram istifadə olunan zaman error ortaya çıxarsa bunun səbəbin tapmaq asan olsun.
  SOURCE:https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/
@@ -69,7 +69,7 @@ This contains: Compiler, Interpreter and Assemblers.
   https://medium.com/frontend-development-with-js/imperative-declarative-programlama-242e3dce26e
 
 
-  # Function in Javascript
+  ### Function in Javascript
    - Function declaration 3 formada yazılır:
       1.1 Regular function--Bir dəfə function yazirsan və onu lazım olduqca müxtəlif yerlərdə çağıra bilirsən
         function sum(a,b) {
@@ -93,7 +93,7 @@ This contains: Compiler, Interpreter and Assemblers.
     https://felixgerschau.com/javascript-memory-management/#memory-life-cycle
 
 
-  # Növbəti dərsin mövzuları
+  ### Növbəti dərsin mövzuları
    - Allocate memory-İt allocte the memory for object we creat.
    - Use memory-reading and writining objects in memory.
    - Release memory-this step is controled by Javascript. When allocated memory is released, I will able to use other functions.
@@ -109,14 +109,14 @@ This contains: Compiler, Interpreter and Assemblers.
 
 
 
-   ### Day20-21 [ 26-27 March 2022]
+   # Day20-21 [ 26-27 March 2022]
 
    ## Javascript Function
 
-   # what is "void" and return function?*
+   ### what is "void" and return function?*
       - If we write “return” keyword in  function we call this *return function*, or not we call this *Void function*
 
-   # return keyword-unun var olma məqsədi nədir?
+   ### return keyword-unun var olma məqsədi nədir?
     - Return keywordu  funksiyanin return (çevirdiyi, qaytardıği) dəyərini müəyyən edir.Əgər return olunan funksiyada return ifadəsini  yazmasaq cavab undifined olacaq, çunki function scope da hesablanan dəyər global scope da oxuna bilməyəcək.
 
   ## Scope
