@@ -114,10 +114,10 @@ This contains: Compiler, Interpreter and Assemblers.
    ## Javascript Function
 
    ### what is "void" and return function?*
-      - If we write “return” keyword in  function we call this *return function*, or not we call this *Void function*
+   - If we write “return” keyword in  function we call this *return function*, or not we call this *Void function*
 
    ### return keyword-unun var olma məqsədi nədir?
-    - Return keywordu  funksiyanin return (çevirdiyi, qaytardıği) dəyərini müəyyən edir.Əgər return olunan funksiyada return ifadəsini  yazmasaq cavab undifined olacaq, çunki function scope da hesablanan dəyər global scope da oxuna bilməyəcək.
+   - Return keywordu  funksiyanin return (çevirdiyi, qaytardıği) dəyərini müəyyən edir.Əgər return olunan funksiyada return ifadəsini  yazmasaq cavab undifined olacaq, çunki function scope da hesablanan dəyər global scope da oxuna bilməyəcək.
 
   ## Scope
 
