@@ -85,11 +85,11 @@ This contains: Compiler, Interpreter and Assemblers.
       1.3 Functional declaration in conditional-- burda Function mötərizə içərisində yazılır.  Mötərizə içərisində yazılan Function kənarda çağıranda Erorr yaranır.
       https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/#2functionexpression
 
-    - Fərqli formada təyin olunan functionlar layihənin yazılışında function ların  bir və ya çox yerdə yazılacağında asılı olaraq fərqli formada yazılırş Əgər bir funksiyanı bir çox yerdə istifadə edəcəyiksə "function sum()" formada yazılır. Yazacağımız funksiya bir yerdə istifadə olunacaq "const" sözü ilə yazırıq.
+   - Fərqli formada təyin olunan functionlar layihənin yazılışında function ların  bir və ya çox yerdə yazılacağında asılı olaraq fərqli formada yazılırş Əgər bir funksiyanı bir çox yerdə istifadə edəcəyiksə "function sum()" formada yazılır. Yazacağımız funksiya bir yerdə istifadə olunacaq "const" sözü ilə yazırıq.
 
-    - Global scope yazdığıımız variable ları functionın daxilindədə istifadə edə bilərik. Local scope da yazdığımız variable ları {} mötərizədən kənarda istifadə edə bilmirik. Local scope da  əvvəlcədən yazılmış variable ı yenidən təyin edə bilirik.
+   - Global scope yazdığıımız variable ları functionın daxilindədə istifadə edə bilərik. Local scope da yazdığımız variable ları {} mötərizədən kənarda istifadə edə bilmirik. Local scope da  əvvəlcədən yazılmış variable ı yenidən təyin edə bilirik.
 
-    - Function's name  take a memory in stack "getowner" but "function features" take a memory in heap "function getowner() { let userName = Rovshan; console.log(userName)}
+   - Function's name  take a memory in stack "getowner" but "function features" take a memory in heap "function getowner() { let userName = Rovshan; console.log(userName)}
     https://felixgerschau.com/javascript-memory-management/#memory-life-cycle
 
 
