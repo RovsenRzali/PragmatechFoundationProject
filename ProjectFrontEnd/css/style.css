@@ -550,12 +550,15 @@ body {
 /* Water-info-begin */
 #water-info {
   padding-top: 5.8%;
+  display: flex;
+  justify-content: center;
 }
 
 .water-info-content-container {
   /* border: solid 1px; */
-  align-items: center;
+  /* max-width: 1200px; */
   display: flex;
+  justify-content: center;
   /* width: 100%; */
 }
 
@@ -629,7 +632,7 @@ body {
 .water-info-contain-pt25-pl70-textright {
   padding-right: 4.375rem;
   padding-top: 25px;
-  text-align: right;
+  text-align: left;
 }
 
 .water-info-contain-mt50-textcenter {
