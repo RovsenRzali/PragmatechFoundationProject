@@ -15,7 +15,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 643px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ body {
 }
 
 .top-direction-container {
-  /* border: solid 2px black; */
+  /* border: solid; */
   color: rgb(250, 244, 244);
   font-size: 1rem;
   font-weight: 700;
@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .top-direction-container img {
@@ -79,8 +80,14 @@ body {
   padding: 0%;
 }
 
+#navbar-mobile {
+  /* border: solid black; */
+  width: 100%;
+}
+
 .navmobile-container {
   /* border: solid; */
+  margin-top: 5px;
   padding: 5px 15px 5px 14px;
   display: flex;
   justify-content: space-between;
@@ -93,7 +100,7 @@ body {
 }
 
 .navbar-mobile-socialmedia {
-  /* border: solid 2px;  */
+  /* border: solid 2px; */
   box-sizing: border-box;
   padding: 0;
   display: flex;
@@ -113,7 +120,12 @@ body {
 }
 
 .dropdown i {
+  /* border: solid; */
   margin-left: 1rem;
+  padding-top: 0.5px;
+  font-size: 20px;
+  color: #fff;
+  vertical-align: middle;
 }
 
 .dropdown > li a {
@@ -133,7 +145,7 @@ body {
 }
 
 .dropdown > li i {
-  border: 1px solid;
+  /* border: 1px solid; */
   /* padding-right: .6rem; */
 }
 
@@ -161,6 +173,8 @@ body {
 @media (max-width: 576px) {
   .bigmaincontainer {
     display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .navbar-desktop {
@@ -172,14 +186,42 @@ body {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 800px) {
+  .bigmaincontainer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+  }
+  .navbar-desktop {
+    display: none;
+  }
+
+  #navbar-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .bigmaincontainer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+  }
   .navbar-desktop {
     display: block;
+    width: 100%;
+  }
+
+  .top-direction-container {
+    width: 99%;
   }
 
   #navbar-mobile {
     display: none;
-    z-index: 1;
   }
 }
 
@@ -327,12 +369,12 @@ body {
 /* PRODUCT PART BEGIN */
 
 .container {
-  width: 97%;
   padding: 0 1%;
 }
 
 .product-part-goods-container {
   /* border: solid 1px; */
+  margin-right: 0;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -507,22 +549,37 @@ body {
   }
 
   .single-goods-container {
-    width: 99%;
+    width: 100%;
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
   .product-part-goods-container {
     display: flex;
   }
 
-  .product-part-single-goods-1 {
+  .single-goods-container {
     width: calc(100% / 3);
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .product-part-single-goods-1 {
     padding: 0;
     margin: 0 1%;
   }
+}
 
-
+@media (min-width: 800px) and (max-width: 1200px) {
+  .single-goods-container {
+    width: calc(100% / 3);
+    height: 100%;
+    box-sizing: border-box;
+  }
 }
 
 /* product-part-end */
@@ -605,7 +662,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
   .water-info-content-container {
     flex-direction: column;
   }
@@ -620,7 +676,6 @@ body {
     text-align: left;
     padding-left: 30%;
     height: 100%;
-
   }
 
   .water-info-contain-pt25-pl70-textright {
@@ -637,13 +692,20 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-
-  .water-info-content-container {
-    flex-direction: column;
-  }
-
   .water-info-contain-pt25-pl70 {
-    /* width: 100%; */
+    padding-left: 0;
+  }
+  .water-info-contain-pt25-pl70-textright {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .water-info-contain-pt25-pl70 {
+    padding-left: 25%;
+  }
+  .water-info-contain-pt25-pl70-textright {
+    padding-right: 25%;
   }
 }
 
