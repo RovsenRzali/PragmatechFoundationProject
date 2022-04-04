@@ -3,9 +3,8 @@ html {
 }
 
 body {
-  /* border: solid 2px red; */
+  border: solid 2px red;
   position: relative;
-  margin: auto;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
@@ -106,7 +105,6 @@ body {
   color: #fff;
   margin-left: 1.1rem;
   font-size: 22px;
-
 }
 
 .dropdown {
@@ -117,8 +115,6 @@ body {
 .dropdown i {
   margin-left: 1rem;
 }
-
-
 
 .dropdown > li a {
   border-bottom: 1px solid;
@@ -174,8 +170,6 @@ body {
   #navbar-mobile {
     display: block;
   }
-
-
 }
 
 @media (min-width: 576px) {
@@ -296,7 +290,6 @@ body {
     font-weight: bold;
     box-sizing: border-box;
   }
-
 }
 
 .arrows {
@@ -516,29 +509,6 @@ body {
   .single-goods-container {
     width: 99%;
   }
-
-
-
-  .water-info-content-container {
-    flex-direction: column;
-  }
-
-  .water-info-contain-pt25-pl70 {
-    width: 100%;
-    text-align: left;
-  }
-
-  .water-info-contain-pt25-pl70-textright {
-    margin-right: 0 !important;
-    margin-left: 25%;
-    padding-right: 5% !important;
-
-  }
-
-  .delivery img {
-    display: none;
-
-  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -552,18 +522,10 @@ body {
     margin: 0 1%;
   }
 
-  .water-info-content-container {
-    flex-direction: column;
-  }
 
-  .water-info-contain-pt25-pl70 {
-    width: 100%;
-  }
 }
 
 /* product-part-end */
-
-
 
 /* Water-info-begin */
 #water-info {
@@ -580,22 +542,17 @@ body {
 }
 
 .water-info-contain {
+  /* border: solid; */
+  width: 33.33%;
   min-height: 1px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   box-sizing: border-box;
-
 }
-
-
 
 .water-info-contain-pt25-pl70 {
   /* border: solid; */
-  width: 395px;
-  height: 135px;
-  margin-top: 50px;
-  padding-left: 5%;
+  height: 165px;
+  margin-top: 20px;
+  padding-left: 40%;
   text-align: right;
   font-size: 1rem;
   line-height: 1.5;
@@ -606,16 +563,12 @@ body {
 .water-info-contain-pt25-pl70-textright h4 {
   /* border-bottom: dashed; */
   padding-bottom: 7px;
-  margin: 0px;
   font-size: 25px;
   font-weight: 700;
   color: #2e4db9;
   line-height: 1.5;
   box-sizing: border-box;
-
 }
-
-
 
 .water-info-contain p {
   /* border: solid; */
@@ -624,21 +577,14 @@ body {
   line-height: 1.5;
   letter-spacing: 1px;
   color: #2c2d3e;
-  margin: 0;
-  padding-top: 0;
-  display: block;
   box-sizing: border-box;
-
 }
-
-
 
 .water-info-contain-pt25-pl70-textright {
   /* border: solid; */
-    width: 395px;
-    height: 135px;
-  margin-top: 50px;
-  padding-right: 5%;
+  height: 165px;
+  margin-top: 20px;
+  padding-right: 40%;
   text-align: left;
   font-size: 1rem;
   line-height: 1.5;
@@ -652,15 +598,54 @@ body {
   justify-content: center;
 }
 
-
-
 .water-info-contain-mt50-textcenter img {
   margin-top: 19px;
   /* max-width: 100%; */
   box-sizing: border-box;
 }
 
+@media (max-width: 576px) {
 
+  .water-info-content-container {
+    flex-direction: column;
+  }
+
+  .water-info-contain {
+    /* border: solid; */
+    width: 100%;
+  }
+
+  .water-info-contain-pt25-pl70 {
+    /* border: solid; */
+    text-align: left;
+    padding-left: 30%;
+    height: 100%;
+
+  }
+
+  .water-info-contain-pt25-pl70-textright {
+    /* border: solid; */
+    height: 100%;
+    text-align: right;
+    padding-left: 15%;
+    padding-right: 25%;
+  }
+
+  .delivery img {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+  .water-info-content-container {
+    flex-direction: column;
+  }
+
+  .water-info-contain-pt25-pl70 {
+    /* width: 100%; */
+  }
+}
 
 .delivery {
   background-image: url(../img/bg-5.jpg);
@@ -677,19 +662,13 @@ body {
 .overlay {
   width: 100%;
   height: inherit;
-  transition: all 0.2s linear;
   background: linear-gradient(
     180deg,
     rgba(46, 77, 185, 0.9) 0%,
     rgba(0, 23, 36, 0.5) 100%
   );
   opacity: 0.8;
-  border-radius: inherit;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   z-index: 1;
-  /* margin: auto; */
   display: flex;
 }
 

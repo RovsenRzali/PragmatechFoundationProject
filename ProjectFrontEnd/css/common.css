@@ -194,13 +194,7 @@
   }
 }
 
-body {
-  /* border: solid 2px  red; */
-  margin: auto;
-  padding: 0px;
-  font-family: "Open Sans", sans-serif;
-  /* width: 100%; */
-}
+
 
 
 
@@ -385,7 +379,7 @@ span {
 }
 
 .endpart-container {
-  height: 80vh;
+  /* height: 80vh; */
   background-color: var(--blue-color);
   padding: 0.1% 5% 0 5%;
 
@@ -412,7 +406,7 @@ span {
 
 .all-info-header p {
   margin-bottom: 2rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
 
 }
@@ -432,6 +426,7 @@ span {
 
 .all-info a {
   color: #fff;
+  font-size: 1rem;
 }
 
 
