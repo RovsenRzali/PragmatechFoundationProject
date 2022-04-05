@@ -119,6 +119,7 @@ span {
 .navbar-mobile-socialmedia a {
   color: #2c2d3e;
   margin-left: 1.1rem;
+  font-size: 22px;
 }
 
 .dropdown {
@@ -128,12 +129,13 @@ span {
 
 .dropdown i {
   margin-left: 1rem;
+  font-size: 22.5px;
   color: #2c2d3e;
 }
 
 .dropdown > li a {
   /* border: 1px solid; */
-  color: #1a06cf;
+  color: black;
   border-bottom: 1px solid;
   display: block;
   margin: 7px;
@@ -148,24 +150,24 @@ span {
 }
 
 .dropdown > li > ul {
-    display: none;
-    flex-direction: column;
-    width: 320px;
-    box-sizing: border-box;
-    background-color: #fff;
-    transition: all 1s ease;
+  display: none;
+  flex-direction: column;
+  width: 320px;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: all 1s ease;
 }
 
 .dropdown > li:hover ul {
-    display: block;
-    box-sizing: border-box;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 1;
-    top: 25px;
-    right: 0;
-    left: -300px;
-    transform: translateX(-1%);
+  display: block;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  right: 0;
+  left: -300px;
+  transform: translateX(-1%);
 }
 
 @media (max-width: 576px) {
@@ -194,7 +196,7 @@ span {
 #about-container {
   display: flex;
   justify-content: center;
-  margin-bottom:60px;
+  margin-bottom: 60px;
 }
 
 .about-container {
@@ -236,9 +238,7 @@ span {
   box-sizing: border-box;
 }
 
-
 @media (max-width: 576px) {
-
   .about-container {
     display: flex;
     flex-direction: column;
@@ -254,5 +254,3 @@ span {
     box-sizing: border-box;
   }
 }
-
-
