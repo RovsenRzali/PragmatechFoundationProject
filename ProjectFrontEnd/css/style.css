@@ -143,10 +143,7 @@ body {
   border: 1px;
 }
 
-.dropdown > li i {
-  /* border: 1px solid; */
-  /* padding-right: .6rem; */
-}
+
 
 .dropdown > li > ul {
   display: none;

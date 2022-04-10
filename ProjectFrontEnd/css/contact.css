@@ -116,10 +116,7 @@
   border: 1px;
 }
 
-.dropdown > li i {
-  /* border: 1px solid; */
-  /* padding-right: .6rem; */
-}
+
 
 .dropdown > li > ul {
   display: none;
@@ -194,4 +191,120 @@
   #navbar-mobile {
     display: none;
   }
+}
+
+.contact-content-container {
+  border: solid;
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+  padding: 5%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.short-info {
+  border: solid;
+  max-width: 33.33%;
+}
+
+.short-info h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #112c91;
+}
+
+.short-info p {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 400;
+  color: #002c8f;
+}
+
+.work-clock {
+  border: solid;
+
+}
+
+.work-clock h3{
+  color: #112c91;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.work-clock h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #112c91;
+  display: inline-block;
+}
+
+.work-clock span {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 400;
+  color: #002c8f;
+}
+
+
+.contact-ways{
+  border: solid;
+
+}
+
+.delivery-content {
+  /* border: solid; */
+  /* height: inherit; */
+  padding-left: 5%;
+  color: black;
+  font-size: 1.5rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.delivery-content ul > li {
+  margin: 1rem 0;
+  color: #002c8f;
+}
+
+.delivery-content ul > li:nth-child(1) i {
+  background-color: rgb(90 241 118);
+  color: white;
+}
+
+.delivery-content ul > li:nth-child(2) i {
+  background-color: rgb(90 241 118);
+  color: white;
+}
+
+.delivery-content ul > li:nth-child(3) i {
+  background-color: rgb(90 241 118);
+  color: #fff;
+}
+
+.delivery-content ul > li:nth-child(4) i {
+  background-color: #168de2;
+  color: #ffa930;
+}
+
+.delivery-content ul > li:nth-child(5) i {
+  background-color: #42a9fe;
+  color: #fff;
+}
+
+.delivery-content ul > li:nth-child(6) i {
+  background-color: #fd1d1d;
+  color: #fff;
+}
+
+.delivery-content i {
+  border: solid 1px black;
+  border-radius: 50px;
+  background-color: #fff;
+  color: red;
+  padding: 0.2rem 0.3rem;
 }
