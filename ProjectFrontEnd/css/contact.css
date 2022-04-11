@@ -194,19 +194,20 @@
 }
 
 .contact-content-container {
-  border: solid;
+  /* border: solid; */
   width: 1200px;
   height: 100vh;
   margin: auto;
   padding: 5%;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .short-info {
-  border: solid;
+  /* border: solid; */
   max-width: 33.33%;
+  margin-right: 10px;
 }
 
 .short-info h2 {
@@ -223,8 +224,12 @@
 }
 
 .work-clock {
-  border: solid;
+  /* border: solid; */
+  margin-right: 50px;
+}
 
+.work-clock ul {
+  margin-bottom: 15px;
 }
 
 .work-clock h3{
@@ -249,7 +254,7 @@
 
 
 .contact-ways{
-  border: solid;
+  /* border: solid; */
 
 }
 
@@ -263,6 +268,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.delivery-content h3 {
+  color: #112c91;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 
