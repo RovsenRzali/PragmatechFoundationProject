@@ -76,3 +76,39 @@ console.log((oneNumberCount(arr).length / 2) + (twoNumberCount(arr).length / 2) 
 }
 
 sumPairs()
+
+'use strict';
+
+function myCalc(n) {
+    let randArr = [];
+    for (let i = 0; i <= n; i++) {
+        randArr.push(Math.floor(Math.random() * n));
+    }
+
+    const randArr_1 = randArr.sort(function(a, b) {
+        return a - b;
+    });
+
+    let cut = [];
+    let tek = [];
+
+    for (let i in randArr_1) {
+        if (i % 2 == 0) {
+            cut.push(randArr_1[i])
+        } else {
+            tek.push(randArr_1[i])
+        }
+    }
+
+    let result = [];
+    for (let i = 0; i < cut.length; i++) {
+        if (cut[i] === tek[i]) {
+            result.push(cut[i]);
+        }
+    }
+
+
+    return result.length;
+}
+
+console.log(myCalc(5));
