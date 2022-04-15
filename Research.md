@@ -71,7 +71,7 @@ This contains: Compiler, Interpreter and Assemblers.
 
   ### Function in Javascript
    - Function declaration 3 formada yazılır:
-      1.1 Regular function--Bir dəfə function yazirsan və onu lazım olduqca müxtəlif yerlərdə çağıra bilirsən
+      1.1 Regular function--Bir dəfə function yazirsan və onu lazım olduqca müxtəlif yerlərdə çağıra bilirsiniz
         function sum(a,b) {
           return a + b;
         }
@@ -121,9 +121,119 @@ This contains: Compiler, Interpreter and Assemblers.
 
   ## Scope
 
-   - block scope--təyin edilmis dəyisənin qarsindaki acar söz curly brace nin içərisindən kənarda oxuna bilirsə bu block scope adlanir.
+   - block scope--təyin edilmis dəyişənin qarsindaki acar söz curly brace nin içərisindən kənarda oxuna bilirsə bu block scope adlanir.
    - function scope--açar söz curly brace dən kənarda oxuna bilmirsə bu function scope adlanır.
    - globe scope--təyin edilmiş dəyişənin qarşısında açar söz yoxdursa bu global scope adlanır.
+
+
+  ### Function
+
+  Funksiyalar JavaScript-də  fundamental inşa blokalrından biridir. Js-də funksiya prosedura bənzəyir-bir ifadə yradırsan vı həmin ifadə bir tapşırığı yerinı yetirir və ya bir dəyəru hesblayır. Prosedurun funksiya kimi olmağı üçün o verilənlər(input) və nəticə(output) arasında aşkar bir əlaqə olduğu zaman gərək  bir input(verilənlər) qəbul edsin və bir nəticə(output) versin(return). Funksiyanı istifadı etmək üçün siz onu scope daxilində bir yerdə təyin etməlisiniz ki sordan onu çağıra(call) biləsiniz.
+
+
+  ## Funksiyanın tıyin edilməsi.
+
+  ## Funksiyanın elan edilməsi.
+
+  Bir funksiyanın təyin edilməsi (həmçinin adlanır "function declaration", "function statement") "function" açar sözündən və aşağıdakılardan ibarətdir.
+
+   - funksiyanın adından.
+   - Sadə mötərizə () daxilində bir-birindən vergülə ayrılan
+     parametrlərdən.
+   - Bəzəkli mötəriz{} daxilində funksiyanın yerinə yetirəcəyi
+     JavaScript ifadələri.
+
+  Misal üçün aşağıdakı kodlar "square(kvadrat)" adlanan funkisyanı müəyyən edir:
+
+       function square(number) {
+          return number * number;
+       }
+
+  "square" funksiyası "number" adlnan bir parametr qəbul edir. Bu funksiya bir ifadədən ibarətdir və həmin ifadə verilmiş dəyparametrin(number) kvadratını hesablayır. "return" ifadəsi müəyyən olunmuş dəyəri scope-dan kənara çıxardır.
+
+        return number * number;
+
+  Parametrlər funksiyay mahiyyət etibarilə dəyər tərəfindən ötürülür-belə ki, funksiyanın gövdəsindəki kod funksiyaya ötürülən parametrə tamamilə yeni bir dəyər təyin edərsə dəyişiklik qlobal miqyasda və ya bu funksiyanı çağıran kodda əks olunmur.
+
+  Siz obyekti bir parametr kimi ötürəndə  əgər funksiya obyektin xassələrini dəyişirsə bu dəyişiklik aşağıdakı funskyada göstərildiyi kimi  funksiyanın kənarına görünür.
+
+               function myFunc(theObject) {
+               theObject.make = 'Toyota';
+              }
+
+               var mycar = {make: 'Honda', model: 'Accord', year:   1998};
+               var x, y;
+
+               x = mycar.make; // x gets the value "Honda"
+
+               myFunc(mycar);
+               y = mycar.make; // y gets the value "Toyota"
+                             // (the make property was
+                                 changed by the function)
+
+
+  ## Funksional ifadələr(Function expression)
+
+    Funksiyanın yaradılamsı yuxarıda  sintakti bir ifadə kimi yaradılmaqla yanaşı  "functional expressions" kimidə yardıla bilər.
+
+    Belə ifadələe "anontmous"-da ola bilər, onun adlandırlımağa ehtiyacı yoxdur. Misal üçün "square" funksiyası aşağıdakı kimdı təyin edilə bilər.
+
+      const square = function(number) {
+        return number * number
+      }
+       var x = square(4) // x gets the value 16
+
+    Bununla belə, ad funksiya ifadəsi ilə təyin edilə bilər. Adın verilməsi funksiyanın özünə istinad etməyə imkan veir və həmçinin onu debugger konsolunu içərisində izləməyi asanlaşdırır.
+
+      const factorial = function fac(n) {
+        return n < 2 ? 1 : n * fac(n - 1)
+        }
+
+      console.log(factorial(3))
+
+
+    Function expression funksiyanı başqa bir funksiyanın içərisinə arqument kimi ötürmək üçündə əlverişlidir. Aşağıda göstərilən "map" funksiyası birinci arqumentinə başqa bir funsiya, ikinci arqumentə isə array ötürülür.
+
+      function map(f, a) {
+        let result = []; // Create a new Array
+        let i; // Declare variable
+        for (i = 0; i != a.length; i++)
+         result[i] = f(a[i]);
+        return result;
+      }
+
+    Aşağıdakı kodda funksiya function expression tərəfinfə müəyyən edilmiş birmfunksiyanı qəbul edir və onu qəbul edilmiş array in hər bir elementinə tətbiq edir.
+
+      function map(f, a) {
+        let result = []; // Create a new Array
+        let i; // Declare variable
+        for (i = 0; i != a.length; i++)
+          result[i] = f(a[i]);
+        return result;
+      }
+      const f = function(x) {
+         return x * x * x;
+      }
+      let numbers = [0, 1, 2, 5, 10];
+      let cube = map(f,numbers);
+      console.log(cube);
+
+      Funksiyanın nəticəsi: [0, 1, 8, 125, 1000].
+
+    JavaScript-də, funksiya bir şərt əsaslıda təyin edilə bilər.
+    Misal üçün aşağıda elan olunmuş funksiya "myFunc"-ı yalnız "num" bərabərdir 0 olduqda müəyyən edir:
+
+      var myFunc;
+      if (num === 0) {
+        myFunc = function(theObject) {
+          theObject.make = 'Toyota';
+        }
+      }
+
+    Burada təyin edilən funksiyaları təyin etməklə yanaşı, siz həmçinin string-lərdən funksiya yaratmaq üçün "function konstruktor"dan da istifadə edə bilərsiniz, misal üçün
+    eval() kimi.
+
+
 
 
 
