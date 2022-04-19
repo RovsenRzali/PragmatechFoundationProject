@@ -233,6 +233,41 @@ This contains: Compiler, Interpreter and Assemblers.
     Burada təyin edilən funksiyaları təyin etməklə yanaşı, siz həmçinin string-lərdən funksiya yaratmaq üçün "function konstruktor"dan da istifadə edə bilərsiniz, misal üçün
     eval() kimi.
 
+  # Day 26-27
+
+  ## HTML / CSS / JS Araşdırma Sualları
+
+   ### Sual 01
+       HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+       - getElementsById() -- id-i ad;na uyğun elementi obyektə mənimsədəcəyik.
+       - getElementsByName() -- elementin adina uyğun elementi əldə edərək.
+       - getElementByTagName() -- metodu yazılan tag-ə uyğun olaraq elementə müraciət ediləcəkdir.
+       - getElementsByClassName() -- elementin class adina uyğun olaraq elementə müüraciət ediləcəkdir.
+       - querySelector() -- metodu bir və daha çox CSS selektora uyğun olan birinci elementi return edəcək. Əgər selektora uyğun element tapılmasa "Null" return olunacaq.
+       - querySelectorAll() -- metodu querySelector()-dan fərqli olaraq müəyyən olunmuş CSS selektora uyğun bütün elementləru return edəcək.
+
+      Obyektləri idarə etmək üçün metodlar.
+       - creatElement() -- boş element yaradır.
+       - innerHTML -- elementə məlumat əlavə edir.
+       - appendChild -- elementi tələb olunan elementin daxilinə əlavə edir.
+       - removeChild() -- elementi HTML sənədindən silmək üçün istifadə oliunur.
+       - replaceChild() -- parent elment daxilində yerləşən child elementi başqa bir child elementlə əvəz edir.
+       - cloneNode() -- əgər siz mövcud elementin yenisini yaratmaq istəyirsinizsə bu metodla həmin elementi copy edə bilərsiniz.
+       - insertBefore() -- müəyyən edilmiş child elementi digər child elementdən əvvələ əlavə edir. Bu element parent element tərəfindən çağırılır.Əgər istinad edilən child element mövcud deilsə onun yerinə "null" keçir və daxil ediləcək  child element parent elementin sonuncu elementi kimi əlavə edilir.(appendChild() metoduna olduğu kimi)
+       - createDocumentFragment() -- toplu olaraaq birdən çox element daxil etmək istəyirsinizsə bu metod istifadə olunur. Bu metod DOM tree-nin tərkib hissəsi olmayan DOM node əsaslı "DocumentFragment" obyekti yaradır. Bu bufer kimidir haradaki biz digər elementləri birinci əlavə edir və yerləşdirə biliri və sonradan onları DOM tree-də istənilən node-a əlavə olunur.
+       - setAttribute() -- HTML elementinə həm yeni atribut əlavə edə bilir həmdə mövcud atributu yeniləyə bilir.
+       - getAttribute() -- müəyyən HTML elementinə aid müəyyən edilmiş atribut dəyərini return edirş.
+       - removeAttribute() -- spesifik HTML elementindən verilən atributu remove edir.
+
+    ***source***:
+    1. https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/
+    2. https://medium.com/star-gazers/javascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9
+
+
+
+
+
+
 
 
 
