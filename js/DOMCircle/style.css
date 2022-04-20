@@ -1,0 +1,18 @@
+#selector {
+  width: 300px;
+  height: 300px;
+}
+
+#radius {
+  width: 300px;
+  height: 300px;
+}
+
+
+#backgroundColor {
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
