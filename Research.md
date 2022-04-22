@@ -131,7 +131,7 @@ This contains: Compiler, Interpreter and Assemblers.
   Funksiyalar JavaScript-də  fundamental inşa blokalrından biridir. Js-də funksiya prosedura bənzəyir-bir ifadə yradırsan vı həmin ifadə bir tapşırığı yerinı yetirir və ya bir dəyəru hesblayır. Prosedurun funksiya kimi olmağı üçün o verilənlər(input) və nəticə(output) arasında aşkar bir əlaqə olduğu zaman gərək  bir input(verilənlər) qəbul edsin və bir nəticə(output) versin(return). Funksiyanı istifadı etmək üçün siz onu scope daxilində bir yerdə təyin etməlisiniz ki sordan onu çağıra(call) biləsiniz.
 
 
-  ## Funksiyanın tıyin edilməsi.
+  ## Funksiyanın t'yin edilməsi.
 
   ## Funksiyanın elan edilməsi.
 
@@ -260,8 +260,8 @@ This contains: Compiler, Interpreter and Assemblers.
     - removeAttribute() -- spesifik HTML elementindən verilən atributu remove edir.
 
     *** source ***:
-    1. https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/
-    2. https://medium.com/  star-gazersjavascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9
+    1. [https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/]
+    2.[ https://medium.com/ star-gazersjavascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9 ]
 
   ### Sual 02
     DOM Traversing nədir?--Hazır Javascript metdolarından istifadə edərək HTML elementlərinə müraciət edib onlarin xususiyətlərini dəyişdirə bilməkdir.
