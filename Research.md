@@ -238,7 +238,7 @@ This contains: Compiler, Interpreter and Assemblers.
   ## HTML / CSS / JS Araşdırma Sualları
 
   ### Sual 01
-    HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadolunur?
+  HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadolunur?
     - getElementsById() -- id-i ad;na uyğun elementi obyektə mənimsədəcəyik.
     - getElementsByName() -- elementin adina uyğun elementi əldə edərək.
     - getElementByTagName() -- metodu yazılan tag-ə uyğun olaraq elementə müraciəediləcəkdir.
@@ -246,7 +246,7 @@ This contains: Compiler, Interpreter and Assemblers.
     - querySelector() -- metodu bir və daha çox CSS selektora uyğun olan birincelementi return edəcək. Əgər selektora uyğun element tapılmasa "Null" returolunacaq.
     - querySelectorAll() -- metodu querySelector()-dan fərqli olaraq müəyyəolunmuş CSS selektora uyğun bütün elementləru return edəcək.
 
-    Obyektləri idarə etmək üçün metodlar.
+  Obyektləri idarə etmək üçün metodlar.
     - creatElement() -- boş element yaradır.
     - innerHTML -- elementə məlumat əlavə edir.
     - appendChild -- elementi tələb olunan elementin daxilinə əlavə edir.
@@ -264,17 +264,17 @@ This contains: Compiler, Interpreter and Assemblers.
     2.[ https://medium.com/ star-gazersjavascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9 ]
 
   ### Sual 02
-    DOM Traversing nədir?--Hazır Javascript metdolarından istifadə edərək HTML elementlərinə müraciət edib onlarin xususiyətlərini dəyişdirə bilməkdir.
+  DOM Traversing nədir?--Hazır Javascript metdolarından istifadə edərək HTML elementlərinə müraciət edib onlarin xususiyətlərini dəyişdirə bilməkdir.
 
   ### Sual 03
-    DOM element və DOM node arasındakı fərq nədir? -- Element yalnız HTML elementlərindən ibarətdir. Node HTML elementləridə daxil olmaqla, text, comment və daha çoxu bura daxildir. Elments adətən elementləri istifad
+  DOM element və DOM node arasındakı fərq nədir? -- Element yalnız HTML elementlərindən ibarətdir. Node HTML elementləridə daxil olmaqla, text, comment və daha çoxu bura daxildir. Elments adətən elementləri istifad
     edir. Node HTML elementlərin istifadə etməyədə bilər və istifadəsi daha çətindi.
 
   ### Sual 04
     HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?--removeAttribute()  metodundan istifadə etmək olar.
 
   ### Sual 05
-    HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır? --cloneNode() metodundan istifadə etmək olar.
+  HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır? --cloneNode() metodundan istifadə etmək olar.
 
 
 
