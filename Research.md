@@ -243,7 +243,7 @@ This contains: Compiler, Interpreter and Assemblers.
   - getElementsByName() -- elementin adina uyğun elementi əldə edərək.
   - getElementByTagName() -- metodu yazılan tag-ə uyğun olaraq elementə müraciəediləcəkdir.
   - getElementsByClassName() -- elementin class adina uyğun olaraq elementmüüraciət ediləcəkdir.
-  - querySelector() -- metodu bir və daha çox CSS selektora uyğun olan birincelementi return edəcək. Əgər selektora uyğun element tapılmasa "Null" returolunacaq.
+  - querySelector() -- metodu bir və daha çox CSS selektora uyğun olan birincelementi return edəcək. Əgər selektora uyğun element tapılmasa "Null" return olunacaq.
   - querySelectorAll() -- metodu querySelector()-dan fərqli olaraq müəyyəolunmuş CSS selektora uyğun bütün elementləru return edəcək.
 
   Obyektləri idarə etmək üçün metodlar.
@@ -261,7 +261,7 @@ This contains: Compiler, Interpreter and Assemblers.
 
   *** source ***:
   1. [https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/]
-  2.[ https://medium.com/ star-gazersjavascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9 ]
+  2. [ https://medium.com/ star-gazersjavascript-də-ilkin-anlayışlar-javascript-document-object-model-dom-a982bd22a6b9 ]
 
   ### Sual 02
   DOM Traversing nədir?--Hazır Javascript metdolarından istifadə edərək HTML elementlərinə müraciət edib onlarin xususiyətlərini dəyişdirə bilməkdir.
@@ -271,7 +271,7 @@ This contains: Compiler, Interpreter and Assemblers.
     edir. Node HTML elementlərin istifadə etməyədə bilər və istifadəsi daha çətindi.
 
   ### Sual 04
-    HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?--removeAttribute()  metodundan istifadə etmək olar.
+  HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?--removeAttribute()  metodundan istifadə etmək olar.
 
   ### Sual 05
   HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır? --cloneNode() metodundan istifadə etmək olar.
