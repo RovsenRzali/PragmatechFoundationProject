@@ -131,7 +131,7 @@ This contains: Compiler, Interpreter and Assemblers.
   Funksiyalar JavaScript-də  fundamental inşa blokalrından biridir. Js-də funksiya prosedura bənzəyir-bir ifadə yradırsan vı həmin ifadə bir tapşırığı yerinı yetirir və ya bir dəyəru hesblayır. Prosedurun funksiya kimi olmağı üçün o verilənlər(input) və nəticə(output) arasında aşkar bir əlaqə olduğu zaman gərək  bir input(verilənlər) qəbul edsin və bir nəticə(output) versin(return). Funksiyanı istifadı etmək üçün siz onu scope daxilində bir yerdə təyin etməlisiniz ki sordan onu çağıra(call) biləsiniz.
 
 
-  ## Funksiyanın t'yin edilməsi.
+  ## Funksiyanın təyin edilməsi.
 
   ## Funksiyanın elan edilməsi.
 
@@ -275,6 +275,20 @@ This contains: Compiler, Interpreter and Assemblers.
 
   ### Sual 05
   HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır? --cloneNode() metodundan istifadə etmək olar.
+
+  # Day 28 [24 Aprel 2022]
+
+  ### Sual 55
+  nextSibling və nextElementSibling metodları nə işə yarayır və fərqləri nələrdir?
+  -nextSibling  növbəti sibling node-ni elementcnode,text node və ya comment node kimi return edir.
+  -nextElementSibling  növbəti sibling node-ni element node kimi return edir(text və comment node-ları ignore edir).
+
+
+  
+
+
+
+
 
 
 
