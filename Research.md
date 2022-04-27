@@ -281,10 +281,10 @@ This contains: Compiler, Interpreter and Assemblers.
   ### Sual 55
   nextSibling və nextElementSibling metodları nə işə yarayır və fərqləri nələrdir?
   -nextSibling  növbəti sibling node-ni elementcnode,text node və ya comment node kimi return edir.
-  -nextElementSibling  növbəti sibling node-ni element node kimi return edir(text və comment node-ları ignore edir).
+  -nextElementSibling  növbəti sibling node-ni element node kimi return edir(text və comment node-ları ignore edir). 
 
 
-  
+
 
 
 
