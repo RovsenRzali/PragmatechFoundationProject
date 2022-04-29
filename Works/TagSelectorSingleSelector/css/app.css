@@ -42,18 +42,28 @@ body {
   align-items: center;
 }
 
-.film-names i {
+/* .film-names i {
   display: none;
-  margin-left: 10px;
 }
 
 .film-names:hover  i {
   display: block;
-}
+} */
 
 .film-names h4 {
   /* border: solid; */
   /* display: inline-block; */
+  cursor: pointer;
+}
+
+
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
 }
 
 
