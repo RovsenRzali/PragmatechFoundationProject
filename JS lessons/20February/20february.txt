@@ -1,0 +1,18 @@
+- Tərcümə olunma qaydasına görə dillər
+  -interprete 
+  - compiler
+
+- Programming Paradigms
+  - İmperatirv
+    - Prosedural
+    - OOP
+  - Declarativ 
+    - Functional 
+
+- Programming Consepts
+ - variables
+ - Data types
+ - Operators
+ - Functions
+ - Conditions
+ - Loops
