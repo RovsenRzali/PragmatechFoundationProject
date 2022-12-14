@@ -2,7 +2,7 @@ let x = false;
 let y = true;
 let operator = "+";
 
-if(x*1==x && y*1==y) {
+if(x*1===x && y*1===y) {
     if(operator == "+") {
         console.log(`${x} + ${y} = ${x+y}`)
     } else if(operator == "-") {

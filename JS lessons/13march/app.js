@@ -26,4 +26,4 @@ console.log(`Dear Rovshan, It is result of  your operation. ${x}+${y}=${z}`)
  console.log(x>4 || y<3) // or
  console.log(!(x==5))
 
- // leaved on 01.13
+
