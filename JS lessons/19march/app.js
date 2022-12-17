@@ -41,5 +41,4 @@ console.log(a)
 Foo2()   
 console.log(a)
 
-// 01:39 da qaldım.
 
