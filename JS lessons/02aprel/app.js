@@ -87,10 +87,11 @@ let obj = {
 
 function showObjectData(_obj) {
   _objData = "";
+  _objData2 = "";
   for (let key in _obj) {
     _objData += `${key}:${_obj[key]}. ${""}`;
   }
-  return _objData;
+  return  _objData;
 }
 
 //console.log(showObjectData(obj));
@@ -102,7 +103,6 @@ function GetAllDataFromArr(_data) {
         _allData += showObjectData(_data[i]) + "\n"
       }
     console.log(_allData);
-  
 }
 
 GetAllDataFromArr(aircraft)
