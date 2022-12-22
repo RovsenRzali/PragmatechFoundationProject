@@ -87,7 +87,6 @@ let obj = {
 
 function showObjectData(_obj) {
   _objData = "";
-  _objData2 = "";
   for (let key in _obj) {
     _objData += `${key}:${_obj[key]}. ${""}`;
   }
