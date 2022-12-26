@@ -9,10 +9,10 @@ strings = [
 // Tesadufi bir adi cap et +
 // Herf en cox olan soz+
 // sozleri tersden yazdirsin+
-// array icerisndeki elementləri tərs sırayla yazdırsın
-// nece boyuk herf var
-// qosa herfleri cap etsin
-// Ancaq bas herfleri versin
+// array icerisndeki elementləri tərs sırayla yazdırsın+
+// nece boyuk herf var+
+// qosa herfleri cap etsin+
+// Ancaq bas herfleri versin+
 
 function RandomElement() {
   let random = Math.floor(Math.random() * 10);
@@ -67,7 +67,7 @@ function reverseArray(_arr) {
 }
 
 //revereArray (strings)
-//rxeverseArray ("Rovshan")
+//reverseArray ("Rovshan")
 
 function reverseWord(_word) {
   let reverseWord = "";
@@ -99,13 +99,13 @@ function reverseWord(_word) {
 // isCapitalLetter("A");
 
 function isCapitalLetter(_letter) {
-  return _letter == _letter.toUpperCase()
+  return _letter == _letter.toUpperCase();
 }
 
 //console.log(isCapitalLetter("s"))
 
-str = "RovshAnRzaliBBBBB"
-let bigLetter = 0
+str = "RovshAnRzaliBBBBB";
+let bigLetter = 0;
 
 // for (let i in str) {
 //   if (isCapitalLetter(str[i])) {
@@ -119,17 +119,44 @@ let bigLetter = 0
 // indi bunu strig dəki bütün sözlərə tətbiq edək.
 
 for (let index in strings) {
-
-  
-for (let i in strings[index]) {
-  if (isCapitalLetter(strings[index][i])) {
-    //bigLetter += 1
-    bigLetter++
+  for (let i in strings[index]) {
+    if (isCapitalLetter(strings[index][i])) {
+      //bigLetter += 1
+      bigLetter++;
+    }
   }
 }
 
+console.log(bigLetter);
+
+// ancaq cüt hərflərin çapı
+
+function pairLetter(_arr) {
+  let cutherfler = [];
+  for (let index in _arr) {
+    for (i = 0; i < _arr[index].length; i++) {
+      if (_arr[index][i] === _arr[index][i + 1]) {
+        cutherfler.push(_arr[index][i]);
+      }
+    }
+  }
+
+  console.log(cutherfler);
 }
 
-console.log(bigLetter)
+pairLetter(strings);
 
-// 02:50 də qaldım.
+// Bas hərfləri çap edən funksiya
+
+function firstLetter(_arr) {
+  let basherfler = [];
+  for (let index in _arr) {
+    for (i = 0; i < _arr.length - (_arr.length - 1); i++) {
+      basherfler.push(_arr[index][0]);
+    }
+  }
+
+  console.log(basherfler);
+}
+
+firstLetter(strings);
