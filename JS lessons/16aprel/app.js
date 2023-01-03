@@ -35,26 +35,34 @@ document.body.removeChild(paragraph);
 
 // 1 outout dıir
 // 2 lazim olan input lari çıxarmaq
-    // box-container 
-    // div elementin yaratmaq
-    // div elementinə class vermək
-    // box
-    // 30 eded box divi yaratmaq
-    // box divini box container divinin icinə əlavə etmək
-    // 3 sütun mentiqini tətbiq etmək
-    //
+// box-container
+// div elementin yaratmaq
+// div elementinə class vermək
+// box
+// 30 eded box divi yaratmaq
+// box divini box container divinin icinə əlavə etmək
+// 3 sütun mentiqini tətbiq etmək
+//
 // 3 input dan output-a gedən yolu tapmalıyam.
 
-// for (i = 0; i < 30; i++) {
-//     let division = document.createElement("div");
-//     document.body.appendChild(division);
-//     division.innerHTML = `${i} time`;
-//     division.style.width = '200px'
-//     division.style.height = '200px'
-//     division.style.border = ' 1px solid'
-//     division.style.color = `#${i}a2`;
-//   }
+function creatGrid(elementCount, columnCount, gap) {
+  let boxContainer = document.createElement("div");
+  boxContainer.className = "box-container";
+  boxContainer.style.gridTemplateColumns = `repeat(${columnCount}, 1fr)`;
+  boxContainer.style.gap = `${gap}px`;
 
-//   division.style.display = 'flex-grow'
+  for (i = 0; i <= elementCount; i++) {
+    let ranR = Math.floor(Math.random() * 255);
+    let ranG = Math.floor(Math.random() * 255);
+    let ranB = Math.floor(Math.random() * 255);
+    let box = document.createElement("div");
+    boxContainer.appendChild(box);
+    box.className = "box";
+    box.style.background = `rgb(${ranR},${ranG},${ranB})`
+    box.style.width = "200px";
+    box.style.height = "200px";
+  }
+  document.body.appendChild(boxContainer);
+}
 
-
+creatGrid(100, 6, 20);
