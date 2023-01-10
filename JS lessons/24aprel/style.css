@@ -17,7 +17,8 @@ body {
     height: inherit;
     display: flex;
     flex-wrap: wrap;
-    transform: translateX(-1200px);
+    transform: translateX(0px);
+    transition: all .3s linear;
 }
 
 
