@@ -4,8 +4,7 @@ body {
 }
 
 .slider {
-    width: 1200px;
-    height: 600px;
+    /*   */
     margin: 100px auto;
     overflow: hidden;
     border: 1px solid red ;
@@ -13,8 +12,8 @@ body {
 }
 
 .slides {
-    width: calc(1200px*5);
-    height: inherit;
+    /* width: calc(1200px*5); */
+    /* height: inherit; */
     display: flex;
     flex-wrap: wrap;
     transform: translateX(0px);
@@ -24,7 +23,7 @@ body {
 
 .slide {
     height: inherit;
-    width: 1200px;
+    /* width: 1200px; */
     box-sizing: border-box;
 }
 
