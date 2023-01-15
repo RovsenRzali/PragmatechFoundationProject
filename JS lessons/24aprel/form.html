@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <form class="form" onsubmit="readData(event)">
+        <input type="text" name="name" placeholder="Adınız">  
+        <input type="text" name="surname" placeholder="Soyadınız">
+        <input type="email" name="email" placeholder="Elektron poçt">
+        <input type="checkbox" name="Şərtlər" checked="true">
+        <!-- checkbox checked icine true yazanda  ekrana check olunmuş şəkildə gəlir. -->
+        <input type="radio" name="" id="">
+        <select name="city" id="">
+            <option value="Bakı">Bakı Şəhəri</option>
+            <option value="Quba">Quba Şəhəri</option>
+            <option value="Şamaxı">Şamaxı Şəhəri</option>
+        </select>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <input type="submit" name="submit"  value="Göstər">
+    </form>
+
+    <script src="js/form.js"></script>
+</body>
+</html>
