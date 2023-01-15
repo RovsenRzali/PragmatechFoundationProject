@@ -14,6 +14,7 @@ let sliderHeight = 800;
 
 let slideElementWidth = sliderWidth;
 let slideElementCount = images.length;
+
 slider.style.width = `${sliderWidth}px`
 slider.style.height = `${sliderHeight}px`
 slides.style.width = `calc(${slideElementWidth}px * ${slideElementCount})`;
@@ -56,4 +57,3 @@ function goLeft() {
   }
 }
 
-//01.35 dəqiqədə
